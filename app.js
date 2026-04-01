@@ -16,7 +16,9 @@ function renderTopPicks() {
         <span>${p.label}</span>
       </div>
       <div class="top-card-body">
-        <div class="top-card-img">${p.emoji}</div>
+        <div class="top-card-img">
+          ${p.img ? `<img src="${p.img}" alt="${p.name}" style="width:100%;height:100%;object-fit:contain;padding:8px;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span style="display:none;align-items:center;justify-content:center;width:100%;height:100%;font-size:5rem">${p.emoji}</span>` : `<span style="display:flex;align-items:center;justify-content:center;width:100%;height:100%;font-size:5rem">${p.emoji}</span>`}
+        </div>
         <div class="top-card-name">${p.name}</div>
         <div class="top-card-sub">${p.sub}</div>
         <div class="stars">
@@ -46,10 +48,13 @@ function renderTopPicks() {
 
 // ===== PRODUCTS =====
 function renderProductCard(p) {
+  const imgHtml = p.img
+    ? `<img src="${p.img}" alt="${p.name}" style="width:100%;height:100%;object-fit:contain;padding:8px;" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span style="display:none;align-items:center;justify-content:center;width:100%;height:100%;font-size:4rem">${p.emoji}</span>`
+    : `<span style="display:flex;align-items:center;justify-content:center;width:100%;height:100%;font-size:4rem">${p.emoji}</span>`;
   return `
     <div class="product-card">
       <div class="product-img">
-        ${p.emoji}
+        ${imgHtml}
         ${p.badge ? `<div class="product-badge ${p.badge === 'Nouveau' ? 'new' : p.badge === 'Top' ? 'top' : ''}">${p.badge}</div>` : ""}
       </div>
       <div class="product-body">
