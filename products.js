@@ -16,7 +16,8 @@ const topPicks = [
     price: "129,99€", priceOld: "179,99€", save: "-28%",
     pros: ["Grande capacité 6,2L", "Cuisson ultra rapide", "Facile à nettoyer"],
     cons: ["Encombrant sur le plan de travail"],
-    asin: "B0C1GF88DS"
+    asin: "B0C1GF88DS",
+    img: "https://m.media-amazon.com/images/I/51ctVYliSOL._AC_SX679_.jpg"
   },
   {
     rank: 2,
@@ -28,7 +29,8 @@ const topPicks = [
     price: "449,99€", priceOld: "599,99€", save: "-25%",
     pros: ["Grain à tasse automatique", "Moulin intégré silencieux", "Interface intuitive"],
     cons: ["Investissement initial élevé"],
-    asin: "B0BF5YXTMX"
+    asin: "B0BF5YXTMX",
+    img: "https://m.media-amazon.com/images/I/51+rwYUs2QL._AC_SX679_.jpg"
   },
   {
     rank: 3,
@@ -40,7 +42,8 @@ const topPicks = [
     price: "699,99€", priceOld: "899,99€", save: "-22%",
     pros: ["Aspiration 6000Pa", "Lavage vadrouille rotatif", "Vidage automatique"],
     cons: ["Prix premium"],
-    asin: "B0BSL98D73"
+    asin: "B0BSL98D73",
+    img: "https://m.media-amazon.com/images/I/61K9Ci2sU6L._AC_SY300_SX300_QL70_ML2_.jpg"
   }
 ];
 
@@ -52,7 +55,8 @@ const cuisineProducts = [
     name: "Ninja AF160EU Air Fryer XL 6,2L",
     desc: "Friture sans huile avec 6 modes de cuisson. Parfait pour les familles.",
     price: "129,99€", priceOld: "179,99€",
-    rating: 4.7, asin: "B09WBTQS6P"
+    rating: 4.7, asin: "B0C1GF88DS",
+    img: "https://m.media-amazon.com/images/I/51ctVYliSOL._AC_SX679_.jpg"
   },
   {
     id: "c2", subcat: "airfryer",
@@ -60,7 +64,8 @@ const cuisineProducts = [
     name: "Philips HD9280/70 Airfryer XXL",
     desc: "1,4 kg de capacité. Technologie RapidAir pour une cuisson homogène.",
     price: "149,99€", priceOld: "189,99€",
-    rating: 4.5, asin: "B0BKGJWJDT"
+    rating: 4.5, asin: "B0BKGJWJDT",
+    img: "https://m.media-amazon.com/images/I/51AHfXBhknL._AC_SY300_SX300_QL70_ML2_.jpg"
   },
   {
     id: "c3", subcat: "airfryer",
@@ -68,7 +73,8 @@ const cuisineProducts = [
     name: "Cosori Air Fryer Pro LE 5,5L",
     desc: "130 recettes dans l'app. Écran tactile et 12 fonctions de cuisson.",
     price: "89,99€", priceOld: "109,99€",
-    rating: 4.6, asin: "B09T73PJXB"
+    rating: 4.6, asin: "B09T73PJXB",
+    img: "https://m.media-amazon.com/images/I/41sYBQPNBoL._AC_.jpg"
   },
   {
     id: "c4", subcat: "cafe",
@@ -76,7 +82,8 @@ const cuisineProducts = [
     name: "De'Longhi Magnifica Evo ECAM290.61",
     desc: "Machine grain à tasse entièrement automatique. Moulin céramique intégré.",
     price: "449,99€", priceOld: "599,99€",
-    rating: 4.6, asin: "B0BF5YXTMX"
+    rating: 4.6, asin: "B0BF5YXTMX",
+    img: "https://m.media-amazon.com/images/I/51+rwYUs2QL._AC_SX679_.jpg"
   },
   {
     id: "c5", subcat: "cafe",
@@ -84,7 +91,8 @@ const cuisineProducts = [
     name: "Krups EA8108 Essential",
     desc: "Espresso grain automatique compact. Mousseur à lait intégré.",
     price: "299,99€", priceOld: "389,99€",
-    rating: 4.4, asin: "B00INSX904"
+    rating: 4.4, asin: "B00INSX904",
+    img: "https://m.media-amazon.com/images/I/61Ai9Gk8aYL._AC_SX679_.jpg"
   },
   {
     id: "c6", subcat: "cafe",
@@ -92,7 +100,8 @@ const cuisineProducts = [
     name: "Nespresso Vertuo Pop",
     desc: "Design compact, 5 tailles de tasses. Technologie Centrifusion.",
     price: "79,99€", priceOld: "99,99€",
-    rating: 4.7, asin: "B0C3P9P7B3"
+    rating: 4.7, asin: "B0C3P9P7B3",
+    img: "https://m.media-amazon.com/images/I/610oGrfG35L._AC_SX679_.jpg"
   },
   {
     id: "c7", subcat: "robot",
@@ -100,15 +109,17 @@ const cuisineProducts = [
     name: "Moulinex Cuisine Companion XL HF80CB10",
     desc: "Robot cuiseur 5,5L avec balance intégrée. 6 programmes automatiques.",
     price: "599,99€", priceOld: "799,99€",
-    rating: 4.5, asin: "B084ZP1H7Z"
+    rating: 4.5, asin: "B084ZP1H7Z",
+    img: "https://m.media-amazon.com/images/I/61VjyRHbreL._AC_SX679_.jpg"
   },
   {
     id: "c8", subcat: "robot",
-    emoji: "🍲", brand: "Kenwood", badge: "",
-    name: "Kenwood kCook Multi Smart CCL450SI",
-    desc: "Robot cuiseur connecté. Application avec +1000 recettes.",
-    price: "449,99€", priceOld: "549,99€",
-    rating: 4.3, asin: "B07W6Z3Q5R"
+    emoji: "🍲", brand: "Robicook", badge: "",
+    name: "Robicook XL Robot Cuiseur Connecté",
+    desc: "Robot cuiseur multifonctions connecté. Balance intégrée et écran tactile.",
+    price: "399,99€", priceOld: "499,99€",
+    rating: 4.3, asin: "B0BHXKF81H",
+    img: "https://m.media-amazon.com/images/I/81BpjYrT2ML._AC_SX679_.jpg"
   },
   {
     id: "c9", subcat: "blender",
@@ -116,7 +127,8 @@ const cuisineProducts = [
     name: "Ninja BN750EU Detect Duo",
     desc: "Blender professionnel 2 en 1. Détection automatique des aliments.",
     price: "149,99€", priceOld: "199,99€",
-    rating: 4.7, asin: "B08CRTKLX4"
+    rating: 4.7, asin: "B08CRTKLX4",
+    img: "https://m.media-amazon.com/images/I/71m0uVGpbNL._AC_SX679_.jpg"
   },
   {
     id: "c10", subcat: "blender",
@@ -124,7 +136,8 @@ const cuisineProducts = [
     name: "Vitamix E310 Explorian",
     desc: "Blender professionnel ultra-puissant. 10 vitesses + pulse.",
     price: "399,99€", priceOld: "449,99€",
-    rating: 4.8, asin: "B07BFXKNM2"
+    rating: 4.8, asin: "B07BFXKNM2",
+    img: "https://www.vitamix.com/us/en_us/products/media_9bda4788608eabaa7bbbf3bfa59803af269b7f77.jpg"
   },
 ];
 
@@ -136,7 +149,8 @@ const maisonProducts = [
     name: "Roborock S8 Pro Ultra",
     desc: "Aspiration + lavage simultanés. Station de vidage et lavage automatique.",
     price: "699,99€", priceOld: "899,99€",
-    rating: 4.8, asin: "B0BSL98D73"
+    rating: 4.8, asin: "B0BSL98D73",
+    img: "https://m.media-amazon.com/images/I/61K9Ci2sU6L._AC_SY300_SX300_QL70_ML2_.jpg"
   },
   {
     id: "m2", subcat: "aspirateur",
@@ -144,7 +158,8 @@ const maisonProducts = [
     name: "iRobot Roomba j7+",
     desc: "Évitement d'obstacles intelligent. Vidage automatique de la corbeille.",
     price: "499,99€", priceOld: "699,99€",
-    rating: 4.5, asin: "B09CCNQDJS"
+    rating: 4.5, asin: "B09CCNQDJS",
+    img: "https://m.media-amazon.com/images/I/71EizGxyh5L._AC_SX679_.jpg"
   },
   {
     id: "m3", subcat: "aspirateur",
@@ -152,23 +167,26 @@ const maisonProducts = [
     name: "Ecovacs Deebot T20 Omni",
     desc: "Aspiration + serpillière. Station tout-en-un avec séchage à l'air chaud.",
     price: "549,99€", priceOld: "799,99€",
-    rating: 4.4, asin: "B0C2J2T7ZD"
+    rating: 4.4, asin: "B0C2VH6X31",
+    img: "https://m.media-amazon.com/images/I/51BsLJ96R2L._AC_SY300_SX300_QL70_ML2_.jpg"
   },
   {
     id: "m4", subcat: "enceinte",
     emoji: "🔊", brand: "Amazon", badge: "Best-seller",
-    name: "Amazon Echo Dot 5ème génération",
+    name: "Amazon Echo Dot (Nouvelle génération)",
     desc: "Enceinte connectée Alexa compacte. Son amélioré et détection de présence.",
-    price: "59,99€", priceOld: "69,99€",
-    rating: 4.7, asin: "B09B8RF33Y"
+    price: "44,99€", priceOld: "59,99€",
+    rating: 4.7, asin: "B09B8X9RGM",
+    img: "https://m.media-amazon.com/images/I/71wQobPqbyL._AC_SY741_.jpg"
   },
   {
     id: "m5", subcat: "enceinte",
     emoji: "🎵", brand: "Amazon", badge: "",
-    name: "Amazon Echo (4ème génération)",
-    desc: "Son premium 360°. Hub Zigbee intégré pour la maison connectée.",
-    price: "99,99€", priceOld: "119,99€",
-    rating: 4.6, asin: "B07XKT8CF4"
+    name: "Amazon Echo Spot (Nouvelle génération)",
+    desc: "Réveil connecté avec Alexa et écran. Son de qualité premium.",
+    price: "59,99€", priceOld: "79,99€",
+    rating: 4.6, asin: "B0C2S2J7JP",
+    img: "https://m.media-amazon.com/images/I/61oDE1Wg+oL._AC_SX300_SY300_QL70_ML2_.jpg"
   },
   {
     id: "m6", subcat: "camera",
@@ -176,7 +194,8 @@ const maisonProducts = [
     name: "Ring Video Doorbell 4",
     desc: "Sonnette vidéo HD. Détection de mouvement et vision nocturne couleur.",
     price: "149,99€", priceOld: "179,99€",
-    rating: 4.4, asin: "B08NY19G4C"
+    rating: 4.4, asin: "B08NY19G4C",
+    img: "https://m.media-amazon.com/images/I/51kQwdEkmaL._SY450_.jpg"
   },
   {
     id: "m7", subcat: "camera",
@@ -184,15 +203,17 @@ const maisonProducts = [
     name: "Tapo C200 Caméra intérieure",
     desc: "Caméra Wi-Fi 360°. Rotation motorisée et vision nocturne. Compatible Alexa.",
     price: "24,99€", priceOld: "34,99€",
-    rating: 4.5, asin: "B07XLML2YS"
+    rating: 4.5, asin: "B07XLML2YS",
+    img: "https://static.tp-link.com/upload/image-line/01_normal_20230817224004g.jpg"
   },
   {
     id: "m8", subcat: "camera",
     emoji: "🏡", brand: "Arlo", badge: "",
-    name: "Arlo Pro 4 Caméra extérieure",
-    desc: "Caméra 2K HDR sans fil. Détection de personnes et véhicules.",
+    name: "Arlo Pro 5 Caméra extérieure 2K",
+    desc: "Caméra 2K sans fil. Détection de personnes, véhicules et animaux.",
     price: "199,99€", priceOld: "249,99€",
-    rating: 4.3, asin: "B08QX3FBJZ"
+    rating: 4.4, asin: "B0D6GYK1LX",
+    img: "https://m.media-amazon.com/images/I/61Gmp5rUhwL._AC_SX679_.jpg"
   },
   {
     id: "m9", subcat: "lumiere",
@@ -200,15 +221,17 @@ const maisonProducts = [
     name: "Philips Hue White & Color Starter Kit",
     desc: "3 ampoules E27 + pont de connexion. 16 millions de couleurs.",
     price: "129,99€", priceOld: "169,99€",
-    rating: 4.7, asin: "B099NRLRG3"
+    rating: 4.7, asin: "B099NRLRG3",
+    img: "https://m.media-amazon.com/images/I/61DQTO5VJbL._AC_SX342_SY445_QL70_ML2_.jpg"
   },
   {
     id: "m10", subcat: "lumiere",
-    emoji: "🌈", brand: "IKEA", badge: "",
-    name: "IKEA TRÅDFRI Kit de démarrage",
-    desc: "Solution domotique économique. Ampoules connectées avec télécommande.",
-    price: "49,99€", priceOld: "59,99€",
-    rating: 4.2, asin: "B07XQJG5S8"
+    emoji: "🌈", brand: "Govee", badge: "",
+    name: "Govee Ampoules WiFi Intelligentes E27",
+    desc: "Lot de 2 ampoules RGBWW connectées. Compatible Alexa et Google Home.",
+    price: "22,99€", priceOld: "34,99€",
+    rating: 4.4, asin: "B0C3VLCFJR",
+    img: "https://m.media-amazon.com/images/I/61FQ3FVoTeL._AC_SX679_.jpg"
   },
 ];
 
