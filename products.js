@@ -16,7 +16,7 @@ const topPicks = [
     price: "129,99€", priceOld: "179,99€", save: "-28%",
     pros: ["Grande capacité 6,2L", "Cuisson ultra rapide", "Facile à nettoyer"],
     cons: ["Encombrant sur le plan de travail"],
-    asin: "B09WBTQS6P"
+    asin: "B0C1GF88DS"
   },
   {
     rank: 2,
@@ -28,7 +28,7 @@ const topPicks = [
     price: "449,99€", priceOld: "599,99€", save: "-25%",
     pros: ["Grain à tasse automatique", "Moulin intégré silencieux", "Interface intuitive"],
     cons: ["Investissement initial élevé"],
-    asin: "B09C7FQNJ3"
+    asin: "B0BF5YXTMX"
   },
   {
     rank: 3,
@@ -40,7 +40,7 @@ const topPicks = [
     price: "699,99€", priceOld: "899,99€", save: "-22%",
     pros: ["Aspiration 6000Pa", "Lavage vadrouille rotatif", "Vidage automatique"],
     cons: ["Prix premium"],
-    asin: "B0BV6RQNJ4"
+    asin: "B0BSL98D73"
   }
 ];
 
@@ -60,7 +60,7 @@ const cuisineProducts = [
     name: "Philips HD9280/70 Airfryer XXL",
     desc: "1,4 kg de capacité. Technologie RapidAir pour une cuisson homogène.",
     price: "149,99€", priceOld: "189,99€",
-    rating: 4.5, asin: "B07MDJLZQM"
+    rating: 4.5, asin: "B0BKGJWJDT"
   },
   {
     id: "c3", subcat: "airfryer",
@@ -68,7 +68,7 @@ const cuisineProducts = [
     name: "Cosori Air Fryer Pro LE 5,5L",
     desc: "130 recettes dans l'app. Écran tactile et 12 fonctions de cuisson.",
     price: "89,99€", priceOld: "109,99€",
-    rating: 4.6, asin: "B09HGGXZ8Y"
+    rating: 4.6, asin: "B09T73PJXB"
   },
   {
     id: "c4", subcat: "cafe",
@@ -76,7 +76,7 @@ const cuisineProducts = [
     name: "De'Longhi Magnifica Evo ECAM290.61",
     desc: "Machine grain à tasse entièrement automatique. Moulin céramique intégré.",
     price: "449,99€", priceOld: "599,99€",
-    rating: 4.6, asin: "B09C7FQNJ3"
+    rating: 4.6, asin: "B0BF5YXTMX"
   },
   {
     id: "c5", subcat: "cafe",
@@ -84,7 +84,7 @@ const cuisineProducts = [
     name: "Krups EA8108 Essential",
     desc: "Espresso grain automatique compact. Mousseur à lait intégré.",
     price: "299,99€", priceOld: "389,99€",
-    rating: 4.4, asin: "B01GMLZIQK"
+    rating: 4.4, asin: "B00INSX904"
   },
   {
     id: "c6", subcat: "cafe",
@@ -92,7 +92,7 @@ const cuisineProducts = [
     name: "Nespresso Vertuo Pop",
     desc: "Design compact, 5 tailles de tasses. Technologie Centrifusion.",
     price: "79,99€", priceOld: "99,99€",
-    rating: 4.7, asin: "B0B9SQN7P6"
+    rating: 4.7, asin: "B0C3P9P7B3"
   },
   {
     id: "c7", subcat: "robot",
@@ -100,7 +100,7 @@ const cuisineProducts = [
     name: "Moulinex Cuisine Companion XL HF80CB10",
     desc: "Robot cuiseur 5,5L avec balance intégrée. 6 programmes automatiques.",
     price: "599,99€", priceOld: "799,99€",
-    rating: 4.5, asin: "B07CY6WSFD"
+    rating: 4.5, asin: "B084ZP1H7Z"
   },
   {
     id: "c8", subcat: "robot",
@@ -116,7 +116,7 @@ const cuisineProducts = [
     name: "Ninja BN750EU Detect Duo",
     desc: "Blender professionnel 2 en 1. Détection automatique des aliments.",
     price: "149,99€", priceOld: "199,99€",
-    rating: 4.7, asin: "B09GZXQXHL"
+    rating: 4.7, asin: "B08CRTKLX4"
   },
   {
     id: "c10", subcat: "blender",
@@ -136,7 +136,7 @@ const maisonProducts = [
     name: "Roborock S8 Pro Ultra",
     desc: "Aspiration + lavage simultanés. Station de vidage et lavage automatique.",
     price: "699,99€", priceOld: "899,99€",
-    rating: 4.8, asin: "B0BV6RQNJ4"
+    rating: 4.8, asin: "B0BSL98D73"
   },
   {
     id: "m2", subcat: "aspirateur",
@@ -144,7 +144,7 @@ const maisonProducts = [
     name: "iRobot Roomba j7+",
     desc: "Évitement d'obstacles intelligent. Vidage automatique de la corbeille.",
     price: "499,99€", priceOld: "699,99€",
-    rating: 4.5, asin: "B09286M88J"
+    rating: 4.5, asin: "B09CCNQDJS"
   },
   {
     id: "m3", subcat: "aspirateur",
@@ -176,7 +176,7 @@ const maisonProducts = [
     name: "Ring Video Doorbell 4",
     desc: "Sonnette vidéo HD. Détection de mouvement et vision nocturne couleur.",
     price: "149,99€", priceOld: "179,99€",
-    rating: 4.4, asin: "B08N5NQ869"
+    rating: 4.4, asin: "B08NY19G4C"
   },
   {
     id: "m7", subcat: "camera",
@@ -184,7 +184,7 @@ const maisonProducts = [
     name: "Tapo C200 Caméra intérieure",
     desc: "Caméra Wi-Fi 360°. Rotation motorisée et vision nocturne. Compatible Alexa.",
     price: "24,99€", priceOld: "34,99€",
-    rating: 4.5, asin: "B07XRQH7XT"
+    rating: 4.5, asin: "B07XLML2YS"
   },
   {
     id: "m8", subcat: "camera",
@@ -200,7 +200,7 @@ const maisonProducts = [
     name: "Philips Hue White & Color Starter Kit",
     desc: "3 ampoules E27 + pont de connexion. 16 millions de couleurs.",
     price: "129,99€", priceOld: "169,99€",
-    rating: 4.7, asin: "B07NPM7PL4"
+    rating: 4.7, asin: "B099NRLRG3"
   },
   {
     id: "m10", subcat: "lumiere",
