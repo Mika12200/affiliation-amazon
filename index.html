@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MeilleursAppareils — Comparatifs & Guides d'achat Cuisine & Maison</title>
+  <meta name="description" content="Comparatifs et guides d'achat pour choisir les meilleurs appareils de cuisine et de maison connectée. Tests, avis et meilleures offres Amazon." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">⭐</span>
+        <span>MeilleursAppareils</span>
+      </a>
+      <nav class="nav">
+        <a href="#cuisine">🍳 Cuisine</a>
+        <a href="#maison">🏠 Maison connectée</a>
+        <a href="#guides">📋 Guides</a>
+        <a href="#promo">🔥 Promos</a>
+      </nav>
+      <div class="header-search">
+        <input type="text" id="headerSearch" placeholder="Rechercher…" oninput="filterProducts()" />
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-badge">🏆 +50 produits testés et comparés</div>
+      <h1>Les <span class="gradient-text">meilleurs appareils</span><br/>cuisine & maison connectée</h1>
+      <p class="hero-sub">Nos experts testent et comparent pour vous les meilleurs produits disponibles sur Amazon. Trouvez le bon appareil au meilleur prix.</p>
+      <div class="hero-cats">
+        <a href="#cuisine" class="hero-cat">🍳 Air Fryer</a>
+        <a href="#cuisine" class="hero-cat">☕ Machines à café</a>
+        <a href="#cuisine" class="hero-cat">🤖 Robots cuiseurs</a>
+        <a href="#maison" class="hero-cat">🧹 Aspirateurs robots</a>
+        <a href="#maison" class="hero-cat">💡 Maison connectée</a>
+        <a href="#maison" class="hero-cat">📷 Caméras</a>
+      </div>
+    </div>
+    <div class="hero-wave"></div>
+  </section>
+
+  <!-- TOP PICKS -->
+  <section class="section container" id="toppicks">
+    <div class="section-header">
+      <h2>🏆 Nos coups de cœur du moment</h2>
+      <p class="section-sub">Les produits les mieux notés par notre équipe</p>
+    </div>
+    <div class="top-picks" id="topPicksGrid"></div>
+  </section>
+
+  <!-- CUISINE -->
+  <section class="section section-alt" id="cuisine">
+    <div class="container">
+      <div class="section-header">
+        <h2>🍳 Appareils de Cuisine</h2>
+        <p class="section-sub">Air fryers, machines à café, robots cuiseurs, blenders…</p>
+      </div>
+      <div class="cat-filters">
+        <button class="cat-btn active" onclick="filterCat(this,'cuisine','all')">Tous</button>
+        <button class="cat-btn" onclick="filterCat(this,'cuisine','airfryer')">Air Fryer</button>
+        <button class="cat-btn" onclick="filterCat(this,'cuisine','cafe')">Machines à café</button>
+        <button class="cat-btn" onclick="filterCat(this,'cuisine','robot')">Robots cuiseurs</button>
+        <button class="cat-btn" onclick="filterCat(this,'cuisine','blender')">Blenders</button>
+      </div>
+      <div class="products-grid" id="cuisineGrid"></div>
+    </div>
+  </section>
+
+  <!-- MAISON CONNECTÉE -->
+  <section class="section container" id="maison">
+    <div class="section-header">
+      <h2>🏠 Maison Connectée</h2>
+      <p class="section-sub">Aspirateurs robots, enceintes, caméras, ampoules connectées…</p>
+    </div>
+    <div class="cat-filters">
+      <button class="cat-btn active" onclick="filterCat(this,'maison','all')">Tous</button>
+      <button class="cat-btn" onclick="filterCat(this,'maison','aspirateur')">Aspirateurs robots</button>
+      <button class="cat-btn" onclick="filterCat(this,'maison','enceinte')">Enceintes</button>
+      <button class="cat-btn" onclick="filterCat(this,'maison','camera')">Caméras</button>
+      <button class="cat-btn" onclick="filterCat(this,'maison','lumiere')">Éclairage</button>
+    </div>
+    <div class="products-grid" id="maisonGrid"></div>
+  </section>
+
+  <!-- GUIDES -->
+  <section class="section section-alt" id="guides">
+    <div class="container">
+      <div class="section-header">
+        <h2>📋 Guides d'achat</h2>
+        <p class="section-sub">Tout ce qu'il faut savoir avant d'acheter</p>
+      </div>
+      <div class="guides-grid" id="guidesGrid"></div>
+    </div>
+  </section>
+
+  <!-- PROMO BANNER -->
+  <section class="promo-banner" id="promo">
+    <div class="container promo-inner">
+      <div>
+        <div class="promo-badge">🔥 Offre limitée</div>
+        <h2>Amazon Prime — 30 jours gratuits</h2>
+        <p>Livraison rapide gratuite + Prime Video + réductions exclusives sur tous les produits de ce site.</p>
+      </div>
+      <a href="https://www.amazon.fr/prime?tag=meilleursappa-21" class="btn-primary btn-lg" target="_blank" rel="noopener">
+        Essayer Prime gratuitement →
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <span>⭐</span>
+        <span>MeilleursAppareils</span>
+      </div>
+      <p class="footer-text">
+        En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.
+        Les prix affichés sont indicatifs et peuvent varier. © 2026 MeilleursAppareils.fr
+      </p>
+      <div class="footer-links">
+        <a href="#">Mentions légales</a>
+        <a href="#">Politique de confidentialité</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
