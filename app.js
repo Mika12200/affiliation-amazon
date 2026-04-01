@@ -26,11 +26,6 @@ function renderTopPicks() {
           <span class="stars-score">${p.rating}/5</span>
           <span class="stars-count">(${p.reviews.toLocaleString("fr-FR")} avis)</span>
         </div>
-        <div class="price-row">
-          <span class="price">${p.price}</span>
-          <span class="price-old">${p.priceOld}</span>
-          <span class="price-save">${p.save}</span>
-        </div>
         <div class="pros-cons">
           ${p.pros.map(x => `<div class="pro">${x}</div>`).join("")}
           ${p.cons.map(x => `<div class="con">${x}</div>`).join("")}
@@ -39,7 +34,7 @@ function renderTopPicks() {
       <div class="top-card-footer">
         <a href="${amzLink(p.asin)}" class="btn-amazon" target="_blank" rel="noopener">
           <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" height="16" alt="Amazon" style="filter:brightness(0)"/>
-          Voir sur Amazon
+          Voir le prix sur Amazon
         </a>
       </div>
     </div>
@@ -65,15 +60,11 @@ function renderProductCard(p) {
           <span class="stars-score" style="font-size:0.78rem">${p.rating}/5</span>
         </div>
         <div class="product-desc">${p.desc}</div>
-        <div>
-          <span class="product-price">${p.price}</span>
-          ${p.priceOld ? `<span class="product-price-old">${p.priceOld}</span>` : ""}
-        </div>
       </div>
       <div class="product-footer">
         <a href="${amzLink(p.asin)}" class="btn-amazon" target="_blank" rel="noopener">
           <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" height="14" alt="Amazon" style="filter:brightness(0)"/>
-          Voir sur Amazon
+          Voir le prix sur Amazon
         </a>
       </div>
     </div>
