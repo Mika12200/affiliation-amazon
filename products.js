@@ -139,6 +139,42 @@ const cuisineProducts = [
     rating: 4.8, asin: "B07BFXKNM2",
     img: "https://www.vitamix.com/us/en_us/products/media_9bda4788608eabaa7bbbf3bfa59803af269b7f77.jpg"
   },
+  {
+    id: "c11", subcat: "plancha",
+    emoji: "🥩", brand: "Lebenlang", badge: "Nouveau",
+    name: "Lebenlang Plancha Électrique 2400W",
+    desc: "Plancha XXL inox pour intérieur et extérieur. Chauffe rapide et homogène.",
+    price: "109,99€", priceOld: "149,99€",
+    rating: 4.4, asin: "B0DFH999LH",
+    img: "https://m.media-amazon.com/images/I/81-mJfRjaeL._AC_SX679_.jpg"
+  },
+  {
+    id: "c12", subcat: "pain",
+    emoji: "🍞", brand: "Panasonic", badge: "Top",
+    name: "Panasonic SD-YR2550 Machine à Pain",
+    desc: "Machine à pain automatique avec distributeur. 31 programmes dont sans gluten.",
+    price: "167,99€", priceOld: "219,99€",
+    rating: 4.6, asin: "B0921SL9SV",
+    img: "https://m.media-amazon.com/images/I/71wv4EjIo-L._AC_SX679_.jpg"
+  },
+  {
+    id: "c13", subcat: "multicuiseur",
+    emoji: "🫕", brand: "Instant Pot", badge: "Best-seller",
+    name: "Instant Pot Duo Multicuiseur 11-en-1",
+    desc: "Autocuiseur, friteuse à air, cuisson lente, vapeur... 5,7L polyvalent.",
+    price: "187,99€", priceOld: "249,99€",
+    rating: 4.5, asin: "B0979HKNRH",
+    img: "https://m.media-amazon.com/images/I/617xNqXzjSL._AC_SY300_SX300_QL70_ML2_.jpg"
+  },
+  {
+    id: "c14", subcat: "raclette",
+    emoji: "🧀", brand: "H.Koenig", badge: "",
+    name: "H.Koenig Raclette 8 Personnes WOD360",
+    desc: "Appareil raclette, fondue et pierre granit. Socle pivotant 180°. 1400W.",
+    price: "59,99€", priceOld: "79,99€",
+    rating: 4.5, asin: "B0BXM45KK4",
+    img: "https://m.media-amazon.com/images/I/71YWTfMSvpL._AC_SX679_.jpg"
+  },
 ];
 
 // ===== MAISON CONNECTÉE =====
@@ -232,6 +268,42 @@ const maisonProducts = [
     price: "22,99€", priceOld: "34,99€",
     rating: 4.4, asin: "B0C3VLCFJR",
     img: "https://m.media-amazon.com/images/I/61FQ3FVoTeL._AC_SX679_.jpg"
+  },
+  {
+    id: "m11", subcat: "thermostat",
+    emoji: "🌡️", brand: "Meross", badge: "Nouveau",
+    name: "Meross Thermostat Connecté Matter",
+    desc: "Thermostat WiFi compatible HomeKit, Alexa et Google Home. Programmable.",
+    price: "59,99€", priceOld: "79,99€",
+    rating: 4.5, asin: "B0F3CSW5BJ",
+    img: "https://m.media-amazon.com/images/I/61xJzmlVAZL._AC_SX679_.jpg"
+  },
+  {
+    id: "m12", subcat: "prise",
+    emoji: "🔌", brand: "Tapo", badge: "Best-seller",
+    name: "Tapo P100 Prise Connectée WiFi",
+    desc: "Prise intelligente compatible Alexa et Google Home. Contrôle à distance.",
+    price: "18,99€", priceOld: "24,99€",
+    rating: 4.6, asin: "B08HKV28ZR",
+    img: "https://m.media-amazon.com/images/I/51BMTMSlG0L._AC_SY300_SX300_QL70_ML2_.jpg"
+  },
+  {
+    id: "m13", subcat: "serrure",
+    emoji: "🔐", brand: "Nuki", badge: "Top",
+    name: "Nuki Smart Lock Go 2025",
+    desc: "Serrure connectée Bluetooth & Matter. Ouverture via smartphone ou code.",
+    price: "146,99€", priceOld: "179,99€",
+    rating: 4.4, asin: "B0DVLYQWXX",
+    img: "https://m.media-amazon.com/images/I/61VfnvIPpmL._AC_SY300_SX300_QL70_ML2_.jpg"
+  },
+  {
+    id: "m14", subcat: "securite",
+    emoji: "🚨", brand: "X-Sense", badge: "",
+    name: "X-Sense Détecteur Fumée & CO Connecté",
+    desc: "Détecteur 2-en-1 fumée et monoxyde de carbone WiFi. Alertes sur smartphone.",
+    price: "49,99€", priceOld: "69,99€",
+    rating: 4.5, asin: "B0DDL1V686",
+    img: "https://m.media-amazon.com/images/I/71poEV2HnjL._AC_SX679_.jpg"
   },
 ];
 
