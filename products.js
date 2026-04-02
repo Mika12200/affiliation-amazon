@@ -297,6 +297,42 @@ const maisonProducts = [
     img: "https://m.media-amazon.com/images/I/61VfnvIPpmL._AC_SY300_SX300_QL70_ML2_.jpg"
   },
   {
+    id: "m15", subcat: "tondeuse",
+    emoji: "🌿", brand: "Mammotion", badge: "Nouveau",
+    name: "Mammotion YUKA Mini 2 Robot Tondeuse 500m²",
+    desc: "Sans fil périphérique. IA 3 caméras, cartographie automatique multi-zones. Jusqu'à 500m².",
+    price: "499,99€", priceOld: "599,99€",
+    rating: 4.5, asin: "B0GCCLW2PL",
+    img: "https://m.media-amazon.com/images/I/714OOSg6fFL._AC_SX679_.jpg"
+  },
+  {
+    id: "m16", subcat: "tondeuse",
+    emoji: "🌱", brand: "Segway", badge: "Best-seller",
+    name: "Segway Navimow i105E Robot Tondeuse 500m²",
+    desc: "Sans fil périphérique. Navigation GPS précise, contrôle via app. Silencieux.",
+    price: "599,99€", priceOld: "749,99€",
+    rating: 4.4, asin: "B0CXDNFZLL",
+    img: "https://m.media-amazon.com/images/I/61ZG5yYGOML._AC_SX679_.jpg"
+  },
+  {
+    id: "m17", subcat: "tondeuse",
+    emoji: "🏡", brand: "Mammotion", badge: "Top",
+    name: "Mammotion LUBA 3 AWD 3000 Robot Tondeuse",
+    desc: "LiDAR + RTK + IA Vision. Pentes 80%, 30 zones, jusqu'à 3000m². Tout-terrain.",
+    price: "1499,99€", priceOld: "1799,99€",
+    rating: 4.6, asin: "B0GCZSSZRZ",
+    img: "https://m.media-amazon.com/images/I/61LlViRj0RL._AC_SX679_.jpg"
+  },
+  {
+    id: "m18", subcat: "tondeuse",
+    emoji: "🍃", brand: "RoboUP", badge: "",
+    name: "RoboUP Raccoon 2 SE Robot Tondeuse 600m²",
+    desc: "Prêt à l'emploi, tonte parallèle. Batterie 5Ah, 150 min d'autonomie. Sans RTK.",
+    price: "349,99€", priceOld: "449,99€",
+    rating: 4.3, asin: "B0G7XC4QLH",
+    img: "https://m.media-amazon.com/images/I/6157-xaxiqL._AC_SX679_.jpg"
+  },
+  {
     id: "m14", subcat: "securite",
     emoji: "🚨", brand: "X-Sense", badge: "",
     name: "X-Sense Détecteur Fumée & CO Connecté",
