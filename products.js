@@ -240,7 +240,7 @@ const maisonProducts = [
     desc: "Caméra Wi-Fi 360°. Rotation motorisée et vision nocturne. Compatible Alexa.",
     price: "24,99€", priceOld: "34,99€",
     rating: 4.5, asin: "B07XLML2YS",
-    img: "https://static.tp-link.com/upload/image-line/01_normal_20230817224004g.jpg"
+    img: "https://m.media-amazon.com/images/I/418Hc+TDWjL._AC_SX679_.jpg"
   },
   {
     id: "m8", subcat: "camera",
