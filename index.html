@@ -55,6 +55,15 @@
   }
   </script>
 
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2276ZS9GK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-M2276ZS9GK');
+  </script>
+
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -191,8 +200,19 @@
         <a href="#">Contact</a>
       </div>
       <p class="footer-copy">© 2026 MeilleursAppareils — Site indépendant, non affilié à Amazon. Partenaire Amazon Associates.</p>
+      <p class="footer-copy" style="margin-top:6px;font-size:0.72rem;color:#3d5166;">
+        👁 <span id="visitCount">—</span> visites
+      </p>
     </div>
   </footer>
+
+  <script>
+    // Compteur de visites local (localStorage)
+    const key = 'ma_visits';
+    const count = parseInt(localStorage.getItem(key) || '0') + 1;
+    localStorage.setItem(key, count);
+    document.getElementById('visitCount').textContent = count.toLocaleString('fr-FR');
+  </script>
 
   <script src="products.js"></script>
   <script src="app.js"></script>
