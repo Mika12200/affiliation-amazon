@@ -167,6 +167,42 @@ const cuisineProducts = [
     img: "https://m.media-amazon.com/images/I/617xNqXzjSL._AC_SY300_SX300_QL70_ML2_.jpg"
   },
   {
+    id: "c15", subcat: "extracteur",
+    emoji: "🧃", brand: "Hurom", badge: "Top",
+    name: "Hurom H310A Extracteur de Jus à Froid",
+    desc: "Pression à froid 220ml. Préserve les vitamines et nutriments. Sans BPA, 100W silencieux.",
+    price: "399,99€", priceOld: "499,99€",
+    rating: 4.6, asin: "B09ZBL4PTZ",
+    img: "https://m.media-amazon.com/images/I/61YiecFIw7L._AC_SY879_.jpg"
+  },
+  {
+    id: "c16", subcat: "extracteur",
+    emoji: "🍊", brand: "Fretta", badge: "Best-seller",
+    name: "Fretta Extracteur de Jus Grande Ouverture 108mm",
+    desc: "Fruits et légumes entiers. Pression à froid, 1L de capacité. Facile à nettoyer, 200W.",
+    price: "89,99€", priceOld: "129,99€",
+    rating: 4.4, asin: "B0G3WP3KZ2",
+    img: "https://m.media-amazon.com/images/I/71f29NUkuIL._AC_SX679_.jpg"
+  },
+  {
+    id: "c17", subcat: "extracteur",
+    emoji: "🥕", brand: "Moulinex", badge: "",
+    name: "Moulinex Frutelia Plus Centrifugeuse 350W",
+    desc: "Centrifugeuse 950ml, 2 vitesses. Goulot 6cm, filtre inox. Compacte et efficace.",
+    price: "54,99€", priceOld: "79,99€",
+    rating: 4.3, asin: "B07NW8995F",
+    img: "https://m.media-amazon.com/images/I/61i4sDp9SZL._AC_SX679_.jpg"
+  },
+  {
+    id: "c18", subcat: "extracteur",
+    emoji: "🍏", brand: "Kuvings", badge: "Nouveau",
+    name: "Kuvings AUTO6 Extracteur Mains Libres",
+    desc: "Découpe automatique des fruits entiers. Panier 1,7L, nettoyage facile.",
+    price: "599,99€", priceOld: "699,99€",
+    rating: 4.5, asin: "B0F32DQB9W",
+    img: "https://m.media-amazon.com/images/I/51ByHYFfryL._AC_SX679_.jpg"
+  },
+  {
     id: "c14", subcat: "raclette",
     emoji: "🧀", brand: "H.Koenig", badge: "",
     name: "H.Koenig Raclette 8 Personnes WOD360",
@@ -331,6 +367,42 @@ const maisonProducts = [
     price: "349,99€", priceOld: "449,99€",
     rating: 4.3, asin: "B0G7XC4QLH",
     img: "https://m.media-amazon.com/images/I/6157-xaxiqL._AC_SX679_.jpg"
+  },
+  {
+    id: "m19", subcat: "purificateur",
+    emoji: "🌬️", brand: "Winix", badge: "Best-seller",
+    name: "Winix 5500-2 Purificateur d'Air HEPA 99m²",
+    desc: "CADR 390m³/h, filtre HEPA + charbon actif + PlasmaWave. Capteur intelligent, mode auto.",
+    price: "249,99€", priceOld: "349,99€",
+    rating: 4.6, asin: "B01D8DAYII",
+    img: "https://m.media-amazon.com/images/I/61UqpOlddiL._AC_SX679_.jpg"
+  },
+  {
+    id: "m20", subcat: "purificateur",
+    emoji: "💨", brand: "Levoit", badge: "Top",
+    name: "Levoit Purificateur d'Air HEPA Chambre",
+    desc: "Filtration efficace allergies et odeurs. Silencieux, idéal chambre et bureau.",
+    price: "89,99€", priceOld: "119,99€",
+    rating: 4.5, asin: "B0CGDJHJP6",
+    img: "https://m.media-amazon.com/images/I/61jSLBgfvXL._AC_SX679_.jpg"
+  },
+  {
+    id: "m21", subcat: "purificateur",
+    emoji: "🌀", brand: "Winix", badge: "Nouveau",
+    name: "Winix T500 Purificateur Connecté WiFi 50m²",
+    desc: "CADR 250m³/h, contrôle via app et Alexa. HEPA + charbon actif. Compact.",
+    price: "179,99€", priceOld: "229,99€",
+    rating: 4.4, asin: "B0FQBSFWRJ",
+    img: "https://m.media-amazon.com/images/I/71ZlgezVxoL._AC_SX679_.jpg"
+  },
+  {
+    id: "m22", subcat: "purificateur",
+    emoji: "🍃", brand: "Coway", badge: "",
+    name: "Coway Airmega 150 Purificateur ECARF",
+    desc: "Certifié ECARF anti-allergies. Mode sommeil ultra silencieux. Design compact.",
+    price: "139,99€", priceOld: "179,99€",
+    rating: 4.5, asin: "B08YZF8LJS",
+    img: "https://m.media-amazon.com/images/I/81W0igDvSpL._AC_SX679_.jpg"
   },
   {
     id: "m14", subcat: "securite",
