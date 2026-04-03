@@ -211,6 +211,69 @@ const cuisineProducts = [
     rating: 4.5, asin: "B0BXM45KK4",
     img: "https://m.media-amazon.com/images/I/71YWTfMSvpL._AC_SX679_.jpg"
   },
+  {
+    id: "c19", subcat: "cafe",
+    emoji: "☕", brand: "Krups", badge: "Best-seller",
+    name: "Krups Dolce Gusto Genio S Plus",
+    desc: "Machine à capsules compacte et design. Pression 15 bars, 30+ boissons chaudes et froides.",
+    price: "49,99€", priceOld: "79,99€",
+    rating: 4.5, asin: "B0CF57ZPC9",
+    img: "https://m.media-amazon.com/images/I/61JcWhQi1tL._AC_SX679_.jpg"
+  },
+  {
+    id: "c20", subcat: "cafe",
+    emoji: "☕", brand: "Bosch", badge: "-30%",
+    name: "Bosch Tassimo Happy TAS1002N",
+    desc: "Machine à dosettes T-Disc ultra simple. Plus de 40 boissons disponibles. Compacte.",
+    price: "34,99€", priceOld: "49,99€",
+    rating: 4.3, asin: "B0DB1SCPHN",
+    img: "https://m.media-amazon.com/images/I/41qDK0ShkyL._AC_SX679_.jpg"
+  },
+  {
+    id: "c21", subcat: "cafe",
+    emoji: "☕", brand: "Bosch", badge: "",
+    name: "Bosch Tassimo My Way TAS6502",
+    desc: "Personnalisation via bouton My Way : intensité, température et volume. Écran tactile.",
+    price: "89,99€", priceOld: "129,99€",
+    rating: 4.4, asin: "B0857Z91PY",
+    img: "https://m.media-amazon.com/images/I/719E9xgZMaL._AC_SY879_.jpg"
+  },
+  {
+    id: "c22", subcat: "cafe",
+    emoji: "☕", brand: "Philips", badge: "",
+    name: "Philips Senseo CSA240 Machine à Dosettes",
+    desc: "Technologie Crema Plus. Réservoir 0,9L, 2 tasses simultanées. Simple et rapide.",
+    price: "64,99€", priceOld: "89,99€",
+    rating: 4.4, asin: "B08T9XRF91",
+    img: "https://m.media-amazon.com/images/I/51zQXE4AsSL._AC_SX679_.jpg"
+  },
+  {
+    id: "c23", subcat: "cafe",
+    emoji: "☕", brand: "Philips", badge: "Nouveau",
+    name: "Philips L'OR Barista Sublime LM9012",
+    desc: "Capsules Nespresso & L'OR. Double capsule pour 2 cafés simultanés. 19 bars.",
+    price: "59,99€", priceOld: "89,99€",
+    rating: 4.5, asin: "B09B166BMD",
+    img: "https://m.media-amazon.com/images/I/61UX+C7ymZL._AC_SX679_.jpg"
+  },
+  {
+    id: "c24", subcat: "cafe",
+    emoji: "☕", brand: "KOTLIE", badge: "",
+    name: "KOTLIE AC-513HF Machine 5-en-1 Multi-Capsules",
+    desc: "Compatible Nespresso, Dolce Gusto, ESE, café moulu et A Modo Mio. 19 bars, chaud & froid.",
+    price: "54,99€", priceOld: "79,99€",
+    rating: 4.3, asin: "B0CLZRPSHT",
+    img: "https://m.media-amazon.com/images/I/71IqN8S6TxL._AC_SX679_.jpg"
+  },
+  {
+    id: "c25", subcat: "cafe",
+    emoji: "☕", brand: "Philips", badge: "Top",
+    name: "Philips Série 800 EP0824 Grain à Tasse",
+    desc: "Broyeur céramique intégré, 15 bars. Mousseur à lait classique. Entrée de gamme grain automatique.",
+    price: "249,99€", priceOld: "329,99€",
+    rating: 4.4, asin: "B0CHQP4DZF",
+    img: "https://m.media-amazon.com/images/I/61cKTt9tWKL._AC_SX679_.jpg"
+  },
 ];
 
 // ===== MAISON CONNECTÉE =====
