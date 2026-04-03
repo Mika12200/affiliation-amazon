@@ -128,6 +128,10 @@ function filterProducts() {
   document.getElementById("maisonGrid").innerHTML = matchM.length
     ? matchM.map(renderProductCard).join("")
     : `<p style="color:#6b7280;padding:20px">Aucun résultat dans Maison connectée.</p>`;
+
+  // Scroll vers les résultats
+  const target = matchC.length ? "cuisine" : matchM.length ? "maison" : "cuisine";
+  document.getElementById(target).scrollIntoView({ behavior: "smooth" });
 }
 
 // ===== INIT =====
