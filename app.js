@@ -97,14 +97,29 @@ function filterCat(btn, section, subcat) {
 }
 
 // ===== GUIDES =====
+function goToGuide(section, subcat) {
+  // Activate the correct filter button
+  const container = document.querySelector(`#${section} .cat-filters`) || document.querySelector(`#${section}`).closest('.section')?.querySelector('.cat-filters');
+  if (container) {
+    container.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+    const target = [...container.querySelectorAll('.cat-btn')].find(b => b.textContent.toLowerCase().includes(subcat) || (subcat === 'all' && b.textContent === 'Tous'));
+    if (target) target.classList.add('active');
+  }
+  // Apply filter
+  if (section === 'cuisine') { cuisineFilter = subcat; renderCuisine(); }
+  else { maisonFilter = subcat; renderMaison(); }
+  // Scroll to section
+  document.getElementById(section).scrollIntoView({ behavior: 'smooth' });
+}
+
 function renderGuides() {
   document.getElementById("guidesGrid").innerHTML = guides.map(g => `
-    <div class="guide-card">
+    <div class="guide-card" onclick="goToGuide('${g.section}','${g.subcat}')" style="cursor:pointer">
       <div class="guide-icon">${g.icon}</div>
       <div class="guide-cat">${g.cat}</div>
       <div class="guide-title">${g.title}</div>
       <div class="guide-desc">${g.desc}</div>
-      <span class="guide-link">Lire le guide</span>
+      <span class="guide-link">Voir les produits</span>
     </div>
   `).join("");
 }

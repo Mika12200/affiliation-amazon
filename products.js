@@ -422,41 +422,41 @@ const guides = [
     cat: "Guide d'achat",
     title: "Quel air fryer choisir en 2026 ?",
     desc: "Capacité, puissance, fonctions… tout ce qu'il faut savoir avant d'acheter votre friteuse à air.",
-    link: "#"
+    link: "#cuisine", section: "cuisine", subcat: "airfryer"
   },
   {
     icon: "☕",
     cat: "Guide d'achat",
     title: "Machine à café grain : notre sélection",
     desc: "Du café de barista à domicile. On compare les meilleures machines automatiques.",
-    link: "#"
+    link: "#cuisine", section: "cuisine", subcat: "cafe"
   },
   {
     icon: "🤖",
     cat: "Comparatif",
     title: "Roborock vs iRobot vs Ecovacs",
     desc: "Quelle marque d'aspirateur robot choisir ? Comparatif complet des 3 leaders du marché.",
-    link: "#"
+    link: "#maison", section: "maison", subcat: "aspirateur"
   },
   {
     icon: "💡",
     cat: "Guide débutant",
     title: "Démarrer avec la maison connectée",
     desc: "Alexa, Google Home ou Apple HomeKit ? On vous aide à choisir votre écosystème domotique.",
-    link: "#"
+    link: "#maison", section: "maison", subcat: "all"
   },
   {
     icon: "📷",
     cat: "Comparatif",
     title: "Caméra de surveillance : intérieure vs extérieure",
     desc: "Ring, Arlo, Tapo… lequel offre le meilleur rapport qualité/prix en 2026 ?",
-    link: "#"
+    link: "#maison", section: "maison", subcat: "camera"
   },
   {
     icon: "🥘",
     cat: "Guide d'achat",
     title: "Robot cuiseur : vaut-il le prix ?",
     desc: "Alternative au Thermomix ? On compare les robots cuiseurs à moins de 600€.",
-    link: "#"
+    link: "#cuisine", section: "cuisine", subcat: "robot"
   },
 ];
