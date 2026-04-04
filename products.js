@@ -468,6 +468,51 @@ const maisonProducts = [
     img: "https://m.media-amazon.com/images/I/81W0igDvSpL._AC_SX679_.jpg"
   },
   {
+    id: "m23", subcat: "camera",
+    emoji: "☀️", brand: "GALAYOU", badge: "Best-seller",
+    name: "GALAYOU 2K Caméra Solaire Extérieure WiFi",
+    desc: "Panneau solaire intégré, batterie rechargeable. 2K, détection PIR, vision nocturne, IP65. Compatible Alexa.",
+    price: "39,99€", priceOld: "59,99€",
+    rating: 4.4, asin: "B0BX2L7JGJ",
+    img: "https://m.media-amazon.com/images/I/61N7fCbfQgL._AC_SX679_.jpg"
+  },
+  {
+    id: "m24", subcat: "camera",
+    emoji: "☀️", brand: "aosu", badge: "Top",
+    name: "aosu 2K Caméra Solaire 360° PTZ Extérieure",
+    desc: "Panneau solaire, rotation 360°, suivi automatique. Vision nocturne couleur, alarme sirène. IP66.",
+    price: "49,99€", priceOld: "69,99€",
+    rating: 4.3, asin: "B0C1C5WS81",
+    img: "https://m.media-amazon.com/images/I/61FLcj1JA1L._AC_SX679_.jpg"
+  },
+  {
+    id: "m25", subcat: "camera",
+    emoji: "☀️", brand: "Imou", badge: "",
+    name: "Imou 2K Caméra Solaire 360° Batterie 15000mAh",
+    desc: "Batterie longue durée 15000mAh + panneau solaire. PTZ 360°, détection IA, audio bidirectionnel. IP66.",
+    price: "59,99€", priceOld: "89,99€",
+    rating: 4.4, asin: "B0CGZWCK5T",
+    img: "https://m.media-amazon.com/images/I/61+g2ltpAvL._AC_SX679_.jpg"
+  },
+  {
+    id: "m26", subcat: "camera",
+    emoji: "📷", brand: "Tapo", badge: "Best-seller",
+    name: "Tapo C210 Caméra Intérieure 2K 3MP WiFi",
+    desc: "Rotation 360°, détection de personnes et pleurs bébé. Vision nocturne, stockage SD 512Go. Alexa.",
+    price: "27,99€", priceOld: "39,99€",
+    rating: 4.5, asin: "B095CLQ1PT",
+    img: "https://m.media-amazon.com/images/I/61z9kf65e6L._AC_SX679_.jpg"
+  },
+  {
+    id: "m27", subcat: "camera",
+    emoji: "📷", brand: "Imou", badge: "",
+    name: "Imou 2K Caméra Intérieure 360° Détection IA",
+    desc: "Rotation 360°, suivi intelligent IA. Audio bidirectionnel, sirène intégrée. Idéale bébé et animaux.",
+    price: "24,99€", priceOld: "39,99€",
+    rating: 4.4, asin: "B08X6DCJT2",
+    img: "https://m.media-amazon.com/images/I/51WuJ7EZ1uL._AC_SX679_.jpg"
+  },
+  {
     id: "m14", subcat: "securite",
     emoji: "🚨", brand: "X-Sense", badge: "",
     name: "X-Sense Détecteur Fumée & CO Connecté",
