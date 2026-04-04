@@ -330,7 +330,7 @@ const maisonProducts = [
     desc: "Son puissant dans un format ultra-compact. Contrôle vocal Alexa, Bluetooth et WiFi. Idéale petite pièce.",
     price: "29,99€", priceOld: "49,99€",
     rating: 4.6, asin: "B09ZX7MS5B",
-    img: "https://m.media-amazon.com/images/I/61Ocq3PcrbL._AC_SY450_.jpg"
+    img: "https://m.media-amazon.com/images/I/41mjJlfUTSL._AC_SX679_.jpg"
   },
   {
     id: "m29", subcat: "enceinte",
@@ -413,6 +413,42 @@ const maisonProducts = [
     price: "18,99€", priceOld: "24,99€",
     rating: 4.6, asin: "B08HKV28ZR",
     img: "https://m.media-amazon.com/images/I/51BMTMSlG0L._AC_SY300_SX300_QL70_ML2_.jpg"
+  },
+  {
+    id: "m31", subcat: "prise",
+    emoji: "🔌", brand: "EIGHTREE", badge: "Best-seller",
+    name: "EIGHTREE Mini Prise Connectée WiFi 16A",
+    desc: "Suivi consommation d'énergie. Compatible Alexa, Google Home et SmartThings. 3680W, compacte.",
+    price: "12,99€", priceOld: "19,99€",
+    rating: 4.4, asin: "B0BTDTLJGC",
+    img: "https://m.media-amazon.com/images/I/612PajKC7FL._AC_SX679_.jpg"
+  },
+  {
+    id: "m32", subcat: "prise",
+    emoji: "🔌", brand: "Amazon", badge: "",
+    name: "Amazon Smart Plug Prise Connectée WiFi",
+    desc: "Prise officielle Amazon avec Alexa intégré. Configuration simple, contrôle vocal et à distance.",
+    price: "24,99€", priceOld: "34,99€",
+    rating: 4.5, asin: "B082YTPXR6",
+    img: "https://m.media-amazon.com/images/I/710m4DwTK2L._AC_SX679_.jpg"
+  },
+  {
+    id: "m33", subcat: "prise",
+    emoji: "🔌", brand: "ANTELA", badge: "-30%",
+    name: "ANTELA Prise Connectée WiFi Lot de 2 avec Conso",
+    desc: "Mesure consommation en temps réel. 16A 3680W, compatible Alexa et Google Home. Lot de 2.",
+    price: "17,99€", priceOld: "25,99€",
+    rating: 4.3, asin: "B0D4Z3DNGJ",
+    img: "https://m.media-amazon.com/images/I/51avh1-8nzL._AC_SX679_.jpg"
+  },
+  {
+    id: "m34", subcat: "prise",
+    emoji: "🔌", brand: "Refoss", badge: "Top",
+    name: "Refoss Prise Connectée HomeKit Lot de 4",
+    desc: "Compatible Apple HomeKit, Siri, Alexa et Google Home. Programmable, commande vocale. Lot de 4.",
+    price: "35,99€", priceOld: "49,99€",
+    rating: 4.4, asin: "B0B874LX24",
+    img: "https://m.media-amazon.com/images/I/61UkniNlPbL._AC_SX679_.jpg"
   },
   {
     id: "m13", subcat: "serrure",
