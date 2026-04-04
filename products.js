@@ -397,6 +397,78 @@ const maisonProducts = [
     img: "https://m.media-amazon.com/images/I/61FQ3FVoTeL._AC_SX679_.jpg"
   },
   {
+    id: "m35", subcat: "lumiere",
+    emoji: "💡", brand: "Tapo", badge: "Best-seller",
+    name: "Tapo L530E Ampoule LED E27 WiFi Multicolore",
+    desc: "8,7W 806Lm, 16 millions de couleurs, dimmable. Compatible Alexa et Google Home. Sans hub.",
+    price: "9,99€", priceOld: "14,99€",
+    rating: 4.5, asin: "B08GDC99PX",
+    img: "https://m.media-amazon.com/images/I/619EduJE1kL._AC_SX679_.jpg"
+  },
+  {
+    id: "m36", subcat: "lumiere",
+    emoji: "💡", brand: "AISIRER", badge: "",
+    name: "AISIRER Ampoule WiFi E27 RGB Lot de 2",
+    desc: "10W 1000LM, multicolore RGB. Compatible Alexa, Google Home et Siri. Sans hub requis.",
+    price: "13,99€", priceOld: "21,99€",
+    rating: 4.4, asin: "B07S7B7KCR",
+    img: "https://m.media-amazon.com/images/I/61IPEBQ0A-L._AC_SX679_.jpg"
+  },
+  {
+    id: "m37", subcat: "lumiere",
+    emoji: "💡", brand: "Philips Hue", badge: "Top",
+    name: "Philips Hue GU10 White & Color Lot de 2",
+    desc: "Ampoules LED GU10 350 lumens Bluetooth. 16 millions de couleurs. Alexa, Google, HomeKit.",
+    price: "79,99€", priceOld: "109,99€",
+    rating: 4.6, asin: "B099NS75JX",
+    img: "https://m.media-amazon.com/images/I/61ygXLfC-vL._AC_SX679_.jpg"
+  },
+  {
+    id: "m38", subcat: "lumiere",
+    emoji: "💡", brand: "GY", badge: "-40%",
+    name: "GY Ampoule Connectée GU10 WiFi Lot de 6",
+    desc: "7W 500LM RGB + blanc chaud/froid. Dimmable, Smart Life. Compatible Alexa et Google. Lot de 6.",
+    price: "29,99€", priceOld: "49,99€",
+    rating: 4.3, asin: "B09M3677F7",
+    img: "https://m.media-amazon.com/images/I/61qQFgHkkaL._AC_SX679_.jpg"
+  },
+  {
+    id: "m39", subcat: "lumiere",
+    emoji: "🌈", brand: "iFEEL", badge: "",
+    name: "iFEEL Ampoule Connectée E27 Multicolore",
+    desc: "LED dimmable RGB, télécommande incluse. Compatible Alexa et Google Home. WiFi, sans hub.",
+    price: "8,99€", priceOld: "14,99€",
+    rating: 4.3, asin: "B0C66HQRGF",
+    img: "https://m.media-amazon.com/images/I/51ik0clOLuL._AC_SX679_.jpg"
+  },
+  {
+    id: "m40", subcat: "lumiere",
+    emoji: "💡", brand: "LIFX", badge: "Nouveau",
+    name: "LIFX GU10 Ampoule WiFi Multicolore",
+    desc: "Sans hub ni pont requis. Multicolore ajustable. Compatible Alexa, HomeKit et Google Assistant.",
+    price: "29,99€", priceOld: "44,99€",
+    rating: 4.4, asin: "B075411FZ2",
+    img: "https://m.media-amazon.com/images/I/41ryn1wlthL._AC_SX679_.jpg"
+  },
+  {
+    id: "m41", subcat: "lumiere",
+    emoji: "💡", brand: "GY", badge: "Best-seller",
+    name: "GY Ampoule E27 WiFi 23W 2400LM Globe G150",
+    desc: "Puissante 23W, 2400 lumens. RGB + blanc chaud/froid. Idéale grandes pièces. Alexa et Google.",
+    price: "16,99€", priceOld: "24,99€",
+    rating: 4.4, asin: "B09Y1TVBWN",
+    img: "https://m.media-amazon.com/images/I/51UWVVBV+KL._AC_SX679_.jpg"
+  },
+  {
+    id: "m42", subcat: "lumiere",
+    emoji: "💡", brand: "ANOOPSYCHE", badge: "",
+    name: "ANOOPSYCHE Ampoule WiFi E27 9W Lot de 2",
+    desc: "Équivaut à 75W. Blanc chaud à froid 2700K-6500K. Compatible Alexa, Echo et Google Home.",
+    price: "11,99€", priceOld: "19,99€",
+    rating: 4.3, asin: "B07KWPQMHH",
+    img: "https://m.media-amazon.com/images/I/61DwrfxOIlL._AC_SX679_.jpg"
+  },
+  {
     id: "m11", subcat: "thermostat",
     emoji: "🌡️", brand: "Meross", badge: "Nouveau",
     name: "Meross Thermostat Connecté Matter",
