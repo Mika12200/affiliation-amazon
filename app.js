@@ -124,6 +124,15 @@ function renderGuides() {
   `).join("");
 }
 
+// ===== PROMOS =====
+function renderPromos() {
+  const allProducts = [...cuisineProducts, ...maisonProducts];
+  const promos = allProducts.filter(p => p.priceOld);
+  document.getElementById("promoGrid").innerHTML = promos.length
+    ? promos.map(renderProductCard).join("")
+    : `<p style="color:#6b7280;padding:20px">Aucune promo en cours.</p>`;
+}
+
 // ===== SEARCH =====
 function filterProducts() {
   const q = document.getElementById("headerSearch").value.toLowerCase().trim();
@@ -155,4 +164,5 @@ document.addEventListener("DOMContentLoaded", () => {
   renderCuisine();
   renderMaison();
   renderGuides();
+  renderPromos();
 });
