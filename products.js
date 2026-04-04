@@ -324,6 +324,34 @@ const maisonProducts = [
     img: "https://m.media-amazon.com/images/I/61oDE1Wg+oL._AC_SX300_SY300_QL70_ML2_.jpg"
   },
   {
+    id: "m28", subcat: "enceinte",
+    emoji: "🔊", brand: "Amazon", badge: "Nouveau",
+    name: "Amazon Echo Pop Enceinte Compacte Alexa",
+    desc: "Son puissant dans un format ultra-compact. Contrôle vocal Alexa, Bluetooth et WiFi. Idéale petite pièce.",
+    price: "29,99€", priceOld: "49,99€",
+    rating: 4.6, asin: "B09ZX7MS5B",
+    img: "https://m.media-amazon.com/images/I/61Ocq3PcrbL._AC_SY450_.jpg"
+  },
+  {
+    id: "m29", subcat: "enceinte",
+    emoji: "🎶", brand: "Amazon", badge: "Top",
+    name: "Amazon Echo Studio Dolby Atmos",
+    desc: "Son immersif Dolby Atmos et audio spatial. Hub connecté intégré, WiFi et Bluetooth. Notre meilleur son.",
+    price: "199,99€", priceOld: "249,99€",
+    rating: 4.7, asin: "B09M5QKDH4",
+    img: "https://m.media-amazon.com/images/I/51Rb6l3VFVL._AC_SX679_.jpg"
+
+  },
+  {
+    id: "m30", subcat: "enceinte",
+    emoji: "🎵", brand: "Google", badge: "",
+    name: "Google Nest Mini 2ème Génération",
+    desc: "Enceinte connectée Google Assistant. Son riche, commande vocale, contrôle domotique. Compacte.",
+    price: "29,99€", priceOld: "49,99€",
+    rating: 4.5, asin: "B0CGYFYY34",
+    img: "https://m.media-amazon.com/images/I/71TeLBggnwL._AC_SX425_.jpg"
+  },
+  {
     id: "m6", subcat: "camera",
     emoji: "📷", brand: "Ring", badge: "Top",
     name: "Ring Video Doorbell 4",
