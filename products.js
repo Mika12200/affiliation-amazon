@@ -478,6 +478,78 @@ const maisonProducts = [
     img: "https://m.media-amazon.com/images/I/61xJzmlVAZL._AC_SX679_.jpg"
   },
   {
+    id: "m43", subcat: "thermostat",
+    emoji: "🌡️", brand: "Meross", badge: "Best-seller",
+    name: "Meross Thermostat Encastrable WiFi Chaudière",
+    desc: "Compatible Apple HomeKit, Alexa et Google Home. Pour chaudière gaz et chauffage au sol. Écran tactile.",
+    price: "49,99€", priceOld: "69,99€",
+    rating: 4.5, asin: "B0B8SDLTKC",
+    img: "https://m.media-amazon.com/images/I/61OxlQ1YAtL._AC_SX679_.jpg"
+  },
+  {
+    id: "m44", subcat: "thermostat",
+    emoji: "🌡️", brand: "MOES", badge: "Top",
+    name: "MOES Thermostat Connecté Matter WiFi",
+    desc: "Protocole Matter. Compatible Alexa, Google Home, SmartThings et Tuya. Programmable, chauffage eau.",
+    price: "39,99€", priceOld: "59,99€",
+    rating: 4.3, asin: "B0DK3FK4XC",
+    img: "https://m.media-amazon.com/images/I/5133UDzLkpL._AC_SX679_.jpg"
+  },
+  {
+    id: "m45", subcat: "thermostat",
+    emoji: "🌡️", brand: "SALCAR", badge: "",
+    name: "SALCAR Thermostat WiFi Programmable avec Humidité",
+    desc: "Chaudière gaz et chauffage sol. Affiche humidité, programmation hebdo. Compatible Alexa et Google.",
+    price: "29,99€", priceOld: "44,99€",
+    rating: 4.3, asin: "B0DBKYL8GX",
+    img: "https://m.media-amazon.com/images/I/61sm7-bLmPL._AC_SX679_.jpg"
+  },
+  {
+    id: "m46", subcat: "thermometre",
+    emoji: "🌡️", brand: "Govee", badge: "Best-seller",
+    name: "Govee WiFi Thermomètre Hygromètre Intérieur",
+    desc: "Haute précision, alertes sur app. Historique 2 ans exportable CSV. Cave, serre, chambre bébé.",
+    price: "12,99€", priceOld: "19,99€",
+    rating: 4.5, asin: "B08Y8PQ7XZ",
+    img: "https://m.media-amazon.com/images/I/61jlJmDShhL._AC_SX679_.jpg"
+  },
+  {
+    id: "m47", subcat: "thermometre",
+    emoji: "🌡️", brand: "Konyks", badge: "Top",
+    name: "Konyks Termo Thermomètre Hygromètre Wi-Fi",
+    desc: "Lecture à distance, déclenche d'autres appareils Konyks. Compatible Alexa et Google Home.",
+    price: "24,99€", priceOld: "34,99€",
+    rating: 4.4, asin: "B09GS2MQ1D",
+    img: "https://m.media-amazon.com/images/I/71-Izq9m6-L._AC_SX679_.jpg"
+  },
+  {
+    id: "m48", subcat: "thermometre",
+    emoji: "🌡️", brand: "GHome", badge: "",
+    name: "GHome Smart Thermomètre Hygromètre WiFi",
+    desc: "Capteur température et humidité en temps réel. Alertes app, compatible Alexa. Cave à vin, intérieur.",
+    price: "9,99€", priceOld: "16,99€",
+    rating: 4.3, asin: "B0CRB2R5PJ",
+    img: "https://m.media-amazon.com/images/I/61A-gn0KoIL._AC_SX679_.jpg"
+  },
+  {
+    id: "m49", subcat: "thermometre",
+    emoji: "🌡️", brand: "ORIA", badge: "Nouveau",
+    name: "Thermomètre Hygromètre WiFi avec Sonde Externe",
+    desc: "Écran LCD, sonde externe incluse. Alertes app, idéal serre, cave à vin et garage.",
+    price: "15,99€", priceOld: "24,99€",
+    rating: 4.3, asin: "B0BGSQ7DL3",
+    img: "https://m.media-amazon.com/images/I/613zrmeq2mL._AC_SX679_.jpg"
+  },
+  {
+    id: "m50", subcat: "thermometre",
+    emoji: "🌡️", brand: "Otio", badge: "",
+    name: "Otio Thermomètre Hygromètre Connecté WiFi",
+    desc: "Compatible Alexa et Google Home. Monitoring température et humidité. App OtioHome.",
+    price: "19,99€", priceOld: "29,99€",
+    rating: 4.2, asin: "B08427M1S6",
+    img: "https://m.media-amazon.com/images/I/51E-DbzpubL._AC_SX679_.jpg"
+  },
+  {
     id: "m12", subcat: "prise",
     emoji: "🔌", brand: "Tapo", badge: "Best-seller",
     name: "Tapo P100 Prise Connectée WiFi",
@@ -521,6 +593,276 @@ const maisonProducts = [
     price: "35,99€", priceOld: "49,99€",
     rating: 4.4, asin: "B0B874LX24",
     img: "https://m.media-amazon.com/images/I/61UkniNlPbL._AC_SX679_.jpg"
+  },
+  {
+    id: "m51", subcat: "solaire",
+    emoji: "☀️", brand: "FOMYHEARD", badge: "Best-seller",
+    name: "FOMYHEARD Bornes Solaires Jardin Lot de 8",
+    desc: "Lumière chaude + 7 couleurs RGB. IP65 étanche. Éclairage chemins et décoration jardin.",
+    price: "19,99€", priceOld: "29,99€",
+    rating: 4.4, asin: "B0CS3276FR",
+    img: "https://m.media-amazon.com/images/I/71B4ol8pU9L._AC_SX679_.jpg"
+  },
+  {
+    id: "m52", subcat: "solaire",
+    emoji: "☀️", brand: "Vanranger", badge: "Top",
+    name: "Vanranger Lampe Murale Solaire 248 LED Lot de 4",
+    desc: "Détecteur mouvement, 270° éclairage sécurité. IP65 étanche, sans fil. Lot de 4.",
+    price: "25,99€", priceOld: "39,99€",
+    rating: 4.4, asin: "B0D6724RJM",
+    img: "https://m.media-amazon.com/images/I/81kfDrn5gjL._AC_SX679_.jpg"
+  },
+  {
+    id: "m53", subcat: "solaire",
+    emoji: "☀️", brand: "Nipify", badge: "",
+    name: "Nipify Lampe Solaire 172 LED avec Câble 5M",
+    desc: "3 modes, détecteur mouvement. Câble 5m panneau séparé. IP65, idéal garage et jardin.",
+    price: "15,99€", priceOld: "24,99€",
+    rating: 4.3, asin: "B0CGCKQ9P6",
+    img: "https://m.media-amazon.com/images/I/7121-L6rpDL._AC_SX679_.jpg"
+  },
+  {
+    id: "m54", subcat: "solaire",
+    emoji: "☀️", brand: "OUILA", badge: "Best-seller",
+    name: "OUILA Spot Solaire 185 LED Lot de 2",
+    desc: "3 modes, détecteur mouvement. IP65 étanche, projecteur pour jardin, garage et patio.",
+    price: "16,99€", priceOld: "25,99€",
+    rating: 4.4, asin: "B09TP1GD93",
+    img: "https://m.media-amazon.com/images/I/71Dw5r6gcUL._AC_SX679_.jpg"
+  },
+  {
+    id: "m55", subcat: "solaire",
+    emoji: "☀️", brand: "LOTMOS", badge: "",
+    name: "LOTMOS Projecteur Solaire 342 LED Télécommande",
+    desc: "342 LED ultra puissant, télécommande incluse. 3 modes, IP65. Idéal garage et cour.",
+    price: "14,99€", priceOld: "22,99€",
+    rating: 4.3, asin: "B0D179RV6Z",
+    img: "https://m.media-amazon.com/images/I/715lCuVvpnL._AC_SX679_.jpg"
+  },
+  {
+    id: "m56", subcat: "solaire",
+    emoji: "☀️", brand: "ARTINABS", badge: "Top",
+    name: "ARTINABS Spot Solaire 88 LED 360° Lot de 2",
+    desc: "Ultra puissant, réglable 360°. Détecteur mouvement, IP65. Sans fil, pour chemin et allée.",
+    price: "18,99€", priceOld: "29,99€",
+    rating: 4.4, asin: "B09LTXL3YL",
+    img: "https://m.media-amazon.com/images/I/91TdzCMXOAL._AC_SX679_.jpg"
+  },
+  {
+    id: "m57", subcat: "solaire",
+    emoji: "☀️", brand: "Pxwaxpy", badge: "Nouveau",
+    name: "Pxwaxpy Spot Solaire 204 LED 2000LM Câble 5M",
+    desc: "3 modes, 2000 lumens. Câble 5m panneau séparé. IP65, pour jardin et garage.",
+    price: "13,99€", priceOld: "21,99€",
+    rating: 4.3, asin: "B0C6FGWWL8",
+    img: "https://m.media-amazon.com/images/I/71i6iruj4bL._AC_SX679_.jpg"
+  },
+  {
+    id: "m58", subcat: "solaire",
+    emoji: "☀️", brand: "OUILA", badge: "-30%",
+    name: "OUILA Lampe Solaire 185 LED Lot de 4",
+    desc: "3 modes avec détecteur. IP65 étanche. Lot de 4 pour couvrir tout le jardin.",
+    price: "24,99€", priceOld: "35,99€",
+    rating: 4.5, asin: "B09F6PLJT6",
+    img: "https://m.media-amazon.com/images/I/812dLxnDAYL._AC_SX679_.jpg"
+  },
+  {
+    id: "m59", subcat: "solaire",
+    emoji: "☀️", brand: "Peasur", badge: "",
+    name: "Projecteur Solaire 238 LED 2000LM Télécommande",
+    desc: "238 LED, 2000 lumens. 3 modes, télécommande, batterie 2200mAh. IP65 pour extérieur.",
+    price: "12,99€", priceOld: "19,99€",
+    rating: 4.3, asin: "B0CN6GH98G",
+    img: "https://m.media-amazon.com/images/I/71zQUZp19OL._AC_SX679_.jpg"
+  },
+  {
+    id: "m60", subcat: "solaire",
+    emoji: "☀️", brand: "Nifipfy", badge: "",
+    name: "Nifipfy Lampe Solaire 168 LED Blanc Chaud",
+    desc: "3 modes, capteur mouvement. IP65, lumière blanc chaud pour jardin, garage et mur.",
+    price: "11,99€", priceOld: "18,99€",
+    rating: 4.3, asin: "B0FVFKHVPZ",
+    img: "https://m.media-amazon.com/images/I/71eIDE6dzeL._AC_SX679_.jpg"
+  },
+  {
+    id: "m61", subcat: "fontaine",
+    emoji: "⛲", brand: "SZMP", badge: "Best-seller",
+    name: "SZMP Fontaine Solaire 3.5W LED Batterie 2000mAh",
+    desc: "Flottante, 8 buses, LED intégrée. Batterie rechargeable, câble 5m. Bain d'oiseaux, étang, jardin.",
+    price: "19,99€", priceOld: "29,99€",
+    rating: 4.4, asin: "B0BRC2KFDX",
+    img: "https://m.media-amazon.com/images/I/81yl0UEKysL._AC_SX679_.jpg"
+  },
+  {
+    id: "m62", subcat: "fontaine",
+    emoji: "⛲", brand: "Jsdoin", badge: "",
+    name: "Jsdoin Fontaine Solaire 7 Buses Flottante",
+    desc: "Pompe solaire avec 7 buses interchangeables. Pour bain d'oiseaux, étang et patio.",
+    price: "9,99€", priceOld: "15,99€",
+    rating: 4.3, asin: "B08XQC2R23",
+    img: "https://m.media-amazon.com/images/I/71KrPATAtnS._AC_SX679_.jpg"
+  },
+  {
+    id: "m63", subcat: "fontaine",
+    emoji: "⛲", brand: "AISITIN", badge: "Top",
+    name: "AISITIN Fontaine Solaire Flottante 3.5W 6 Buses",
+    desc: "Panneau solaire haute efficacité. Fonctionne même par faible ensoleillement. Bain d'oiseaux.",
+    price: "15,99€", priceOld: "22,99€",
+    rating: 4.4, asin: "B08S348HQ2",
+    img: "https://m.media-amazon.com/images/I/81Q1RBznmQL._AC_SX679_.jpg"
+  },
+  {
+    id: "m64", subcat: "fontaine",
+    emoji: "⛲", brand: "Mademax", badge: "",
+    name: "Mademax Fontaine Solaire Flottante 1.4W",
+    desc: "Version améliorée, 4 buses. Idéale petit bassin, abreuvoir oiseaux, piscine.",
+    price: "8,99€", priceOld: "14,99€",
+    rating: 4.3, asin: "B085C5LQN3",
+    img: "https://m.media-amazon.com/images/I/81tHGlkRpML._AC_SX679_.jpg"
+  },
+  {
+    id: "m65", subcat: "fontaine",
+    emoji: "⛲", brand: "Amur", badge: "Nouveau",
+    name: "Amur Fontaine Bouddha Solaire LED Cascade",
+    desc: "Fontaine décorative zen avec cascade et LED. Batterie Li-Ion intégrée. Terrasse, balcon, jardin.",
+    price: "39,99€", priceOld: "59,99€",
+    rating: 4.4, asin: "B08WH9PYV3",
+    img: "https://m.media-amazon.com/images/I/81HB2WIJbfL._AC_SX679_.jpg"
+  },
+  {
+    id: "m66", subcat: "fontaine",
+    emoji: "⛲", brand: "AISITIN", badge: "Best-seller",
+    name: "AISITIN Fontaine Solaire 3.5W avec Batterie",
+    desc: "Batterie intégrée, fonctionne même à l'ombre. 6 buses, pour étang et bain d'oiseaux.",
+    price: "16,99€", priceOld: "24,99€",
+    rating: 4.5, asin: "B083FN31P6",
+    img: "https://m.media-amazon.com/images/I/81z2VpIjqfL._AC_SX679_.jpg"
+  },
+  {
+    id: "m67", subcat: "fontaine",
+    emoji: "⛲", brand: "VITCOCO", badge: "",
+    name: "VITCOCO Fontaine Solaire 3.5W Batterie 18cm",
+    desc: "Panneau intégré avec batterie. 6 buses, flottante compacte 18cm. Petit étang et décoration.",
+    price: "14,99€", priceOld: "21,99€",
+    rating: 4.3, asin: "B07SGCKS8J",
+    img: "https://m.media-amazon.com/images/I/815iRkP6S+L._AC_SX679_.jpg"
+  },
+  {
+    id: "m68", subcat: "fontaine",
+    emoji: "⛲", brand: "AISITIN", badge: "-30%",
+    name: "AISITIN Fontaine Solaire 3.5W Batterie 6 Buses",
+    desc: "Pompe solaire flottante avec batterie rechargeable. 6 styles de jets. Bain d'oiseaux, jardin.",
+    price: "13,99€", priceOld: "19,99€",
+    rating: 4.4, asin: "B083BPVBH2",
+    img: "https://m.media-amazon.com/images/I/81hqJnwETTL._AC_SX679_.jpg"
+  },
+  {
+    id: "m69", subcat: "fontaine",
+    emoji: "⛲", brand: "AISITIN", badge: "Top",
+    name: "AISITIN Fontaine Solaire 6.5W Batterie 1500mAh",
+    desc: "Plus puissante 6.5W, batterie 1500mAh. 6 styles de fontaines. Jet jusqu'à 70cm.",
+    price: "21,99€", priceOld: "32,99€",
+    rating: 4.5, asin: "B083BPQ717",
+    img: "https://m.media-amazon.com/images/I/816e0KeKTxL._AC_SX679_.jpg"
+  },
+  {
+    id: "m70", subcat: "fontaine",
+    emoji: "⛲", brand: "Primrose", badge: "",
+    name: "Primrose Fontaine Bain d'Oiseau Pizzaro LED",
+    desc: "Fontaine décorative H80cm avec éclairage LED solaire. Bain d'oiseaux intégré. Pierre effet bronze.",
+    price: "89,99€", priceOld: "119,99€",
+    rating: 4.3, asin: "B003MQ6AQM",
+    img: "https://m.media-amazon.com/images/I/41wXVvmKoFL._AC_SX679_.jpg"
+  },
+  {
+    id: "m71", subcat: "panneau",
+    emoji: "🔋", brand: "FlexSolar", badge: "",
+    name: "FlexSolar Chargeur Solaire Portable 20W USB",
+    desc: "USB-A QC3.0 + USB-C, pliable étanche. Idéal randonnée, camping, recharge téléphone.",
+    price: "21,99€", priceOld: "29,99€",
+    rating: 4.3, asin: "B0C55CNCJW",
+    img: "https://m.media-amazon.com/images/I/61Iha4YgBsL._AC_SX679_.jpg"
+  },
+  {
+    id: "m72", subcat: "panneau",
+    emoji: "🔋", brand: "ECO-WORTHY", badge: "",
+    name: "ECO-WORTHY Kit Panneau Solaire 25W 12V",
+    desc: "Kit complet : panneau 25W + contrôleur 10A + câble SAE. Pour voiture, camping-car, bateau.",
+    price: "39,99€", priceOld: "54,99€",
+    rating: 4.4, asin: "B0C9Q3MSP4",
+    img: "https://m.media-amazon.com/images/I/71RtRTFAQRL._AC_SX679_.jpg"
+  },
+  {
+    id: "m73", subcat: "panneau",
+    emoji: "🔋", brand: "DOKIO", badge: "Best-seller",
+    name: "DOKIO Panneau Solaire Pliable 100W 12V",
+    desc: "Monocristallin pliable, 2 ports USB. Léger et portable, idéal camping et plein air.",
+    price: "79,99€", priceOld: "109,99€",
+    rating: 4.4, asin: "B0CSXP44GV",
+    img: "https://m.media-amazon.com/images/I/81LaBu3F21L._AC_SX679_.jpg"
+  },
+  {
+    id: "m74", subcat: "panneau",
+    emoji: "🔋", brand: "BigBlue", badge: "Top",
+    name: "BigBlue Solarpowa100 Panneau Pliable 100W IP68",
+    desc: "24V/4.16A avec supports. IP68 étanche, compatible la plupart des générateurs. Camping.",
+    price: "119,99€", priceOld: "159,99€",
+    rating: 4.5, asin: "B0C534PK15",
+    img: "https://m.media-amazon.com/images/I/81m8cW-O5PL._AC_SX679_.jpg"
+  },
+  {
+    id: "m75", subcat: "panneau",
+    emoji: "🔋", brand: "DOKIO", badge: "",
+    name: "DOKIO Kit Panneau Solaire Pliable 200W",
+    desc: "Monocristallin portable, 2 ports USB. Pour station électrique, camping-car et plein air.",
+    price: "169,99€", priceOld: "219,99€",
+    rating: 4.4, asin: "B0BNN62CM6",
+    img: "https://m.media-amazon.com/images/I/71+-zB9GGfL._AC_SX679_.jpg"
+  },
+  {
+    id: "m76", subcat: "panneau",
+    emoji: "🔋", brand: "ECO-WORTHY", badge: "Best-seller",
+    name: "ECO-WORTHY Kit Panneau Solaire 240W 12V",
+    desc: "Kit complet : panneau 240W + régulateur 30A + câbles + fixations. Camping-car, maison.",
+    price: "219,99€", priceOld: "279,99€",
+    rating: 4.5, asin: "B0C9PZ211H",
+    img: "https://m.media-amazon.com/images/I/71L100gokzL._AC_SX679_.jpg"
+  },
+  {
+    id: "m77", subcat: "panneau",
+    emoji: "🔋", brand: "DOKIO", badge: "-25%",
+    name: "DOKIO Panneau Solaire Pliable 240W Contrôleur 20A",
+    desc: "Pliable portable 240W avec contrôleur 20A. USB 12V/24V, pour station et camping-car.",
+    price: "259,99€", priceOld: "349,99€",
+    rating: 4.3, asin: "B09D7943QZ",
+    img: "https://m.media-amazon.com/images/I/71NiNNw7hpL._AC_SX679_.jpg"
+  },
+  {
+    id: "m78", subcat: "panneau",
+    emoji: "🔋", brand: "EcoFlow", badge: "Nouveau",
+    name: "EcoFlow Panneau Solaire Portable 400W IP68",
+    desc: "Pliable avec mallette, IP68. Haute efficacité, compatible stations EcoFlow et autres.",
+    price: "549,99€", priceOld: "699,99€",
+    rating: 4.5, asin: "B0B129KSKL",
+    img: "https://m.media-amazon.com/images/I/71R13HlYowL._AC_SX679_.jpg"
+  },
+  {
+    id: "m79", subcat: "panneau",
+    emoji: "🔋", brand: "EcoFlow", badge: "Top",
+    name: "EcoFlow STREAM Kit Solaire Balcon 800W",
+    desc: "Micro-onduleur 800W + 2 panneaux 400W. Autoconsommation plug & play, app WiFi. Balcon, jardin, toit.",
+    price: "999,99€", priceOld: "1299,99€",
+    rating: 4.5, asin: "B0F1CVD47Z",
+    img: "https://m.media-amazon.com/images/I/61cRp9EtwmL._AC_SX679_.jpg"
+  },
+  {
+    id: "m80", subcat: "panneau",
+    emoji: "🔋", brand: "EcoFlow", badge: "Premium",
+    name: "EcoFlow DELTA 2 Max 2048Wh + Panneau 400W",
+    desc: "Station 2048Wh LFP + panneau 400W. 3100W AC, charge 0-80% en 53min. Camping, maison, secours.",
+    price: "1899,99€", priceOld: "2299,99€",
+    rating: 4.6, asin: "B0C4KXT2HM",
+    img: "https://m.media-amazon.com/images/I/61QOl650cJL._AC_SX679_.jpg"
   },
   {
     id: "m13", subcat: "serrure",
