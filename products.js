@@ -999,6 +999,96 @@ const maisonProducts = [
     rating: 4.5, asin: "B0DDL1V686",
     img: "https://m.media-amazon.com/images/I/71poEV2HnjL._AC_SX679_.jpg"
   },
+  {
+    id: "m81", subcat: "alarme",
+    emoji: "🚨", brand: "AGSHOME", badge: "Best-seller",
+    name: "AGSHOME Alarme Maison WiFi 15 Pièces",
+    desc: "Kit complet 120dB : capteurs portes/fenêtres + détecteurs mouvement. Compatible Alexa et Google.",
+    price: "49,99€", priceOld: "79,99€",
+    rating: 4.4, asin: "B09GVQLPTY",
+    img: "https://m.media-amazon.com/images/I/61l8-ogy66L._AC_SX679_.jpg"
+  },
+  {
+    id: "m82", subcat: "alarme",
+    emoji: "🚨", brand: "TECPEAK", badge: "",
+    name: "TECPEAK Kit Alarme WiFi + GSM Sans Fil",
+    desc: "Double connexion WiFi et GSM. Sirène, détecteurs et télécommandes. App mobile, sans abonnement.",
+    price: "89,99€", priceOld: "129,99€",
+    rating: 4.3, asin: "B08DCJZJPN",
+    img: "https://m.media-amazon.com/images/I/610jWLHmr6L._AC_SX679_.jpg"
+  },
+  {
+    id: "m83", subcat: "alarme",
+    emoji: "🚨", brand: "tiiwee", badge: "",
+    name: "tiiwee A1 Alarme Maison Sans Fil Autonome",
+    desc: "Système à piles, 120dB. Capteurs portes/fenêtres + télécommandes. Simple, sans WiFi requis.",
+    price: "29,99€", priceOld: "44,99€",
+    rating: 4.3, asin: "B08MQR67SM",
+    img: "https://m.media-amazon.com/images/I/71EvFmGTxeL._AC_SX679_.jpg"
+  },
+  {
+    id: "m84", subcat: "alarme",
+    emoji: "🚨", brand: "Generic", badge: "-30%",
+    name: "Kit Alarme Sans Fil 115dB 9 Pièces Complet",
+    desc: "4 capteurs porte/fenêtre + 2 détecteurs mouvement + sirène + 2 télécommandes. 115dB.",
+    price: "34,99€", priceOld: "49,99€",
+    rating: 4.3, asin: "B0BXCN287S",
+    img: "https://m.media-amazon.com/images/I/712xuwxEH2L._AC_SX679_.jpg"
+  },
+  {
+    id: "m85", subcat: "alarme",
+    emoji: "🚨", brand: "Somfy", badge: "Top",
+    name: "Somfy Home Alarm Système Connecté",
+    desc: "Alarme connectée Somfy Protect. IntelliTAG anti-intrusion. Compatible Alexa, Google et Tahoma.",
+    price: "349,99€", priceOld: "449,99€",
+    rating: 4.5, asin: "B0718W696D",
+    img: "https://m.media-amazon.com/images/I/41t1EJFyOTL._AC_SX679_.jpg"
+  },
+  {
+    id: "m86", subcat: "alarme",
+    emoji: "🚨", brand: "Somfy", badge: "Nouveau",
+    name: "Somfy Home Alarm Essential Plus Integral",
+    desc: "Détection pré-intrusion IntelliTAG + détecteurs mouvement. Télésurveillance optionnelle. Made in France.",
+    price: "449,99€", priceOld: "549,99€",
+    rating: 4.5, asin: "B0C6V5D5T5",
+    img: "https://m.media-amazon.com/images/I/61ikpB1keDL._AC_SX679_.jpg"
+  },
+  {
+    id: "m87", subcat: "alarme",
+    emoji: "🚨", brand: "Somfy", badge: "",
+    name: "Somfy Home Alarm Essential WiFi",
+    desc: "3 IntelliTAG + 1 détecteur mouvement + 2 badges. Compatible Alexa, Google et Tahoma.",
+    price: "279,99€", priceOld: "349,99€",
+    rating: 4.4, asin: "B0C6V6T9SS",
+    img: "https://m.media-amazon.com/images/I/61F4BmTb3uL._AC_SX679_.jpg"
+  },
+  {
+    id: "m88", subcat: "alarme",
+    emoji: "🚨", brand: "Ajax", badge: "Premium",
+    name: "Ajax Hub 2 Kit Alarme Sans Fil Pro",
+    desc: "Système professionnel Ajax. Double connexion, vérification photo. Fiabilité anti-brouillage.",
+    price: "599,99€", priceOld: "749,99€",
+    rating: 4.6, asin: "B08B3DZ89L",
+    img: "https://m.media-amazon.com/images/I/61myLj9nt+L._AC_SX679_.jpg"
+  },
+  {
+    id: "m89", subcat: "alarme",
+    emoji: "🚨", brand: "Lacoramo", badge: "",
+    name: "Kit Alarme WiFi + GSM Domotique Sans Frais",
+    desc: "WiFi + ligne mobile GSM. Contrôle total via app. Sans abonnement, pour maison et entreprise.",
+    price: "129,99€", priceOld: "179,99€",
+    rating: 4.3, asin: "B08LK1K13V",
+    img: "https://m.media-amazon.com/images/I/41xTMojSA+L._AC_SX679_.jpg"
+  },
+  {
+    id: "m90", subcat: "alarme",
+    emoji: "🚨", brand: "Somfy", badge: "Top",
+    name: "Somfy One+ Alarme Tout-en-Un avec Caméra",
+    desc: "Caméra Full HD + détecteur mouvement + sirène 90dB. Vision 130°, volet vie privée. Badge inclus.",
+    price: "249,99€", priceOld: "329,99€",
+    rating: 4.4, asin: "B071V7LF94",
+    img: "https://m.media-amazon.com/images/I/61tLRel7DLL._AC_SX679_.jpg"
+  },
 ];
 
 // ===== GUIDES =====
