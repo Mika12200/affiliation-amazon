@@ -99,12 +99,12 @@
       <h1>Les <span class="gradient-text">meilleurs appareils</span><br/>cuisine & maison connectée</h1>
       <p class="hero-sub">Nos experts testent et comparent pour vous les meilleurs produits disponibles sur Amazon. Trouvez le bon appareil au meilleur prix.</p>
       <div class="hero-cats">
-        <a href="#cuisine" class="hero-cat">🍳 Air Fryer</a>
-        <a href="#cuisine" class="hero-cat">☕ Machines à café</a>
-        <a href="#cuisine" class="hero-cat">🤖 Robots cuiseurs</a>
-        <a href="#maison" class="hero-cat">🧹 Aspirateurs robots</a>
-        <a href="#maison" class="hero-cat">💡 Maison connectée</a>
-        <a href="#maison" class="hero-cat">📷 Caméras</a>
+        <a href="#cuisine" class="hero-cat" onclick="goToGuide('cuisine','airfryer')">🍳 Air Fryer</a>
+        <a href="#cuisine" class="hero-cat" onclick="goToGuide('cuisine','cafe')">☕ Machines à café</a>
+        <a href="#cuisine" class="hero-cat" onclick="goToGuide('cuisine','robot')">🤖 Robots cuiseurs</a>
+        <a href="#maison" class="hero-cat" onclick="goToGuide('maison','aspirateur')">🧹 Aspirateurs robots</a>
+        <a href="#maison" class="hero-cat" onclick="goToGuide('maison','all')">💡 Maison connectée</a>
+        <a href="#maison" class="hero-cat" onclick="goToGuide('maison','camera')">📷 Caméras</a>
       </div>
     </div>
     <div class="hero-wave"></div>
@@ -165,6 +165,7 @@
         <button class="cat-btn" onclick="filterCat(this,'maison','fontaine')">Fontaines solaires</button>
         <button class="cat-btn" onclick="filterCat(this,'maison','panneau')">Panneaux solaires</button>
         <button class="cat-btn" onclick="filterCat(this,'maison','alarme')">Alarmes</button>
+        <button class="cat-btn" onclick="filterCat(this,'maison','enfant')">Sécurité enfant</button>
     </div>
     <div class="products-grid" id="maisonGrid"></div>
   </section>

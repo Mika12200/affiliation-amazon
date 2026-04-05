@@ -1089,6 +1089,97 @@ const maisonProducts = [
     rating: 4.4, asin: "B071V7LF94",
     img: "https://m.media-amazon.com/images/I/61tLRel7DLL._AC_SX679_.jpg"
   },
+  // ── Sécurité enfant ──
+  {
+    id: "m91", subcat: "enfant",
+    emoji: "🚧", brand: "Safety 1st", badge: "Top",
+    name: "Safety 1st Easy Close Barrière Escalier Métal",
+    desc: "Barrière 73-80cm extensible 108cm. Fermeture 1 main, double verrouillage, sans perçage.",
+    price: "34,99€", priceOld: "",
+    rating: 4.4, asin: "B0177W8HBW",
+    img: "https://m.media-amazon.com/images/I/61Fz+dBX4EL._AC_SX679_.jpg"
+  },
+  {
+    id: "m92", subcat: "enfant",
+    emoji: "🔌", brand: "Bébéalis", badge: "Best",
+    name: "Bébéalis Cache Prise Bébé Français x20",
+    desc: "20 caches-prises sans clé ni adhésif. 100% fabriqué en France, amovible facilement.",
+    price: "9,99€", priceOld: "",
+    rating: 4.5, asin: "B08L3YVM7S",
+    img: "https://m.media-amazon.com/images/I/81vHyBnH2ZL._AC_SX425_.jpg"
+  },
+  {
+    id: "m93", subcat: "enfant",
+    emoji: "🔌", brand: "Bébéalis", badge: "",
+    name: "Bébéalis Cache Prise Bébé x20 Version 2",
+    desc: "Version améliorée, 100% Made in France. Sans clé ni colle, retrait avec prise électrique.",
+    price: "10,99€", priceOld: "",
+    rating: 4.5, asin: "B09TL1HX9Q",
+    img: "https://m.media-amazon.com/images/I/81mlPlk0N1L._AC_SX425_.jpg"
+  },
+  {
+    id: "m94", subcat: "enfant",
+    emoji: "🛡️", brand: "Générique", badge: "Best",
+    name: "Kit Sécurité Bébé Complet 40 Pièces",
+    desc: "12 caches-prises + 3 clés, 16 protège-coins de table, 12 loquets de sécurité.",
+    price: "15,99€", priceOld: "",
+    rating: 3.9, asin: "B09Q17FJ71",
+    img: "https://m.media-amazon.com/images/I/71UJE9I55mL._AC_SX679_.jpg"
+  },
+  {
+    id: "m95", subcat: "enfant",
+    emoji: "🔶", brand: "KIHONI", badge: "",
+    name: "KIHONI Protection Coin de Table Bébé x20",
+    desc: "20 protège-coins PVC transparent avec colle renforcée. Sans BPA, pour tables et meubles.",
+    price: "8,99€", priceOld: "",
+    rating: 4.3, asin: "B0BD23M1CN",
+    img: "https://m.media-amazon.com/images/I/71PUH4I-CAL._AC_SX425_PIbundle-20,TopRight,0,0_SH20_.jpg"
+  },
+  {
+    id: "m96", subcat: "enfant",
+    emoji: "🚪", brand: "BillyBath", badge: "",
+    name: "BillyBath Bloc Porte Sécurité Bébé x6",
+    desc: "6 bloque-tiroirs/placards transparents. Double verrouillage, adhésif 3M, sans perçage.",
+    price: "11,99€", priceOld: "",
+    rating: 4.1, asin: "B0968L57QB",
+    img: "https://m.media-amazon.com/images/I/61+9kMQvQBL._AC_SX425_.jpg"
+  },
+  {
+    id: "m97", subcat: "enfant",
+    emoji: "🛏️", brand: "HUOLE", badge: "Top",
+    name: "HUOLE Barrière de Lit Anti-Chute 150cm",
+    desc: "24 hauteurs réglables, filet respirant lavable, double verrouillage. Acier carbone.",
+    price: "35,99€", priceOld: "",
+    rating: 4.2, asin: "B0CM1XJVTT",
+    img: "https://m.media-amazon.com/images/I/71AoVEUzvPL._AC_SX679_.jpg"
+  },
+  {
+    id: "m98", subcat: "enfant",
+    emoji: "🧲", brand: "NODI", badge: "Best",
+    name: "NODI Serrures Magnétiques Placards x12 + 3 Clés",
+    desc: "12 bloque-tiroirs magnétiques invisibles + 3 clés. Sans perçage, design caché.",
+    price: "29,99€", priceOld: "",
+    rating: 4.4, asin: "B07YTWLFYX",
+    img: "https://m.media-amazon.com/images/I/71yyzPxNIML._AC_SX425_.jpg"
+  },
+  {
+    id: "m99", subcat: "enfant",
+    emoji: "👶", brand: "HelloBaby", badge: "Top",
+    name: "HelloBaby HB6339 Babyphone Caméra 3.2\"",
+    desc: "Écran IPS 3.2\", vision nocturne, audio bidirectionnel, 305m portée, 8 berceuses.",
+    price: "49,99€", priceOld: "",
+    rating: 4.4, asin: "B0CB8MNFXF",
+    img: "https://m.media-amazon.com/images/I/6154F4imrgL._AC_SX679_.jpg"
+  },
+  {
+    id: "m100", subcat: "enfant",
+    emoji: "🔌", brand: "Safety 1st", badge: "",
+    name: "Safety 1st Cache-Prises avec Clé x12",
+    desc: "12 caches-prises blancs avec clé rotative incluse. Adapté aux prises françaises.",
+    price: "7,99€", priceOld: "",
+    rating: 4.3, asin: "B01LRS24E8",
+    img: "https://m.media-amazon.com/images/I/412QMxhB5wL._AC_SX425_.jpg"
+  },
 ];
 
 // ===== GUIDES =====
