@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>TikTok Video Generator</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap');
+    
+    body {
+      margin: 0; padding: 0;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    .tiktok-container {
+      width: 400px;
+      height: 711px;
+      background: linear-gradient(135deg, #111 0%, #222 100%);
+      position: relative;
+      overflow: hidden;
+      color: white;
+      box-shadow: 0 0 20px rgba(255,255,255,0.1);
+    }
+
+    .ui-overlay {
+      position: absolute; right: 15px; bottom: 80px;
+      display: flex; flex-direction: column; gap: 20px; z-index: 100;
+      opacity: 0.8;
+    }
+    .ui-icon { width: 40px; height: 40px; background: rgba(255,255,255,0.2); border-radius: 50%; }
+    
+    .slide {
+      position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center; text-align: center;
+      padding: 30px; box-sizing: border-box;
+      opacity: 0; transform: scale(1.1);
+    }
+    
+    .img-box {
+      width: 250px; height: 250px;
+      background: white; border-radius: 20px;
+      padding: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      margin-bottom: 30px;
+      display: flex; justify-content: center; align-items: center;
+    }
+    .img-box img { max-width: 100%; max-height: 100%; object-fit: contain; }
+
+    .text-title {
+      font-size: 2.2rem; line-height: 1.2; text-shadow: 0 4px 10px rgba(0,0,0,0.8);
+      background: linear-gradient(90deg, #ff0050, #00f2fe);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .text-desc {
+      font-size: 1.6rem; font-weight: 800; text-shadow: 0 4px 10px rgba(0,0,0,0.8);
+      margin-top: 15px;
+    }
+    .badge {
+      background: #ff0050; padding: 5px 15px; border-radius: 20px; font-size: 1.2rem; margin-bottom: 20px;
+    }
+
+    @keyframes slideAnim {
+      0% { opacity: 0; transform: scale(1.1) translateY(20px); filter: blur(10px); }
+      10% { opacity: 1; transform: scale(1) translateY(0); filter: blur(0); }
+      85% { opacity: 1; transform: scale(1.05) translateY(0); filter: blur(0); }
+      100% { opacity: 0; transform: scale(0.9) translateY(-20px); filter: blur(5px); }
+    }
+
+    /* We assign exactly these classes via JS so they don't start until we click */
+    .animate-slide-1 { animation: slideAnim 8s linear forwards 0s; }
+    .animate-slide-2 { animation: slideAnim 9s linear forwards 7s; }
+    .animate-slide-3 { animation: slideAnim 9s linear forwards 15s; }
+    .animate-slide-4 { animation: slideAnim 9s linear forwards 23s; }
+    .animate-slide-5 { animation: slideAnim 8s linear forwards 31s; }
+
+    #startBtn {
+      position: absolute;
+      top: 50%; left: 50%; transform: translate(-50%, -50%);
+      background: #ff0050; color: #fff;
+      border: none; border-radius: 8px;
+      padding: 15px 25px;
+      font-size: 1.2rem; font-weight: bold; font-family: 'Montserrat', sans-serif;
+      cursor: pointer; z-index: 1000;
+      box-shadow: 0 4px 15px rgba(255,0,80,0.5);
+    }
+    #startBtn:hover { background: #d00040; transform: translate(-50%, -50%) scale(1.05); }
+
+  </style>
+</head>
+<body>
+
+  <audio id="bgm" loop preload="auto">
+    <source src="music2.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="tiktok-container">
+    
+    <button id="startBtn">▶ Lancer avec Voix & Musique</button>
+
+    <div class="ui-overlay">
+      <div class="ui-icon"></div>
+      <div class="ui-icon"></div>
+      <div class="ui-icon"></div>
+    </div>
+
+    <div class="slide" id="slide1">
+      <div class="text-title">Top 3 des Appareils Amazon</div>
+      <div class="text-desc" style="color:#fff;">Que tu dois absolument avoir 🤯</div>
+    </div>
+
+    <div class="slide" id="slide2">
+      <div class="badge">Numéro 1</div>
+      <div class="img-box">
+        <img src="img_krups.png" alt="Krups">
+      </div>
+      <div class="text-desc">Machine Krups Genio S Plus.<br>Un café de pro à la maison !</div>
+    </div>
+
+    <div class="slide" id="slide3">
+      <div class="badge">Numéro 2</div>
+      <div class="img-box">
+        <img src="img_yuka.png" alt="Mammotion Yuka">
+      </div>
+      <div class="text-desc">Mammotion YUKA Mini 2.<br>Le robot tondeuse 100% sans fil 🌳</div>
+    </div>
+
+    <div class="slide" id="slide4">
+      <div class="badge">Numéro 3</div>
+      <div class="img-box">
+        <img src="img_roborock.png" alt="Roborock S8">
+      </div>
+      <div class="text-desc">Roborock S8 Pro Ultra.<br>Laisse-le faire le ménage tout seul 🧹</div>
+    </div>
+
+    <div class="slide" id="slide5">
+      <div class="text-title">Promos du jour :</div>
+      <div class="text-desc" style="color:#fff;">Lien sur mon site !<br>👉 maison-connectée.fr</div>
+    </div>
+
+    <!-- OVERLAY ENREGISTREUR INTÉGRÉ -->
+    <div id="recorder-ui" style="position:absolute; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:9999; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; padding:20px; box-sizing:border-box;">
+      <h2 style="color:#00f2fe; margin-bottom:10px;">🔴 Enregistreur Automatique</h2>
+      <p style="color:#fff; font-size:1.1rem; line-height:1.5;">Coupe la fenêtre Chrome pour l'ajuster !<br><br>Quand tu seras prêt, clique ci-dessous.<br>Une petite page va s'ouvrir :<br>Sélectionne l'onglet Chrome actuel, et surtout n'oublie pas de cocher <strong>"Partager l'audio de l'onglet"</strong> en bas à gauche de la fenêtre d'autorisation.</p>
+      <button id="recordBtn" style="background:#ff0050; padding:15px 30px; font-size:1.2rem; font-weight:bold; color:white; border:none; border-radius:10px; cursor:pointer; margin-top:20px;">🎬 Commencer l'Enregistrement</button>
+    </div>
+
+  </div>
+
+  <script>
+    const recordBtn = document.getElementById('recordBtn');
+    const recorderUi = document.getElementById('recorder-ui');
+    const startBtn = document.getElementById('startBtn'); // On cache l'ancien bouton
+    if(startBtn) startBtn.style.display = 'none';
+
+    const bgm = document.getElementById('bgm');
+    let mediaRecorder;
+    let recordedChunks = [];
+    
+    recordBtn.addEventListener('click', async () => {
+      try {
+        // Demande l'autorisation pour enregistrer l'onglet courant
+        const stream = await navigator.mediaDevices.getDisplayMedia({
+          video: { displaySurface: "browser" },
+          audio: true,
+          preferCurrentTab: true, // Demande à Chrome de privilégier cet onglet précis
+          selfBrowserSurface: "include" // Force l'apparition de notre propre onglet dans la liste
+        });
+        
+        // Cache l'overlay d'aide
+        recorderUi.style.display = 'none';
+        
+        // Prepare recorder
+        mediaRecorder = new MediaRecorder(stream, { mimeType: 'video/webm' });
+        mediaRecorder.ondataavailable = function(e) {
+            if (e.data.size > 0) {
+                recordedChunks.push(e.data);
+            }
+        };
+        mediaRecorder.onstop = function() {
+            let blob = new Blob(recordedChunks, { type: 'video/webm' });
+            let url = URL.createObjectURL(blob);
+            let a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = 'tiktok_promo_krups_yuka_s8.webm';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            alert("✅ La vidéo a été enregistrée avec succès dans ton dossier Téléchargements ! Tu peux la transférer sur ton téléphone.");
+        };
+        
+        mediaRecorder.start();
+
+        // On attend une petite seconde pour que l'enregistreur se lance bien
+        setTimeout(() => {
+          // Lancer la vraie animation
+          bgm.volume = 0.3;
+          bgm.play().catch(e => console.log('Audio error:', e));
+
+          document.getElementById('slide1').classList.add('animate-slide-1');
+          document.getElementById('slide2').classList.add('animate-slide-2');
+          document.getElementById('slide3').classList.add('animate-slide-3');
+          document.getElementById('slide4').classList.add('animate-slide-4');
+          document.getElementById('slide5').classList.add('animate-slide-5');
+
+          // Stopper la musique en fondu (vers 38s)
+          setTimeout(() => {
+            let fadeAudio = setInterval(function () {
+              if (bgm.volume > 0.05) {
+                  bgm.volume -= 0.05;
+              } else {
+                  clearInterval(fadeAudio);
+                  bgm.pause();
+              }
+            }, 150);
+          }, 38000);
+
+          // Terminer la vidéo officiellement à 41 sec et lancer le téléchargement
+          setTimeout(() => {
+              mediaRecorder.stop();
+              stream.getTracks().forEach(track => track.stop());
+          }, 41000);
+        }, 1000); // 1 seconde de délai
+        
+      } catch (err) {
+        alert("Erreur. Tu as peut-être refusé ou oublié de sélectionner l'onglet. Actualise la page et réessaie.");
+      }
+    });
+  </script>
+</body>
+</html>
