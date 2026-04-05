@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meilleur Robot Cuiseur 2026 — Comparatif & Guide d'achat</title>
+  <meta name="description" content="Quel est le meilleur robot cuiseur multifonction en 2026 ? Comparatif, guide d'achat et avis experts." />
+  <meta name="robots" content="index, follow" />
+  
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">⭐</span>
+        <span>MeilleursAppareils</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html#cuisine">🍳 Cuisine</a>
+        <a href="index.html#maison">🏠 Maison connectée</a>
+        <a href="index.html#guides">📋 Guides</a>
+        <a href="index.html#promo">🔥 Promos</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO / INTRO -->
+  <section class="hero" style="min-height:260px;padding:40px 0 60px">
+    <div class="container hero-content">
+      <div class="hero-badge">🥘 Guide d'achat 2026</div>
+      <h1>Meilleur <span class="gradient-text">Robot Cuiseur</span> 2026</h1>
+      <p class="hero-sub">Découvrez notre sélection des meilleurs robots cuiseurs multifonctions pour gagner du temps et réussir tous vos plats.</p>
+    </div>
+    <div class="hero-wave"></div>
+  </section>
+
+  <!-- GUIDE TEXT -->
+  <section class="section container">
+    <div style="max-width:820px;margin:0 auto 48px;">
+      <h2 style="font-size:1.45rem;font-weight:700;margin-bottom:16px;color:#1e293b;">Pourquoi investir dans un robot cuiseur ?</h2>
+      <p style="color:#374151;line-height:1.8;margin-bottom:16px;">
+        Hacher, mixer, pétrir, mijoter, cuire à la vapeur... Le robot cuiseur est le commis de cuisine ultime. Il vous fait gagner un temps précieux tout en vous permettant de réaliser des recettes complexes sans effort.
+      </p>
+      
+      <h3 style="font-size:1.1rem;font-weight:700;margin:24px 0 10px;color:#1e293b;">Les critères à vérifier :</h3>
+      <ul style="color:#374151;line-height:1.8;padding-left:20px;margin-bottom:16px;">
+        <li><strong>La capacité du bol :</strong> Vérifiez la capacité "utile". Un bol de 3 à 4L litres nourrit facilement 4 à 6 personnes.</li>
+        <li><strong>Les accessoires :</strong> Panier vapeur, fouet, pétrin, découpe-légumes... Plus il y a d'accessoires, plus il remplace de petits appareils.</li>
+        <li><strong>L'interface et la connectivité :</strong> Les modèles connectés proposent des recettes pas-à-pas sur écran tactile, idéal pour l'inspiration du quotidien !</li>
+      </ul>
+    </div>
+
+    <!-- PRODUCTS -->
+    <div class="section-header">
+      <h2>🏆 Notre sélection — Robots Cuiseurs</h2>
+      <p class="section-sub">Les modèles validés par notre équipe</p>
+    </div>
+    <div class="products-grid" id="categoryGrid"></div>
+  </section>
+
+  <!-- RETOUR ACCUEIL -->
+  <section class="section container" style="text-align:center;padding-top:20px;padding-bottom:40px;">
+    <a href="index.html" style="display:inline-flex;align-items:center;gap:8px;color:#3b82f6;font-weight:600;text-decoration:none;font-size:1rem;">
+      ← Retour à l'accueil — Voir tous les appareils
+    </a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <span>⭐</span>
+        <span>MeilleursAppareils</span>
+      </div>
+      <p class="footer-copy">© 2026 MeilleursAppareils — Site indépendant, non affilié à Amazon.</p>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+  <script>
+    function renderCategoryPage(subcat, section) {
+      const source = section === 'cuisine' ? cuisineProducts : maisonProducts;
+      const filtered = source.filter(p => p.subcat === subcat);
+      const grid = document.getElementById('categoryGrid');
+      if (!filtered.length) {
+        grid.innerHTML = '<p style="color:#6b7280;padding:20px">Aucun produit trouvé.</p>';
+        return;
+      }
+      grid.innerHTML = filtered.map(renderProductCard).join('');
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+      renderCategoryPage('robot', 'cuisine');
+    });
+  </script>
+</body>
+</html>

@@ -38,6 +38,11 @@ a { text-decoration: none; color: inherit; }
   0%   { background-position: -200% center; }
   100% { background-position: 200% center; }
 }
+@keyframes shineBtn {
+  0%   { left: -100%; }
+  20%  { left: 200%; }
+  100% { left: 200%; }
+}
 .animate-up { animation: fadeUp 0.5s ease forwards; }
 
 /* ===== BUTTONS ===== */
@@ -67,11 +72,22 @@ a { text-decoration: none; color: inherit; }
   transition: all 0.2s;
   width: 100%;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  position: relative;
+  overflow: hidden;
+}
+.btn-amazon::after {
+  content: '';
+  position: absolute;
+  top: 0; left: -100%;
+  width: 50%; height: 100%;
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.6) 50%, rgba(255,255,255,0) 100%);
+  transform: skewX(-20deg);
+  animation: shineBtn 4s infinite ease-in-out;
 }
 .btn-amazon:hover {
   background: linear-gradient(180deg, #ffe594 0%, #f5b820 100%);
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(228,121,17,0.3);
 }
 .btn-amazon:active { transform: translateY(0); }
 
@@ -250,7 +266,7 @@ a { text-decoration: none; color: inherit; }
   opacity: 0; transition: opacity 0.25s;
   border-radius: var(--radius) var(--radius) 0 0;
 }
-.product-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-hover); border-color: rgba(228,121,17,0.3); }
+.product-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-hover); border-color: rgba(228,121,17,0.4); }
 .product-card:hover::before { opacity: 1; }
 
 .product-img {

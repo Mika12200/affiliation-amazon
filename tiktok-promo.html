@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="no-referrer">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TikTok Promo - MeilleursAppareils</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#000; display:flex; flex-direction:column; justify-content:center; align-items:center; min-height:100vh; overflow:hidden; gap:20px; }
+
+.phone {
+  width: 100vw; height: 100vh;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  border-radius: 0; overflow: hidden; position: fixed;
+  top: 0; left: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* SLIDES */
+.slide {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column; justify-content: center; align-items: center;
+  padding: 30px; text-align: center;
+  opacity: 0; transform: translateY(40px);
+  transition: opacity 0.6s, transform 0.6s;
+}
+.slide.active { opacity: 1; transform: translateY(0); }
+
+/* SLIDE 1 - Intro */
+.s1 { background: linear-gradient(135deg, #E47911, #ff6b35); }
+.s1 .logo { font-size: 3rem; margin-bottom: 10px; animation: bounce 1s infinite; }
+.s1 h1 { color: #fff; font-size: 1.6rem; font-weight: 900; line-height: 1.3; }
+.s1 h1 span { display: block; font-size: 2.2rem; background: linear-gradient(90deg, #fff, #ffe0b2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.s1 .sub { color: rgba(255,255,255,0.9); font-size: 0.95rem; margin-top: 12px; }
+
+/* SLIDE 2 - Produits cuisine */
+.s2 { background: linear-gradient(135deg, #1a1a2e, #16213e); }
+.s2 h2 { color: #E47911; font-size: 1.5rem; font-weight: 900; margin-bottom: 20px; }
+.product-list { display: flex; flex-direction: column; gap: 12px; width: 100%; }
+.prod-item {
+  display: flex; align-items: center; gap: 12px;
+  background: rgba(255,255,255,0.08); border-radius: 12px; padding: 10px 14px;
+  opacity: 0; transform: translateX(-30px);
+}
+.prod-item.show { opacity: 1; transform: translateX(0); transition: all 0.5s ease; }
+.prod-item img { width: 55px; height: 55px; object-fit: contain; border-radius: 8px; background: #fff; padding: 4px; }
+.prod-item .info { text-align: left; }
+.prod-item .info .pname { color: #fff; font-size: 0.82rem; font-weight: 700; }
+.prod-item .info .pcat { color: #E47911; font-size: 0.7rem; font-weight: 600; }
+.prod-item .stars-mini { color: #fbbf24; font-size: 0.7rem; }
+
+/* SLIDE 3 - Produits maison */
+.s3 { background: linear-gradient(135deg, #0d1117, #161b22); }
+.s3 h2 { color: #10b981; font-size: 1.5rem; font-weight: 900; margin-bottom: 20px; }
+.s3 .prod-item { background: rgba(16,185,129,0.1); }
+.s3 .prod-item .info .pcat { color: #10b981; }
+
+/* SLIDE 4 - Stats */
+.s4 { background: linear-gradient(135deg, #302b63, #24243e); }
+.stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; width: 100%; }
+.stat-box {
+  background: rgba(255,255,255,0.08); border-radius: 16px; padding: 20px 10px;
+  opacity: 0; transform: scale(0.5);
+}
+.stat-box.show { opacity: 1; transform: scale(1); transition: all 0.5s ease; }
+.stat-num { font-size: 2.2rem; font-weight: 900; color: #E47911; }
+.stat-label { color: rgba(255,255,255,0.8); font-size: 0.75rem; margin-top: 4px; }
+
+/* SLIDE 5 - CTA */
+.s5 { background: linear-gradient(135deg, #E47911, #ff6b35, #E47911); background-size: 200% 200%; animation: gradMove 3s ease infinite; }
+.s5 .cta-url {
+  font-size: 1.1rem; font-weight: 900; color: #fff;
+  background: rgba(0,0,0,0.3); padding: 14px 28px; border-radius: 50px;
+  margin-top: 20px; letter-spacing: 0.5px;
+}
+.s5 h2 { color: #fff; font-size: 1.8rem; font-weight: 900; line-height: 1.3; }
+.s5 .emoji-big { font-size: 4rem; margin-bottom: 10px; }
+.s5 .arrow { font-size: 2rem; color: #fff; margin-top: 16px; animation: arrowBounce 0.8s infinite; }
+
+/* PROGRESS BAR */
+.progress-bar {
+  position: absolute; top: 0; left: 0; height: 3px;
+  background: #E47911; z-index: 10; width: 0%;
+}
+
+/* SWIPE HINT */
+.swipe-hint {
+  position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);
+  color: rgba(255,255,255,0.5); font-size: 0.7rem; z-index: 5;
+}
+
+@keyframes bounce { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+@keyframes gradMove { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+@keyframes arrowBounce { 0%,100% { transform: translateY(0); } 50% { transform: translateY(8px); } }
+@keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+
+.replay-btn {
+  position: absolute; bottom: 16px; right: 16px;
+  background: rgba(255,255,255,0.2); color: #fff; border: none;
+  padding: 8px 14px; border-radius: 20px; font-size: 0.75rem; cursor: pointer; z-index: 10;
+  display: none;
+}
+.replay-btn.show { display: none; }
+</style>
+</head>
+<body>
+
+<div class="phone" id="phone">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- SLIDE 1: Intro -->
+  <div class="slide s1 active" data-duration="3000">
+    <div class="logo">⭐</div>
+    <h1>Trouvez les<span>meilleurs appareils</span></h1>
+    <p class="sub">Cuisine & Maison Connect&#233;e</p>
+  </div>
+
+  <!-- SLIDE 2: Cuisine -->
+  <div class="slide s2" data-duration="4000">
+    <h2>🍳 Cuisine</h2>
+    <div class="product-list">
+      <div class="prod-item">
+        <img referrerpolicy="no-referrer" crossorigin="anonymous" src="https://m.media-amazon.com/images/I/51ctVYliSOL._AC_SX679_.jpg" alt="Air Fryer"/>
+        <div class="info"><div class="pcat">AIR FRYER</div><div class="pname">Ninja AF160EU XL 6,2L</div><div class="stars-mini">★★★★★ 4.7</div></div>
+      </div>
+      <div class="prod-item">
+        <img referrerpolicy="no-referrer" crossorigin="anonymous" src="https://m.media-amazon.com/images/I/51+rwYUs2QL._AC_SX679_.jpg" alt="Cafe"/>
+        <div class="info"><div class="pcat">MACHINE A CAFE</div><div class="pname">De'Longhi Magnifica Evo</div><div class="stars-mini">★★★★★ 4.6</div></div>
+      </div>
+      <div class="prod-item">
+        <img referrerpolicy="no-referrer" crossorigin="anonymous" src="https://m.media-amazon.com/images/I/61VjyRHbreL._AC_SX679_.jpg" alt="Robot"/>
+        <div class="info"><div class="pcat">ROBOT CUISEUR</div><div class="pname">Moulinex Companion XL</div><div class="stars-mini">★★★★★ 4.5</div></div>
+      </div>
+      <div class="prod-item">
+        <img referrerpolicy="no-referrer" crossorigin="anonymous" src="https://m.media-amazon.com/images/I/71m0uVGpbNL._AC_SX679_.jpg" alt="Blender"/>
+        <div class="info"><div class="pcat">BLENDER</div><div class="pname">Philips HR3573/90 1000W</div><div class="stars-mini">★★★★★ 4.5</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 3: Maison -->
+  <div class="slide s3" data-duration="4000">
+    <h2>🏠 Maison Connect&#233;e</h2>
+    <div class="product-list">
+      <div class="prod-item">
+        <img referrerpolicy="no-referrer" crossorigin="anonymous" src="https://m.media-amazon.com/images/I/61K9Ci2sU6L._AC_SY300_SX300_QL70_ML2_.jpg" alt="Aspirateur"/>
+        <div class="info"><div class="pcat">ASPIRATEUR ROBOT</div><div class="pname">Roborock S8 Pro Ultra</div><div class="stars-mini">★★★★★ 4.8</div></div>
+      </div>
+      <div class="prod-item">
+        <img referrerpolicy="no-referrer" crossorigin="anonymous" src="https://m.media-amazon.com/images/I/61N7fCbfQgL._AC_SX679_.jpg" alt="Camera"/>
+        <div class="info"><div class="pcat">CAMERA SOLAIRE</div><div class="pname">GALAYOU 2K WiFi</div><div class="stars-mini">★★★★★ 4.4</div></div>
+      </div>
+      <div class="prod-item">
+        <img referrerpolicy="no-referrer" crossorigin="anonymous" src="https://m.media-amazon.com/images/I/41mjJlfUTSL._AC_SX679_.jpg" alt="Enceinte"/>
+        <div class="info"><div class="pcat">ENCEINTE</div><div class="pname">Amazon Echo Pop</div><div class="stars-mini">★★★★★ 4.3</div></div>
+      </div>
+      <div class="prod-item">
+        <img referrerpolicy="no-referrer" crossorigin="anonymous" src="https://m.media-amazon.com/images/I/41t1EJFyOTL._AC_SX679_.jpg" alt="Alarme"/>
+        <div class="info"><div class="pcat">ALARME</div><div class="pname">Somfy Home Alarm</div><div class="stars-mini">★★★★★ 4.2</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 4: Stats -->
+  <div class="slide s4" data-duration="3000">
+    <h2 style="color:#E47911;font-size:1.4rem;margin-bottom:20px;">Pourquoi nous ?</h2>
+    <div class="stat-grid">
+      <div class="stat-box"><div class="stat-num">50+</div><div class="stat-label">Produits testes</div></div>
+      <div class="stat-box"><div class="stat-num">15+</div><div class="stat-label">Categories</div></div>
+      <div class="stat-box"><div class="stat-num">100%</div><div class="stat-label">Independant</div></div>
+      <div class="stat-box"><div class="stat-num">0€</div><div class="stat-label">Gratuit</div></div>
+    </div>
+  </div>
+
+  <!-- SLIDE 5: CTA -->
+  <div class="slide s5" data-duration="4000">
+    <div class="emoji-big">🔥</div>
+    <h2>Les meilleurs deals au meilleur prix !</h2>
+    <div class="cta-url">maison-connect&#233;e.fr</div>
+    <div class="arrow">⬇</div>
+  </div>
+
+  <button class="replay-btn" id="replayBtn" onclick="startShow()">🔄 Rejouer</button>
+</div>
+
+<button id="recordBtn" style="display:none;">🎬 Enregistrer</button>
+<div id="recordStatus" style="display:none;"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script>
+const slides = document.querySelectorAll('.slide');
+const progressBar = document.getElementById('progressBar');
+const replayBtn = document.getElementById('replayBtn');
+let current = 0;
+let timeout;
+
+function showSlide(index) {
+  slides.forEach(s => s.classList.remove('active'));
+  slides[index].classList.add('active');
+
+  // Animate progress
+  const totalSlides = slides.length;
+  const pct = ((index + 1) / totalSlides) * 100;
+  progressBar.style.transition = `width ${parseInt(slides[index].dataset.duration)}ms linear`;
+  progressBar.style.width = pct + '%';
+
+  // Animate prod-items
+  const items = slides[index].querySelectorAll('.prod-item');
+  items.forEach((item, i) => {
+    item.classList.remove('show');
+    setTimeout(() => item.classList.add('show'), 200 + i * 300);
+  });
+
+  // Animate stat-boxes
+  const stats = slides[index].querySelectorAll('.stat-box');
+  stats.forEach((box, i) => {
+    box.classList.remove('show');
+    setTimeout(() => box.classList.add('show'), 200 + i * 250);
+  });
+
+  // Next slide
+  const duration = parseInt(slides[index].dataset.duration);
+  if (index < slides.length - 1) {
+    timeout = setTimeout(() => {
+      current++;
+      showSlide(current);
+    }, duration);
+  } else {
+    setTimeout(() => replayBtn.classList.add('show'), 1500);
+  }
+}
+
+// ===== MUSIC =====
+function playMusic() {
+  const ctx = new (window.AudioContext || window.webkitAudioContext)();
+  const bpm = 120;
+  const beat = 60 / bpm;
+  const totalBeats = 40;
+
+  // Master volume
+  const master = ctx.createGain();
+  master.gain.value = 0.3;
+  master.connect(ctx.destination);
+
+  // Bass synth
+  function playBass(note, time, dur) {
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.type = 'sawtooth';
+    osc.frequency.value = note;
+    gain.gain.setValueAtTime(0.25, time);
+    gain.gain.exponentialRampToValueAtTime(0.01, time + dur);
+    osc.connect(gain);
+    gain.connect(master);
+    osc.start(time);
+    osc.stop(time + dur);
+  }
+
+  // Lead synth
+  function playLead(note, time, dur) {
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.type = 'square';
+    osc.frequency.value = note;
+    gain.gain.setValueAtTime(0.12, time);
+    gain.gain.exponentialRampToValueAtTime(0.01, time + dur);
+    osc.connect(gain);
+    gain.connect(master);
+    osc.start(time);
+    osc.stop(time + dur);
+  }
+
+  // Kick drum
+  function playKick(time) {
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.frequency.setValueAtTime(150, time);
+    osc.frequency.exponentialRampToValueAtTime(30, time + 0.15);
+    gain.gain.setValueAtTime(0.6, time);
+    gain.gain.exponentialRampToValueAtTime(0.01, time + 0.2);
+    osc.connect(gain);
+    gain.connect(master);
+    osc.start(time);
+    osc.stop(time + 0.2);
+  }
+
+  // Hi-hat (noise)
+  function playHiHat(time) {
+    const bufferSize = ctx.sampleRate * 0.05;
+    const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+    const data = buffer.getChannelData(0);
+    for (let i = 0; i < bufferSize; i++) data[i] = Math.random() * 2 - 1;
+    const src = ctx.createBufferSource();
+    src.buffer = buffer;
+    const gain = ctx.createGain();
+    const filter = ctx.createBiquadFilter();
+    filter.type = 'highpass';
+    filter.frequency.value = 8000;
+    gain.gain.setValueAtTime(0.15, time);
+    gain.gain.exponentialRampToValueAtTime(0.01, time + 0.05);
+    src.connect(filter);
+    filter.connect(gain);
+    gain.connect(master);
+    src.start(time);
+  }
+
+  const now = ctx.currentTime + 0.1;
+  const bassNotes = [130.81, 146.83, 164.81, 146.83]; // C3 D3 E3 D3
+  const leadMelody = [523.25, 587.33, 659.25, 783.99, 659.25, 587.33, 523.25, 783.99]; // C5 D5 E5 G5...
+
+  for (let i = 0; i < totalBeats; i++) {
+    const t = now + i * beat;
+    // Kick on every beat
+    playKick(t);
+    // Hi-hat on every half beat
+    playHiHat(t);
+    playHiHat(t + beat * 0.5);
+    // Bass every 2 beats
+    if (i % 2 === 0) playBass(bassNotes[(i / 2) % bassNotes.length], t, beat * 1.8);
+    // Lead melody every beat starting beat 8
+    if (i >= 8) playLead(leadMelody[i % leadMelody.length], t, beat * 0.7);
+  }
+}
+
+function startShow() {
+  current = 0;
+  clearTimeout(timeout);
+  replayBtn.classList.remove('show');
+  progressBar.style.transition = 'none';
+  playMusic();
+  progressBar.style.width = '0%';
+  setTimeout(() => showSlide(0), 100);
+}
+
+startShow();
+
+// === VIDEO RECORDING ===
+document.getElementById('recordBtn').addEventListener('click', async function() {
+  const btn = this;
+  const status = document.getElementById('recordStatus');
+  const phone = document.getElementById('phone');
+
+  btn.disabled = true;
+  btn.style.opacity = '0.5';
+  status.textContent = 'Preparation...';
+
+  // Create canvas at TikTok resolution
+  const canvas = document.createElement('canvas');
+  canvas.width = 720;
+  canvas.height = 1280;
+  const ctx = canvas.getContext('2d');
+
+  const stream = canvas.captureStream(30);
+  // Try mp4 first, fallback to webm
+  const mimeType = MediaRecorder.isTypeSupported('video/mp4;codecs=avc1') ? 'video/mp4;codecs=avc1' : 'video/webm;codecs=vp9';
+  const ext = mimeType.startsWith('video/mp4') ? 'mp4' : 'webm';
+  const recorder = new MediaRecorder(stream, { mimeType, videoBitsPerSecond: 5000000 });
+  const chunks = [];
+
+  recorder.ondataavailable = e => { if (e.data.size > 0) chunks.push(e.data); };
+  recorder.onstop = () => {
+    const blob = new Blob(chunks, { type: mimeType });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'tiktok-promo-meilleursappareils.' + ext;
+    a.click();
+    URL.revokeObjectURL(url);
+    btn.disabled = false;
+    btn.style.opacity = '1';
+    status.textContent = 'Video telechargee !';
+  };
+
+  // Start recording
+  recorder.start();
+  status.textContent = 'Enregistrement en cours...';
+
+  // Restart the animation
+  current = 0;
+  clearTimeout(timeout);
+  replayBtn.classList.remove('show');
+  progressBar.style.transition = 'none';
+  progressBar.style.width = '0%';
+
+  // Capture frames
+  const totalDuration = 18500; // total animation time
+  const fps = 30;
+  const frameInterval = 1000 / fps;
+  let elapsed = 0;
+
+  // Start animation
+  setTimeout(() => showSlide(0), 100);
+
+  const captureFrame = () => {
+    html2canvas(phone, {
+      scale: 2,
+      useCORS: true,
+      allowTaint: true,
+      backgroundColor: null
+    }).then(shot => {
+      ctx.clearRect(0, 0, 720, 1280);
+      ctx.drawImage(shot, 0, 0, 720, 1280);
+      elapsed += frameInterval;
+      if (elapsed < totalDuration) {
+        setTimeout(captureFrame, frameInterval);
+      } else {
+        recorder.stop();
+        status.textContent = 'Finalisation...';
+      }
+    });
+  };
+
+  setTimeout(captureFrame, 200);
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ampoules et Éclairage Connecté 2026 — Comparatif</title>
+  <meta name="description" content="Découvrez notre comparatif des meilleures ampoules, spots et éclairages connectés WiFi (Philips Hue, Tapo, Govee) pour votre maison en 2026." />
+  <meta name="robots" content="index, follow" />
+  
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">⭐</span>
+        <span>MeilleursAppareils</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html#cuisine">🍳 Cuisine</a>
+        <a href="index.html#maison">🏠 Maison connectée</a>
+        <a href="index.html#guides">📋 Guides</a>
+        <a href="index.html#promo">🔥 Promos</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO / INTRO -->
+  <section class="hero" style="min-height:260px;padding:40px 0 60px">
+    <div class="container hero-content">
+      <div class="hero-badge">💡 Guide d'achat 2026</div>
+      <h1>Ampoules &amp; <span class="gradient-text">Eclairage Connecté</span></h1>
+      <p class="hero-sub">Contrôlez la lumière à la voix avec Alexa ou Google Home et créez des ambiances immersives de plusieurs millions de couleurs.</p>
+    </div>
+    <div class="hero-wave"></div>
+  </section>
+
+  <!-- GUIDE TEXT -->
+  <section class="section container">
+    <div style="max-width:820px;margin:0 auto 48px;">
+      <h2 style="font-size:1.45rem;font-weight:700;margin-bottom:16px;color:#1e293b;">Philips Hue vs Solutions WiFi</h2>
+      <p style="color:#374151;line-height:1.8;margin-bottom:16px;">
+        Les systèmes comme Philips Hue utilisent le protocole Zigbee avec un "pont" pour ne pas saturer votre réseau Wifi, idéal si vous equipez toute la maison. Pour quelques ampoules seulement, optez pour des marques comme Tapo ou Govee qui se connectent directement à votre box via le WiFi.
+      </p>
+    </div>
+
+    <!-- PRODUCTS -->
+    <div class="section-header">
+      <h2>🌈 Notre sélection — Éclairage Connecté</h2>
+      <p class="section-sub">Spots GU10, ampoules E27 avec ou sans pont</p>
+    </div>
+    <div class="products-grid" id="categoryGrid"></div>
+  </section>
+
+  <!-- RETOUR ACCUEIL -->
+  <section class="section container" style="text-align:center;padding-top:20px;padding-bottom:40px;">
+    <a href="index.html" style="display:inline-flex;align-items:center;gap:8px;color:#3b82f6;font-weight:600;text-decoration:none;font-size:1rem;">
+      ← Retour à l'accueil
+    </a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <span>⭐</span>
+        <span>MeilleursAppareils</span>
+      </div>
+      <p class="footer-copy">© 2026 MeilleursAppareils — Site indépendant, non affilié à Amazon.</p>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+  <script>
+    function renderCategoryPage(subcat, section) {
+      const source = section === 'cuisine' ? cuisineProducts : maisonProducts;
+      const filtered = source.filter(p => p.subcat === subcat);
+      const grid = document.getElementById('categoryGrid');
+      if (!filtered.length) {
+        grid.innerHTML = '<p style="color:#6b7280;padding:20px">Aucun produit trouvé.</p>';
+        return;
+      }
+      grid.innerHTML = filtered.map(renderProductCard).join('');
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+      renderCategoryPage('lumiere', 'maison');
+    });
+  </script>
+</body>
+</html>

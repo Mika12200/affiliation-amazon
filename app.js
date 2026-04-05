@@ -34,7 +34,7 @@ function renderTopPicks() {
       <div class="top-card-footer">
         <a href="${amzLink(p.asin)}" class="btn-amazon" target="_blank" rel="noopener">
           <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" height="16" alt="Amazon" style="filter:brightness(0)"/>
-          Voir le prix sur Amazon
+          ${p.priceOld ? 'Vérifier la promo 🔥' : 'Voir le prix sur Amazon'}
         </a>
       </div>
     </div>
@@ -64,7 +64,7 @@ function renderProductCard(p) {
       <div class="product-footer">
         <a href="${amzLink(p.asin)}" class="btn-amazon" target="_blank" rel="noopener">
           <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" height="14" alt="Amazon" style="filter:brightness(0)"/>
-          Voir le prix sur Amazon
+          ${p.priceOld ? 'Vérifier la promo 🔥' : 'Voir le prix sur Amazon'}
         </a>
       </div>
     </div>
