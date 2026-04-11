@@ -31,11 +31,15 @@ function renderTopPicks() {
           ${p.cons.map(x => `<div class="con">${x}</div>`).join("")}
         </div>
       </div>
-      <div class="top-card-footer">
+      <div class="top-card-footer" style="display:flex;flex-direction:column;">
         <a href="${amzLink(p.asin)}" class="btn-amazon" target="_blank" rel="noopener">
           <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" height="16" alt="Amazon" style="filter:brightness(0)"/>
           ${p.priceOld ? 'Vérifier la promo 🔥' : 'Voir le prix sur Amazon'}
         </a>
+        ${p.aliLink ? `
+        <a href="${p.aliLink}" class="btn-aliexpress" target="_blank" rel="noopener">
+          Voir le prix sur AliExpress
+        </a>` : ''}
       </div>
     </div>
   `).join("");
@@ -61,11 +65,15 @@ function renderProductCard(p) {
         </div>
         <div class="product-desc">${p.desc}</div>
       </div>
-      <div class="product-footer">
+      <div class="product-footer" style="display:flex;flex-direction:column;">
         <a href="${amzLink(p.asin)}" class="btn-amazon" target="_blank" rel="noopener">
           <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" height="14" alt="Amazon" style="filter:brightness(0)"/>
           ${p.priceOld ? 'Vérifier la promo 🔥' : 'Voir le prix sur Amazon'}
         </a>
+        ${p.aliLink ? `
+        <a href="${p.aliLink}" class="btn-aliexpress" target="_blank" rel="noopener">
+          Voir le prix sur AliExpress
+        </a>` : ''}
       </div>
     </div>
   `;

@@ -91,6 +91,32 @@ a { text-decoration: none; color: inherit; }
 }
 .btn-amazon:active { transform: translateY(0); }
 
+.btn-aliexpress {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  background: linear-gradient(180deg, #ff6b6b 0%, #ff4747 100%);
+  color: #fff;
+  border: 1px solid #e03e3e;
+  border-radius: var(--radius-sm);
+  padding: 11px 18px;
+  margin-top: 8px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(255, 71, 71, 0.2);
+}
+.btn-aliexpress:hover {
+  background: linear-gradient(180deg, #ff7e7e 0%, #ff5c5c 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(255, 71, 71, 0.4);
+}
+.btn-aliexpress:active { transform: translateY(0); }
+
 /* ===== HEADER ===== */
 .header {
   position: sticky; top: 0; z-index: 100;
