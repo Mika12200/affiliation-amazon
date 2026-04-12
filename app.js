@@ -1,4 +1,4 @@
-﻿// ===== HELPERS =====
+// ===== HELPERS =====
 function stars(rating) {
   const full = Math.floor(rating);
   const half = rating % 1 >= 0.5 ? 1 : 0;
@@ -34,7 +34,7 @@ function renderTopPicks() {
       <div class="top-card-footer" style="display:flex;flex-direction:column;">
         <a href="${amzLink(p.asin)}" class="btn-amazon" target="_blank" rel="noopener">
           <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" height="16" alt="Amazon" style="filter:brightness(0)"/>
-          ${p.priceOld ? 'VÃ©rifier la promo ðŸ”¥' : 'Voir le prix sur Amazon'}
+          ${p.priceOld ? 'Vérifier la promo 🔥' : 'Voir le prix sur Amazon'}
         </a>
         ${p.aliLink ? `
         <a href="${p.aliLink}" class="btn-aliexpress" target="_blank" rel="noopener">
@@ -68,7 +68,7 @@ function renderProductCard(p) {
       <div class="product-footer" style="display:flex;flex-direction:column;">
         <a href="${amzLink(p.asin)}" class="btn-amazon" target="_blank" rel="noopener">
           <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" height="14" alt="Amazon" style="filter:brightness(0)"/>
-          ${p.priceOld ? 'VÃ©rifier la promo ðŸ”¥' : 'Voir le prix sur Amazon'}
+          ${p.priceOld ? 'Vérifier la promo 🔥' : 'Voir le prix sur Amazon'}
         </a>
         ${p.aliLink ? `
         <a href="${p.aliLink}" class="btn-aliexpress" target="_blank" rel="noopener">
@@ -155,13 +155,13 @@ function filterProducts() {
 
   document.getElementById("cuisineGrid").innerHTML = matchC.length
     ? matchC.map(renderProductCard).join("")
-    : `<p style="color:#6b7280;padding:20px">Aucun rÃ©sultat dans Cuisine.</p>`;
+    : `<p style="color:#6b7280;padding:20px">Aucun résultat dans Cuisine.</p>`;
 
   document.getElementById("maisonGrid").innerHTML = matchM.length
     ? matchM.map(renderProductCard).join("")
-    : `<p style="color:#6b7280;padding:20px">Aucun rÃ©sultat dans Maison connectÃ©e.</p>`;
+    : `<p style="color:#6b7280;padding:20px">Aucun résultat dans Maison connectée.</p>`;
 
-  // Scroll vers les rÃ©sultats
+  // Scroll vers les résultats
   const target = matchC.length ? "cuisine" : matchM.length ? "maison" : "cuisine";
   document.getElementById(target).scrollIntoView({ behavior: "smooth" });
 }
