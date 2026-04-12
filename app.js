@@ -3,7 +3,7 @@ function stars(rating) {
   const full = Math.floor(rating);
   const half = rating % 1 >= 0.5 ? 1 : 0;
   const empty = 5 - full - half;
-  return "â˜…".repeat(full) + (half ? "Â½" : "") + "â˜†".repeat(empty);
+  return "★".repeat(full) + (half ? "½" : "") + "☆".repeat(empty);
 }
 
 // ===== TOP PICKS =====
