@@ -1,4 +1,4 @@
-﻿const TAG = "meilleursappa-21";
+const TAG = "meilleursappa-21";
 
 function amzLink(asin) {
   return `https://www.amazon.fr/dp/${asin}?tag=${TAG}`;
@@ -1221,7 +1221,7 @@ const maisonProducts = [
 // ===== GUIDES =====
 const guides = [
   {
-    icon: "ðŸŸ",
+    icon: "🍟",
     cat: "Guide d'achat",
     title: "Quel air fryer choisir en 2026 ?",
     desc: "Capacité, puissance, fonctions… tout ce qu'il faut savoir avant d'acheter votre friteuse à air.",
