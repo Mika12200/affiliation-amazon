@@ -1,9 +1,9 @@
-// ===== HELPERS =====
+﻿// ===== HELPERS =====
 function stars(rating) {
   const full = Math.floor(rating);
   const half = rating % 1 >= 0.5 ? 1 : 0;
   const empty = 5 - full - half;
-  return "★".repeat(full) + (half ? "½" : "") + "☆".repeat(empty);
+  return "â˜…".repeat(full) + (half ? "Â½" : "") + "â˜†".repeat(empty);
 }
 
 // ===== TOP PICKS =====
@@ -34,11 +34,11 @@ function renderTopPicks() {
       <div class="top-card-footer" style="display:flex;flex-direction:column;">
         <a href="${amzLink(p.asin)}" class="btn-amazon" target="_blank" rel="noopener">
           <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" height="16" alt="Amazon" style="filter:brightness(0)"/>
-          ${p.priceOld ? 'Vérifier la promo 🔥' : 'Voir le prix sur Amazon'}
+          ${p.priceOld ? 'VÃ©rifier la promo ðŸ”¥' : 'Voir le prix sur Amazon'}
         </a>
         ${p.aliLink ? `
         <a href="${p.aliLink}" class="btn-aliexpress" target="_blank" rel="noopener">
-          Voir le prix sur AliExpress
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 7 C5 17 19 17 19 7" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg> Voir sur AliExpress
         </a>` : ''}
       </div>
     </div>
@@ -68,11 +68,11 @@ function renderProductCard(p) {
       <div class="product-footer" style="display:flex;flex-direction:column;">
         <a href="${amzLink(p.asin)}" class="btn-amazon" target="_blank" rel="noopener">
           <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" height="14" alt="Amazon" style="filter:brightness(0)"/>
-          ${p.priceOld ? 'Vérifier la promo 🔥' : 'Voir le prix sur Amazon'}
+          ${p.priceOld ? 'VÃ©rifier la promo ðŸ”¥' : 'Voir le prix sur Amazon'}
         </a>
         ${p.aliLink ? `
         <a href="${p.aliLink}" class="btn-aliexpress" target="_blank" rel="noopener">
-          Voir le prix sur AliExpress
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 7 C5 17 19 17 19 7" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg> Voir sur AliExpress
         </a>` : ''}
       </div>
     </div>
@@ -155,13 +155,13 @@ function filterProducts() {
 
   document.getElementById("cuisineGrid").innerHTML = matchC.length
     ? matchC.map(renderProductCard).join("")
-    : `<p style="color:#6b7280;padding:20px">Aucun résultat dans Cuisine.</p>`;
+    : `<p style="color:#6b7280;padding:20px">Aucun rÃ©sultat dans Cuisine.</p>`;
 
   document.getElementById("maisonGrid").innerHTML = matchM.length
     ? matchM.map(renderProductCard).join("")
-    : `<p style="color:#6b7280;padding:20px">Aucun résultat dans Maison connectée.</p>`;
+    : `<p style="color:#6b7280;padding:20px">Aucun rÃ©sultat dans Maison connectÃ©e.</p>`;
 
-  // Scroll vers les résultats
+  // Scroll vers les rÃ©sultats
   const target = matchC.length ? "cuisine" : matchM.length ? "maison" : "cuisine";
   document.getElementById(target).scrollIntoView({ behavior: "smooth" });
 }
@@ -174,3 +174,4 @@ document.addEventListener("DOMContentLoaded", () => {
   renderGuides();
   renderPromos();
 });
+
