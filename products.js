@@ -43,6 +43,7 @@ const topPicks = [
     pros: ["Aspiration 6000Pa", "Lavage vadrouille rotatif", "Vidage automatique"],
     cons: ["Prix premium"],
     asin: "B0BSL98D73",
+    aliLink: "https://s.click.aliexpress.com/e/_c4djF7HL",
     img: "https://m.media-amazon.com/images/I/61K9Ci2sU6L._AC_SY300_SX300_QL70_ML2_.jpg"
   }
 ];
@@ -285,6 +286,7 @@ const maisonProducts = [
     desc: "Aspiration + lavage simultanés. Station de vidage et lavage automatique.",
     price: "699,99€", priceOld: "899,99€",
     rating: 4.8, asin: "B0BSL98D73",
+    aliLink: "https://s.click.aliexpress.com/e/_c4djF7HL",
     img: "https://m.media-amazon.com/images/I/61K9Ci2sU6L._AC_SY300_SX300_QL70_ML2_.jpg"
   },
   {
@@ -1215,6 +1217,195 @@ const maisonProducts = [
     price: "7,99€", priceOld: "",
     rating: 4.3, asin: "B01LRS24E8",
     img: "https://m.media-amazon.com/images/I/412QMxhB5wL._AC_SX425_.jpg"
+  },
+];
+
+// ===== TECH & GADGETS =====
+const techProducts = [
+  // --- Montres connectées ---
+  {
+    id: "t1", subcat: "montre",
+    emoji: "⌚", brand: "Apple", badge: "Top",
+    name: "Apple Watch SE (2e gén.) 40mm GPS",
+    desc: "Écran Retina OLED, détection accidents, suivi santé & sport, étanche 50m.",
+    price: "269,00€", priceOld: "299,00€",
+    rating: 4.7, asin: "B0DGHY3PRT",
+    img: "https://m.media-amazon.com/images/I/61lYIKPieDL._AC_SX679_.jpg"
+  },
+  {
+    id: "t2", subcat: "montre",
+    emoji: "⌚", brand: "Samsung", badge: "Best-seller",
+    name: "Samsung Galaxy Watch6 44mm Bluetooth",
+    desc: "Écran saphir, suivi santé avancé, IP68 + 5ATM, Wear OS by Google.",
+    price: "229,00€", priceOld: "319,00€",
+    rating: 4.5, asin: "B0C89G7S58",
+    img: "https://m.media-amazon.com/images/I/61B0B3VfxjL._AC_SX679_.jpg"
+  },
+  {
+    id: "t3", subcat: "montre",
+    emoji: "⌚", brand: "Garmin", badge: "",
+    name: "Garmin Venu Sq 2 GPS Multisport",
+    desc: "Écran AMOLED, GPS intégré, +25 sports, fréquence cardiaque, SpO2, 11 jours d'autonomie.",
+    price: "199,99€", priceOld: "269,99€",
+    rating: 4.4, asin: "B0B7MSV1YX",
+    img: "https://m.media-amazon.com/images/I/61x5YLMgB2L._AC_SX679_.jpg"
+  },
+  {
+    id: "t4", subcat: "montre",
+    emoji: "⌚", brand: "Amazfit", badge: "-30%",
+    name: "Amazfit GTS 4 Mini Montre Connectée",
+    desc: "Alexa intégrée, 120+ sports, GPS, SpO2, 15 jours d'autonomie. Ultra légère.",
+    price: "89,90€", priceOld: "129,90€",
+    rating: 4.4, asin: "B0B9WPLJP3",
+    img: "https://m.media-amazon.com/images/I/51h9M-PWRQL._AC_SX679_.jpg"
+  },
+  // --- Écouteurs Bluetooth ---
+  {
+    id: "t5", subcat: "ecouteur",
+    emoji: "🎧", brand: "Apple", badge: "Top",
+    name: "Apple AirPods Pro 2 (USB-C)",
+    desc: "Réduction de bruit active, audio spatial, boîtier USB-C MagSafe, 6h d'autonomie.",
+    price: "229,00€", priceOld: "279,00€",
+    rating: 4.7, asin: "B0CHWZ9TZS",
+    img: "https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_SX679_.jpg"
+  },
+  {
+    id: "t6", subcat: "ecouteur",
+    emoji: "🎧", brand: "Sony", badge: "Best-seller",
+    name: "Sony WF-1000XM5 Intra-auriculaires",
+    desc: "Meilleure réduction de bruit, LDAC Hi-Res, 24h d'autonomie totale, IPX4.",
+    price: "249,00€", priceOld: "319,00€",
+    rating: 4.6, asin: "B0C4TLFZSZ",
+    img: "https://m.media-amazon.com/images/I/51mEgYqoguL._AC_SX679_.jpg"
+  },
+  {
+    id: "t7", subcat: "ecouteur",
+    emoji: "🎧", brand: "Samsung", badge: "-45%",
+    name: "Samsung Galaxy Buds FE",
+    desc: "ANC, son AKG, 3 micros, résistant à l'eau IPX2, jusqu'à 30h avec boîtier.",
+    price: "59,00€", priceOld: "109,00€",
+    rating: 4.4, asin: "B0CHBPHSPC",
+    img: "https://m.media-amazon.com/images/I/51k-yyRxXnL._AC_SX679_.jpg"
+  },
+  {
+    id: "t8", subcat: "ecouteur",
+    emoji: "🎧", brand: "JBL", badge: "Nouveau",
+    name: "JBL Tune Buds Bluetooth 5.3",
+    desc: "Réduction de bruit, JBL Pure Bass, 48h d'autonomie, charge rapide, IP54.",
+    price: "49,99€", priceOld: "79,99€",
+    rating: 4.3, asin: "B0C346BVDN",
+    img: "https://m.media-amazon.com/images/I/51s6SJuPICL._AC_SX679_.jpg"
+  },
+  // --- Tablettes ---
+  {
+    id: "t9", subcat: "tablette",
+    emoji: "📱", brand: "Apple", badge: "Top",
+    name: "Apple iPad 10,9\" (10e gén.) 64 Go Wi-Fi",
+    desc: "Puce A14, écran Liquid Retina, USB-C, Wi-Fi 6, Touch ID, Apple Pencil compatible.",
+    price: "349,00€", priceOld: "409,00€",
+    rating: 4.7, asin: "B0DK3ZCSRH",
+    img: "https://m.media-amazon.com/images/I/61lYkGFMXkL._AC_SX679_.jpg"
+  },
+  {
+    id: "t10", subcat: "tablette",
+    emoji: "📱", brand: "Samsung", badge: "Best-seller",
+    name: "Samsung Galaxy Tab A9+ 11\" Wi-Fi 64 Go",
+    desc: "Écran FHD+ 1920×1200, son 3D Dolby Atmos, multitâche, longue autonomie. Version FR.",
+    price: "219,00€", priceOld: "289,00€",
+    rating: 4.4, asin: "B0CNGR8WBC",
+    img: "https://m.media-amazon.com/images/I/61VbbCZ2N6L._AC_SX679_.jpg"
+  },
+  {
+    id: "t11", subcat: "tablette",
+    emoji: "📱", brand: "Samsung", badge: "-25%",
+    name: "Samsung Galaxy Tab A9 8,7\" Wi-Fi 64 Go",
+    desc: "Compact et léger, idéal famille, double haut-parleur, Samsung Knox, USB-C.",
+    price: "149,00€", priceOld: "199,00€",
+    rating: 4.3, asin: "B0CN5LBKLL",
+    img: "https://m.media-amazon.com/images/I/51s8A9NM3bL._AC_SX679_.jpg"
+  },
+  {
+    id: "t12", subcat: "tablette",
+    emoji: "📱", brand: "Samsung", badge: "",
+    name: "Samsung Galaxy Tab A9+ 11\" 128 Go Wi-Fi",
+    desc: "128 Go de stockage, chargeur 25W inclus, écran FHD+, son surround, anthracite.",
+    price: "269,00€", priceOld: "339,00€",
+    rating: 4.5, asin: "B0CNRRKYTJ",
+    img: "https://m.media-amazon.com/images/I/61VbbCZ2N6L._AC_SX679_.jpg"
+  },
+  // --- Liseuses ---
+  {
+    id: "t13", subcat: "liseuse",
+    emoji: "📖", brand: "Amazon", badge: "Nouveau",
+    name: "Kindle Paperwhite 2024 (16 Go) 7\"",
+    desc: "Écran anti-reflet 7\", le Kindle le plus rapide, sans pub, semaines d'autonomie.",
+    price: "169,99€", priceOld: "189,99€",
+    rating: 4.7, asin: "B0CFPWLGF2",
+    img: "https://m.media-amazon.com/images/I/51JhV7j9VVL._AC_SX679_.jpg"
+  },
+  {
+    id: "t14", subcat: "liseuse",
+    emoji: "📖", brand: "Amazon", badge: "Top",
+    name: "Kindle Paperwhite Signature Edition 32 Go",
+    desc: "Éclairage auto-adaptatif, charge sans fil Qi, 32 Go, métal noir, sans pub.",
+    price: "199,99€", priceOld: "229,99€",
+    rating: 4.7, asin: "B0CFPN47NY",
+    img: "https://m.media-amazon.com/images/I/51JhV7j9VVL._AC_SX679_.jpg"
+  },
+  {
+    id: "t15", subcat: "liseuse",
+    emoji: "📖", brand: "Kobo", badge: "",
+    name: "Kobo Clara BW 6\" (2024) 16 Go",
+    desc: "Écran E Ink anti-reflet, ComfortLight Pro, mode sombre, étanche, audiobooks.",
+    price: "129,99€", priceOld: "",
+    rating: 4.5, asin: "B0CZXYV8GT",
+    img: "https://m.media-amazon.com/images/I/41BKDy9YTBL._AC_SX679_.jpg"
+  },
+  {
+    id: "t16", subcat: "liseuse",
+    emoji: "📖", brand: "Kobo", badge: "Couleur",
+    name: "Kobo Clara Colour 6\" (2024) 16 Go",
+    desc: "Premier écran E Ink couleur Kaleido 3, ComfortLight Pro, étanche, 12 000 eBooks.",
+    price: "149,99€", priceOld: "",
+    rating: 4.4, asin: "B0CZY1LRT4",
+    img: "https://m.media-amazon.com/images/I/41BKDy9YTBL._AC_SX679_.jpg"
+  },
+  // --- Trackers fitness ---
+  {
+    id: "t17", subcat: "tracker",
+    emoji: "💪", brand: "Fitbit", badge: "Top",
+    name: "Fitbit Charge 6 Tracker d'Activité",
+    desc: "6 mois Premium inclus, GPS, fréquence cardiaque, SpO2, Google Wallet, 7j d'autonomie.",
+    price: "119,99€", priceOld: "159,95€",
+    rating: 4.3, asin: "B0CJVNRMQK",
+    img: "https://m.media-amazon.com/images/I/51s0B0YY5AL._AC_SX679_.jpg"
+  },
+  {
+    id: "t18", subcat: "tracker",
+    emoji: "💪", brand: "Xiaomi", badge: "Best-seller",
+    name: "Xiaomi Smart Band 8 AMOLED 1,62\"",
+    desc: "150+ sports, SpO2, VO2max, 16 jours d'autonomie, 5ATM. Meilleur rapport qualité/prix.",
+    price: "29,99€", priceOld: "39,99€",
+    rating: 4.5, asin: "B0CD2MP728",
+    img: "https://m.media-amazon.com/images/I/41KMRG5-U1L._AC_SX679_.jpg"
+  },
+  {
+    id: "t19", subcat: "tracker",
+    emoji: "💪", brand: "Xiaomi", badge: "-40%",
+    name: "Xiaomi Smart Band 8 Active",
+    desc: "Écran TFT 1,47\", charge rapide 1h, 50 sports, 14 jours d'autonomie, 5ATM.",
+    price: "19,99€", priceOld: "34,99€",
+    rating: 4.3, asin: "B0CTLZJZJ6",
+    img: "https://m.media-amazon.com/images/I/51NZokz8K3L._AC_SX679_.jpg"
+  },
+  {
+    id: "t20", subcat: "tracker",
+    emoji: "💪", brand: "Fitbit", badge: "",
+    name: "Fitbit Charge 6 Corail / Or Champagne",
+    desc: "Google Wallet & Maps, 40+ sports, ECG, température cutanée, Fitbit Premium inclus.",
+    price: "129,99€", priceOld: "159,95€",
+    rating: 4.3, asin: "B0CHN2F11G",
+    img: "https://m.media-amazon.com/images/I/51qR2L4T5pL._AC_SX679_.jpg"
   },
 ];
 

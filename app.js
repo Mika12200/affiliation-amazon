@@ -81,6 +81,7 @@ function renderProductCard(p) {
 
 let cuisineFilter = "all";
 let maisonFilter = "all";
+let techFilter = "all";
 
 function renderCuisine() {
   const list = cuisineFilter === "all"
@@ -96,11 +97,19 @@ function renderMaison() {
   document.getElementById("maisonGrid").innerHTML = list.map(renderProductCard).join("");
 }
 
+function renderTech() {
+  const list = techFilter === "all"
+    ? techProducts
+    : techProducts.filter(p => p.subcat === techFilter);
+  document.getElementById("techGrid").innerHTML = list.map(renderProductCard).join("");
+}
+
 function filterCat(btn, section, subcat) {
   const parent = btn.closest(".cat-filters");
   parent.querySelectorAll(".cat-btn").forEach(b => b.classList.remove("active"));
   btn.classList.add("active");
   if (section === "cuisine") { cuisineFilter = subcat; renderCuisine(); }
+  else if (section === "tech") { techFilter = subcat; renderTech(); }
   else { maisonFilter = subcat; renderMaison(); }
 }
 
@@ -115,6 +124,7 @@ function goToGuide(section, subcat) {
   }
   // Apply filter
   if (section === 'cuisine') { cuisineFilter = subcat; renderCuisine(); }
+  else if (section === 'tech') { techFilter = subcat; renderTech(); }
   else { maisonFilter = subcat; renderMaison(); }
   // Scroll to section
   document.getElementById(section).scrollIntoView({ behavior: 'smooth' });
@@ -134,7 +144,7 @@ function renderGuides() {
 
 // ===== PROMOS =====
 function renderPromos() {
-  const allProducts = [...cuisineProducts, ...maisonProducts];
+  const allProducts = [...cuisineProducts, ...maisonProducts, ...techProducts];
   const promos = allProducts.filter(p => p.priceOld);
   document.getElementById("promoGrid").innerHTML = promos.length
     ? promos.map(renderProductCard).join("")
@@ -144,12 +154,15 @@ function renderPromos() {
 // ===== SEARCH =====
 function filterProducts() {
   const q = document.getElementById("headerSearch").value.toLowerCase().trim();
-  if (!q) { renderCuisine(); renderMaison(); return; }
+  if (!q) { renderCuisine(); renderMaison(); renderTech(); return; }
 
   const matchC = cuisineProducts.filter(p =>
     p.name.toLowerCase().includes(q) || p.brand.toLowerCase().includes(q) || p.desc.toLowerCase().includes(q)
   );
   const matchM = maisonProducts.filter(p =>
+    p.name.toLowerCase().includes(q) || p.brand.toLowerCase().includes(q) || p.desc.toLowerCase().includes(q)
+  );
+  const matchT = techProducts.filter(p =>
     p.name.toLowerCase().includes(q) || p.brand.toLowerCase().includes(q) || p.desc.toLowerCase().includes(q)
   );
 
@@ -161,8 +174,12 @@ function filterProducts() {
     ? matchM.map(renderProductCard).join("")
     : `<p style="color:#6b7280;padding:20px">Aucun résultat dans Maison connectée.</p>`;
 
+  document.getElementById("techGrid").innerHTML = matchT.length
+    ? matchT.map(renderProductCard).join("")
+    : `<p style="color:#6b7280;padding:20px">Aucun résultat dans Tech & Gadgets.</p>`;
+
   // Scroll vers les résultats
-  const target = matchC.length ? "cuisine" : matchM.length ? "maison" : "cuisine";
+  const target = matchC.length ? "cuisine" : matchM.length ? "maison" : matchT.length ? "tech" : "cuisine";
   document.getElementById(target).scrollIntoView({ behavior: "smooth" });
 }
 
@@ -171,6 +188,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderTopPicks();
   renderCuisine();
   renderMaison();
+  renderTech();
   renderGuides();
   renderPromos();
 });
