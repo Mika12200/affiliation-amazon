@@ -1230,7 +1230,7 @@ const techProducts = [
     desc: "Écran Retina OLED, détection accidents, suivi santé & sport, étanche 50m.",
     price: "269,00€", priceOld: "299,00€",
     rating: 4.7, asin: "B0DGHY3PRT",
-    img: "https://m.media-amazon.com/images/I/61lYIKPieDL._AC_SX679_.jpg"
+    img: "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-8se-2022.jpg"
   },
   {
     id: "t2", subcat: "montre",
@@ -1239,7 +1239,7 @@ const techProducts = [
     desc: "Écran saphir, suivi santé avancé, IP68 + 5ATM, Wear OS by Google.",
     price: "229,00€", priceOld: "319,00€",
     rating: 4.5, asin: "B0C89G7S58",
-    img: "https://m.media-amazon.com/images/I/61B0B3VfxjL._AC_SX679_.jpg"
+    img: "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-watch6.jpg"
   },
   {
     id: "t3", subcat: "montre",
@@ -1248,7 +1248,7 @@ const techProducts = [
     desc: "Écran AMOLED, GPS intégré, +25 sports, fréquence cardiaque, SpO2, 11 jours d'autonomie.",
     price: "199,99€", priceOld: "269,99€",
     rating: 4.4, asin: "B0B7MSV1YX",
-    img: "https://m.media-amazon.com/images/I/61x5YLMgB2L._AC_SX679_.jpg"
+    img: "https://fdn.gsmarena.com/imgroot/news/22/09/garmin-venu-sq-2-venu-sq-2-music-edition-official/inline/-1200/gsmarena_001.jpg"
   },
   {
     id: "t4", subcat: "montre",
@@ -1257,7 +1257,7 @@ const techProducts = [
     desc: "Alexa intégrée, 120+ sports, GPS, SpO2, 15 jours d'autonomie. Ultra légère.",
     price: "89,90€", priceOld: "129,90€",
     rating: 4.4, asin: "B0B9WPLJP3",
-    img: "https://m.media-amazon.com/images/I/51h9M-PWRQL._AC_SX679_.jpg"
+    img: "https://fdn.gsmarena.com/imgroot/news/22/07/amazfit-gts4-mini-ofic/inline/-1200/gsmarena_002.jpg"
   },
   // --- Écouteurs Bluetooth ---
   {
@@ -1267,7 +1267,7 @@ const techProducts = [
     desc: "Réduction de bruit active, audio spatial, boîtier USB-C MagSafe, 6h d'autonomie.",
     price: "229,00€", priceOld: "279,00€",
     rating: 4.7, asin: "B0CHWZ9TZS",
-    img: "https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_SX679_.jpg"
+    img: "https://www.apple.com/newsroom/images/2023/09/apple-introduces-new-airpods-pro-2nd-generation/article/Apple-AirPods-Pro-2nd-generation-USB-C-connection-230912_inline.jpg.large.jpg"
   },
   {
     id: "t6", subcat: "ecouteur",
@@ -1276,7 +1276,7 @@ const techProducts = [
     desc: "Meilleure réduction de bruit, LDAC Hi-Res, 24h d'autonomie totale, IPX4.",
     price: "249,00€", priceOld: "319,00€",
     rating: 4.6, asin: "B0C4TLFZSZ",
-    img: "https://m.media-amazon.com/images/I/51mEgYqoguL._AC_SX679_.jpg"
+    img: "https://fdn.gsmarena.com/imgroot/news/23/09/sony-wf-1000-xm5-review/gsmarena_100.jpg"
   },
   {
     id: "t7", subcat: "ecouteur",
@@ -1285,7 +1285,7 @@ const techProducts = [
     desc: "ANC, son AKG, 3 micros, résistant à l'eau IPX2, jusqu'à 30h avec boîtier.",
     price: "59,00€", priceOld: "109,00€",
     rating: 4.4, asin: "B0CHBPHSPC",
-    img: "https://m.media-amazon.com/images/I/51k-yyRxXnL._AC_SX679_.jpg"
+    img: "https://fdn.gsmarena.com/imgroot/news/23/09/samsung-galaxy-buds-fe-full-renders/black/gsmarena_001.jpg"
   },
   {
     id: "t8", subcat: "ecouteur",
@@ -1294,7 +1294,7 @@ const techProducts = [
     desc: "Réduction de bruit, JBL Pure Bass, 48h d'autonomie, charge rapide, IP54.",
     price: "49,99€", priceOld: "79,99€",
     rating: 4.3, asin: "B0C346BVDN",
-    img: "https://m.media-amazon.com/images/I/51s6SJuPICL._AC_SX679_.jpg"
+    img: "https://www.soundguys.com/wp-content/uploads/2024/04/JBL-Tune-Buds-hero.jpg"
   },
   // --- Tablettes ---
   {
@@ -1304,7 +1304,7 @@ const techProducts = [
     desc: "Puce A14, écran Liquid Retina, USB-C, Wi-Fi 6, Touch ID, Apple Pencil compatible.",
     price: "349,00€", priceOld: "409,00€",
     rating: 4.7, asin: "B0DK3ZCSRH",
-    img: "https://m.media-amazon.com/images/I/61lYkGFMXkL._AC_SX679_.jpg"
+    img: "https://www.apple.com/newsroom/images/product/ipad/standard/Apple-iPad-10th-gen-hero-221018_Full-Bleed-Image.jpg.large.jpg"
   },
   {
     id: "t10", subcat: "tablette",
@@ -1313,7 +1313,7 @@ const techProducts = [
     desc: "Écran FHD+ 1920×1200, son 3D Dolby Atmos, multitâche, longue autonomie. Version FR.",
     price: "219,00€", priceOld: "289,00€",
     rating: 4.4, asin: "B0CNGR8WBC",
-    img: "https://m.media-amazon.com/images/I/61VbbCZ2N6L._AC_SX679_.jpg"
+    img: "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-a9-plus.jpg"
   },
   {
     id: "t11", subcat: "tablette",
@@ -1322,7 +1322,7 @@ const techProducts = [
     desc: "Compact et léger, idéal famille, double haut-parleur, Samsung Knox, USB-C.",
     price: "149,00€", priceOld: "199,00€",
     rating: 4.3, asin: "B0CN5LBKLL",
-    img: "https://m.media-amazon.com/images/I/51s8A9NM3bL._AC_SX679_.jpg"
+    img: "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-a9.jpg"
   },
   {
     id: "t12", subcat: "tablette",
@@ -1331,7 +1331,7 @@ const techProducts = [
     desc: "128 Go de stockage, chargeur 25W inclus, écran FHD+, son surround, anthracite.",
     price: "269,00€", priceOld: "339,00€",
     rating: 4.5, asin: "B0CNRRKYTJ",
-    img: "https://m.media-amazon.com/images/I/61VbbCZ2N6L._AC_SX679_.jpg"
+    img: "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-tab-a9-plus-1.jpg"
   },
   // --- Liseuses ---
   {
@@ -1341,7 +1341,7 @@ const techProducts = [
     desc: "Écran anti-reflet 7\", le Kindle le plus rapide, sans pub, semaines d'autonomie.",
     price: "169,99€", priceOld: "189,99€",
     rating: 4.7, asin: "B0CFPWLGF2",
-    img: "https://m.media-amazon.com/images/I/51JhV7j9VVL._AC_SX679_.jpg"
+    img: "https://assets.aboutamazon.com/39/5d/fecd31c9434a913d40a92c55dd0b/paperwhite-hero-v1.jpeg"
   },
   {
     id: "t14", subcat: "liseuse",
@@ -1350,7 +1350,7 @@ const techProducts = [
     desc: "Éclairage auto-adaptatif, charge sans fil Qi, 32 Go, métal noir, sans pub.",
     price: "199,99€", priceOld: "229,99€",
     rating: 4.7, asin: "B0CFPN47NY",
-    img: "https://m.media-amazon.com/images/I/51JhV7j9VVL._AC_SX679_.jpg"
+    img: "https://assets.aboutamazon.com/39/5d/fecd31c9434a913d40a92c55dd0b/paperwhite-hero-v1.jpeg"
   },
   {
     id: "t15", subcat: "liseuse",
@@ -1359,7 +1359,7 @@ const techProducts = [
     desc: "Écran E Ink anti-reflet, ComfortLight Pro, mode sombre, étanche, audiobooks.",
     price: "129,99€", priceOld: "",
     rating: 4.5, asin: "B0CZXYV8GT",
-    img: "https://m.media-amazon.com/images/I/41BKDy9YTBL._AC_SX679_.jpg"
+    img: "https://us.kobobooks.com/cdn/shop/products/1-Spa-BW-EN-Device_Front_1080x1080_c775875b-0b4d-4867-9831-6df68d9f3347_700x700.png?v=1710271891"
   },
   {
     id: "t16", subcat: "liseuse",
@@ -1368,7 +1368,7 @@ const techProducts = [
     desc: "Premier écran E Ink couleur Kaleido 3, ComfortLight Pro, étanche, 12 000 eBooks.",
     price: "149,99€", priceOld: "",
     rating: 4.4, asin: "B0CZY1LRT4",
-    img: "https://m.media-amazon.com/images/I/41BKDy9YTBL._AC_SX679_.jpg"
+    img: "https://us.kobobooks.com/cdn/shop/files/2-Front-CA-US_1080x1080_7c398a1a-b9ce-47ee-b62a-f604c119b29b_700x700.png?v=1757383709"
   },
   // --- Trackers fitness ---
   {
@@ -1378,7 +1378,7 @@ const techProducts = [
     desc: "6 mois Premium inclus, GPS, fréquence cardiaque, SpO2, Google Wallet, 7j d'autonomie.",
     price: "119,99€", priceOld: "159,95€",
     rating: 4.3, asin: "B0CJVNRMQK",
-    img: "https://m.media-amazon.com/images/I/51s0B0YY5AL._AC_SX679_.jpg"
+    img: "https://fdn.gsmarena.com/imgroot/news/23/09/fitbit-charge-6-ofic/inline/-x500/gsmarena_003.jpg"
   },
   {
     id: "t18", subcat: "tracker",
@@ -1387,7 +1387,7 @@ const techProducts = [
     desc: "150+ sports, SpO2, VO2max, 16 jours d'autonomie, 5ATM. Meilleur rapport qualité/prix.",
     price: "29,99€", priceOld: "39,99€",
     rating: 4.5, asin: "B0CD2MP728",
-    img: "https://m.media-amazon.com/images/I/41KMRG5-U1L._AC_SX679_.jpg"
+    img: "https://fdn.gsmarena.com/imgroot/news/23/10/xiaomi-smart-band-8-review/gsmarena_101.jpg"
   },
   {
     id: "t19", subcat: "tracker",
@@ -1396,7 +1396,7 @@ const techProducts = [
     desc: "Écran TFT 1,47\", charge rapide 1h, 50 sports, 14 jours d'autonomie, 5ATM.",
     price: "19,99€", priceOld: "34,99€",
     rating: 4.3, asin: "B0CTLZJZJ6",
-    img: "https://m.media-amazon.com/images/I/51NZokz8K3L._AC_SX679_.jpg"
+    img: "https://thewearify.com/wp-content/uploads/2023/11/Xiaomi-Smart-Band-8-Active-Review.jpg"
   },
   {
     id: "t20", subcat: "tracker",
@@ -1405,7 +1405,7 @@ const techProducts = [
     desc: "Google Wallet & Maps, 40+ sports, ECG, température cutanée, Fitbit Premium inclus.",
     price: "129,99€", priceOld: "159,95€",
     rating: 4.3, asin: "B0CHN2F11G",
-    img: "https://m.media-amazon.com/images/I/51qR2L4T5pL._AC_SX679_.jpg"
+    img: "https://fdn.gsmarena.com/imgroot/news/23/09/fitbit-charge-6-ofic/inline/-1200/gsmarena_001.jpg"
   },
 ];
 
