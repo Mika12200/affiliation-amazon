@@ -275,6 +275,157 @@ const cuisineProducts = [
     rating: 4.4, asin: "B0CHQP4DZF",
     img: "https://m.media-amazon.com/images/I/61cKTt9tWKL._AC_SX679_.jpg"
   },
+  // --- Air Fryer (ajouts) ---
+  {
+    id: "c26", subcat: "airfryer",
+    emoji: "🍟", brand: "Tefal", badge: "Top",
+    name: "Tefal ActiFry Genius XL 2-en-1 YV9708",
+    desc: "2 zones de cuisson, bras mélangeur auto, 9 programmes, 1,7 kg. Cuisson saine sans huile.",
+    price: "199,99€", priceOld: "279,99€",
+    rating: 4.5, asin: "B07W1JDFH3",
+    img: ""
+  },
+  {
+    id: "c27", subcat: "airfryer",
+    emoji: "🍟", brand: "Seb", badge: "Best-seller",
+    name: "Seb ActiFry Genius XXL 1,7 kg AH960800",
+    desc: "Capacité XXL 8 personnes, 9 menus intelligents, cuve amovible. Fabriqué en France.",
+    price: "219,99€", priceOld: "299,99€",
+    rating: 4.4, asin: "B07HYMN5PW",
+    img: ""
+  },
+  {
+    id: "c28", subcat: "airfryer",
+    emoji: "🍟", brand: "Tefal", badge: "Nouveau",
+    name: "Tefal ActiFry & Grill Genius FZ775810",
+    desc: "Fonction grill + air fry, 9 menus auto, livre de recettes numériques. Made in France.",
+    price: "179,99€", priceOld: "249,99€",
+    rating: 4.4, asin: "B0BWNTP25L",
+    img: ""
+  },
+  // --- Robot cuiseur (ajouts) ---
+  {
+    id: "c29", subcat: "robot",
+    emoji: "🥘", brand: "Moulinex", badge: "Best-seller",
+    name: "Moulinex Companion XL HF80C800 Gris",
+    desc: "14 modes, 1550W, 4,5L, silencieux. Recettes illimitées via app. Made in France.",
+    price: "499,99€", priceOld: "649,99€",
+    rating: 4.4, asin: "B07VGMFLRZ",
+    img: ""
+  },
+  {
+    id: "c30", subcat: "robot",
+    emoji: "🥘", brand: "Moulinex", badge: "Top",
+    name: "Moulinex I-Companion Touch XL HF934510",
+    desc: "Écran tactile, 17 fonctions, recettes guidées sur écran, XL 10 personnes. Connecté.",
+    price: "699,99€", priceOld: "899,99€",
+    rating: 4.5, asin: "B08GYK9ZZB",
+    img: ""
+  },
+  {
+    id: "c31", subcat: "robot",
+    emoji: "🥘", brand: "Moulinex", badge: "Nouveau",
+    name: "Moulinex Companion 14 fonctions YY5642FG",
+    desc: "Robot cuiseur XL 10 personnes, 14 fonctions, blanc. Made in France, réparable 15 ans.",
+    price: "549,99€", priceOld: "699,99€",
+    rating: 4.3, asin: "B0DZJ2491F",
+    img: ""
+  },
+  // --- Blender (ajouts) ---
+  {
+    id: "c32", subcat: "blender",
+    emoji: "🥤", brand: "Ninja", badge: "Top",
+    name: "Ninja Foodi Blender Chauffant HB150EU",
+    desc: "Blender + cuiseur 1000W, 10 programmes auto : soupe, compote, confiture, smoothie.",
+    price: "129,99€", priceOld: "179,99€",
+    rating: 4.4, asin: "B084B1VT4D",
+    img: ""
+  },
+  {
+    id: "c33", subcat: "blender",
+    emoji: "🥤", brand: "Philips", badge: "",
+    name: "Philips HR2204/80 SoupMaker 1000W",
+    desc: "5 programmes : velouté, soupe morceaux, compote, smoothie. 1,2L, soupe en 18 min.",
+    price: "89,99€", priceOld: "119,99€",
+    rating: 4.3, asin: "B01J5FG9BE",
+    img: ""
+  },
+  // --- Plancha (ajouts) ---
+  {
+    id: "c34", subcat: "plancha",
+    emoji: "🥩", brand: "Tefal", badge: "Best-seller",
+    name: "Tefal Maxi Plancha CB690D12 XXL Inox",
+    desc: "Plancha XXL 10-12 personnes, revêtement antiadhésif, bac récupérateur, 2400W.",
+    price: "89,99€", priceOld: "119,99€",
+    rating: 4.4, asin: "B0049MPFRW",
+    img: ""
+  },
+  {
+    id: "c35", subcat: "plancha",
+    emoji: "🥩", brand: "Tefal", badge: "",
+    name: "Tefal Plancha Malaga CB501812 4-6 Pers",
+    desc: "Plancha compacte, revêtement antiadhésif, thermostat réglable, 2000W.",
+    price: "49,99€", priceOld: "69,99€",
+    rating: 4.3, asin: "B00H3LXET2",
+    img: ""
+  },
+  // --- Machine à pain (ajouts) ---
+  {
+    id: "c36", subcat: "pain",
+    emoji: "🍞", brand: "Moulinex", badge: "Best-seller",
+    name: "Moulinex Home Bread Baguette OW610110",
+    desc: "16 programmes, moules baguettes inclus, jusqu'à 1,5 kg. Pain frais au quotidien.",
+    price: "129,99€", priceOld: "169,99€",
+    rating: 4.4, asin: "B00C5A14ZS",
+    img: ""
+  },
+  {
+    id: "c37", subcat: "pain",
+    emoji: "🍞", brand: "Moulinex", badge: "",
+    name: "Moulinex Bread & Delices OW240E30 1kg",
+    desc: "20 programmes dont sans gluten et yaourt. 720W, départ différé 15h. Noir inox.",
+    price: "89,99€", priceOld: "119,99€",
+    rating: 4.3, asin: "B01CQYN2PM",
+    img: ""
+  },
+  // --- Multicuiseur (ajouts) ---
+  {
+    id: "c38", subcat: "multicuiseur",
+    emoji: "🫕", brand: "Moulinex", badge: "Top",
+    name: "Moulinex Cookeo 6L CE704110",
+    desc: "100 recettes intégrées, guide étape par étape, cuisson rapide sous pression. 6 modes.",
+    price: "199,99€", priceOld: "279,99€",
+    rating: 4.5, asin: "B00TQILY02",
+    img: ""
+  },
+  {
+    id: "c39", subcat: "multicuiseur",
+    emoji: "🫕", brand: "Ninja", badge: "Nouveau",
+    name: "Ninja Foodi 7-en-1 Multicuiseur OP300EU",
+    desc: "Autocuiseur + air fryer, 6L, cuisson lente, vapeur, grill, saisie. Acier brossé.",
+    price: "179,99€", priceOld: "249,99€",
+    rating: 4.5, asin: "B07VYTNKLT",
+    img: ""
+  },
+  // --- Raclette (ajouts) ---
+  {
+    id: "c40", subcat: "raclette",
+    emoji: "🧀", brand: "Tefal", badge: "Top",
+    name: "Tefal Gourmet 10 Inox RE458812",
+    desc: "Raclette + grill 10 coupelles, revêtement antiadhésif, Thermo-Spot. 1350W.",
+    price: "79,99€", priceOld: "109,99€",
+    rating: 4.4, asin: "B00MIKJ9K2",
+    img: ""
+  },
+  {
+    id: "c41", subcat: "raclette",
+    emoji: "🧀", brand: "Livoo", badge: "",
+    name: "Livoo DOC234 Raclette + Fondue 12 Pers",
+    desc: "Appareil raclette et fondue 12 personnes, 1650W. Idéal grandes tablées.",
+    price: "49,99€", priceOld: "69,99€",
+    rating: 4.2, asin: "B084973FFJ",
+    img: ""
+  },
 ];
 
 // ===== MAISON CONNECTÉE =====
@@ -899,6 +1050,24 @@ const maisonProducts = [
     price: "146,99€", priceOld: "179,99€",
     rating: 4.4, asin: "B0DVLYQWXX",
     img: "https://m.media-amazon.com/images/I/61VfnvIPpmL._AC_SY300_SX300_QL70_ML2_.jpg"
+  },
+  {
+    id: "m101", subcat: "serrure",
+    emoji: "🔐", brand: "Nuki", badge: "Best-seller",
+    name: "Nuki Smart Lock 4.0 Matter Blanc",
+    desc: "4e génération, Matter compatible, moteur brushless, déverrouillage <1,5s. AV-TEST certifié.",
+    price: "169,99€", priceOld: "199,99€",
+    rating: 4.4, asin: "B0CK4TRY8Z",
+    img: ""
+  },
+  {
+    id: "m102", subcat: "serrure",
+    emoji: "🔐", brand: "Yale", badge: "",
+    name: "Yale Linus Serrure Connectée Argent",
+    desc: "Verrouillage auto, gestion accès via app Yale Home, suivi temps réel, clés virtuelles.",
+    price: "199,99€", priceOld: "249,99€",
+    rating: 4.1, asin: "B08FMY6JTN",
+    img: ""
   },
   {
     id: "m15", subcat: "tondeuse",
