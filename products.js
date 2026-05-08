@@ -283,7 +283,7 @@ const cuisineProducts = [
     desc: "2 zones de cuisson, bras mélangeur auto, 9 programmes, 1,7 kg. Cuisson saine sans huile.",
     price: "199,99€", priceOld: "279,99€",
     rating: 4.5, asin: "B07W1JDFH3",
-    img: ""
+    img: "https://twicpics.tefal.de/https://dam.groupeseb.com/m/40a3eb1207fd873e/Medium-YV9700_ActiFry-Genius-XL-2in1-wei_Product-01.png?timestamp=20260118091651"
   },
   {
     id: "c27", subcat: "airfryer",
@@ -292,7 +292,7 @@ const cuisineProducts = [
     desc: "Capacité XXL 8 personnes, 9 menus intelligents, cuve amovible. Fabriqué en France.",
     price: "219,99€", priceOld: "299,99€",
     rating: 4.4, asin: "B07HYMN5PW",
-    img: ""
+    img: "https://twicpics.tefal.fr/https://dam.groupeseb.com/m/0b34ea3865a94ae1/Medium-01_SEBVISUELACTIFRYGENIUSXLBLACKRETOUCH-png.png?timestamp=20260116144344"
   },
   {
     id: "c28", subcat: "airfryer",
@@ -301,7 +301,7 @@ const cuisineProducts = [
     desc: "Fonction grill + air fry, 9 menus auto, livre de recettes numériques. Made in France.",
     price: "179,99€", priceOld: "249,99€",
     rating: 4.4, asin: "B0BWNTP25L",
-    img: ""
+    img: "https://twicpics.tefal.fr/https://dam.groupeseb.com/m/f4d82ceb681a3a/Digital-TFL_FZ775810_1510002326_H3.png?timestamp=20260123213337"
   },
   // --- Robot cuiseur (ajouts) ---
   {
@@ -311,7 +311,7 @@ const cuisineProducts = [
     desc: "14 modes, 1550W, 4,5L, silencieux. Recettes illimitées via app. Made in France.",
     price: "499,99€", priceOld: "649,99€",
     rating: 4.4, asin: "B07VGMFLRZ",
-    img: ""
+    img: "https://twicpics.moulinex.fr/https://dam.groupeseb.com/m/4d48fc33c35a302c/Medium-MLX_COMPANION_HF80C800_packshot.png?timestamp=20260117234241"
   },
   {
     id: "c30", subcat: "robot",
@@ -320,7 +320,7 @@ const cuisineProducts = [
     desc: "Écran tactile, 17 fonctions, recettes guidées sur écran, XL 10 personnes. Connecté.",
     price: "699,99€", priceOld: "899,99€",
     rating: 4.5, asin: "B08GYK9ZZB",
-    img: ""
+    img: "https://twicpics.moulinex.fr/medias/?context=bWFzdGVyfGltYWdlc3wyNDgwNDR8aW1hZ2UvanBlZ3xhVzFoWjJWekwyZzJZUzlvTlRrdk1UY3dNREk1TVRRM056VXdOekF1YW5CbnxlZGMxZTJiOGYzMDU0MzA3Y2ZkZDY2Zjc4MzZmZDhkZDg1ZTYzYjU3NDMwMTg2MzViNzQyNzIwZTczODMyMzg0"
   },
   {
     id: "c31", subcat: "robot",
@@ -329,7 +329,7 @@ const cuisineProducts = [
     desc: "Robot cuiseur XL 10 personnes, 14 fonctions, blanc. Made in France, réparable 15 ans.",
     price: "549,99€", priceOld: "699,99€",
     rating: 4.3, asin: "B0DZJ2491F",
-    img: ""
+    img: "https://www.lecomptoirdecana.fr/wp-content/uploads/2025/09/1758071252-moulinex-companion-robot-cuiseur-14-fonctions-capacite-xl-10-personnes-blanc-fabrique-en-fra.jpg"
   },
   // --- Blender (ajouts) ---
   {
@@ -339,7 +339,7 @@ const cuisineProducts = [
     desc: "Blender + cuiseur 1000W, 10 programmes auto : soupe, compote, confiture, smoothie.",
     price: "129,99€", priceOld: "179,99€",
     rating: 4.4, asin: "B084B1VT4D",
-    img: ""
+    img: "https://sharkninja.my/cdn/shop/files/HB150-03.webp?v=1656978374&width=1500"
   },
   {
     id: "c33", subcat: "blender",
@@ -348,7 +348,7 @@ const cuisineProducts = [
     desc: "5 programmes : velouté, soupe morceaux, compote, smoothie. 1,2L, soupe en 18 min.",
     price: "89,99€", priceOld: "119,99€",
     rating: 4.3, asin: "B01J5FG9BE",
-    img: ""
+    img: "https://images.philips.com/is/image/philipsconsumer/vrs_86a09422228cdc9e1c4f218271f02c3f8c1132ef?wid=700&hei=700&$pnglarge$"
   },
   // --- Plancha (ajouts) ---
   {
@@ -358,7 +358,7 @@ const cuisineProducts = [
     desc: "Plancha XXL 10-12 personnes, revêtement antiadhésif, bac récupérateur, 2400W.",
     price: "89,99€", priceOld: "119,99€",
     rating: 4.4, asin: "B0049MPFRW",
-    img: ""
+    img: "https://twicpics.tefal.fr/https://dam.groupeseb.com/m/4ff7398c1e62ef93/Digital-TE_CB690D12_2100109624_H1-tif.png?timestamp=20260410112544"
   },
   {
     id: "c35", subcat: "plancha",
@@ -367,7 +367,7 @@ const cuisineProducts = [
     desc: "Plancha compacte, revêtement antiadhésif, thermostat réglable, 2000W.",
     price: "49,99€", priceOld: "69,99€",
     rating: 4.3, asin: "B00H3LXET2",
-    img: ""
+    img: "https://www.but.fr/fstrz/r/s/media.but.fr/images_produits/p-xl/3016661145292_Q.jpg"
   },
   // --- Machine à pain (ajouts) ---
   {
@@ -377,7 +377,7 @@ const cuisineProducts = [
     desc: "16 programmes, moules baguettes inclus, jusqu'à 1,5 kg. Pain frais au quotidien.",
     price: "129,99€", priceOld: "169,99€",
     rating: 4.4, asin: "B00C5A14ZS",
-    img: ""
+    img: "https://twicpics.moulinex.fr/https://dam.groupeseb.com/m/5956c0cf76e8ef89/Digital-MLX_OW610110_7211001300_HOME_BREAD_-_BAGUETTE_H1.png?timestamp=20260120051328"
   },
   {
     id: "c37", subcat: "pain",
@@ -386,7 +386,7 @@ const cuisineProducts = [
     desc: "20 programmes dont sans gluten et yaourt. 720W, départ différé 15h. Noir inox.",
     price: "89,99€", priceOld: "119,99€",
     rating: 4.3, asin: "B01CQYN2PM",
-    img: ""
+    img: "https://twicpics.moulinex.fr/https://dam.groupeseb.com/m/70d7110513d7774e/Digital-1_94416-1_OW240EPACKSHOT-tif.png?timestamp=20260116161033"
   },
   // --- Multicuiseur (ajouts) ---
   {
@@ -396,7 +396,7 @@ const cuisineProducts = [
     desc: "100 recettes intégrées, guide étape par étape, cuisson rapide sous pression. 6 modes.",
     price: "199,99€", priceOld: "279,99€",
     rating: 4.5, asin: "B00TQILY02",
-    img: ""
+    img: "https://twicpics.moulinex.be/https://dam.groupeseb.com/m/055aeafe09b747e8/Digital-1_69632-1_COOKEO-tif.png?timestamp=20260116232747"
   },
   {
     id: "c39", subcat: "multicuiseur",
@@ -405,7 +405,7 @@ const cuisineProducts = [
     desc: "Autocuiseur + air fryer, 6L, cuisson lente, vapeur, grill, saisie. Acier brossé.",
     price: "179,99€", priceOld: "249,99€",
     rating: 4.5, asin: "B07VYTNKLT",
-    img: ""
+    img: "https://cdn.multitronic.fi/images/prod/9/0/OP300EU-1.webp"
   },
   // --- Raclette (ajouts) ---
   {
@@ -415,7 +415,7 @@ const cuisineProducts = [
     desc: "Raclette + grill 10 coupelles, revêtement antiadhésif, Thermo-Spot. 1350W.",
     price: "79,99€", priceOld: "109,99€",
     rating: 4.4, asin: "B00MIKJ9K2",
-    img: ""
+    img: "https://twicpics.tefal.fr/https://dam.groupeseb.com/m/11391900bf21bef8/Digital-TFL_RE458_RACLETTE_GRILL_H1.png?timestamp=20260123113730"
   },
   {
     id: "c41", subcat: "raclette",
@@ -424,7 +424,7 @@ const cuisineProducts = [
     desc: "Appareil raclette et fondue 12 personnes, 1650W. Idéal grandes tablées.",
     price: "49,99€", priceOld: "69,99€",
     rating: 4.2, asin: "B084973FFJ",
-    img: ""
+    img: "https://www.livoo.fr/6508971-large_default/raclette-fondue-maker-for-12-people.jpg"
   },
 ];
 
@@ -1058,7 +1058,7 @@ const maisonProducts = [
     desc: "4e génération, Matter compatible, moteur brushless, déverrouillage <1,5s. AV-TEST certifié.",
     price: "169,99€", priceOld: "199,99€",
     rating: 4.4, asin: "B0CK4TRY8Z",
-    img: ""
+    img: "https://media.crystallize.com/nuki-production/24/12/2/121/@3200/nuki-smart-lock.webp"
   },
   {
     id: "m102", subcat: "serrure",
@@ -1067,7 +1067,7 @@ const maisonProducts = [
     desc: "Verrouillage auto, gestion accès via app Yale Home, suivi temps réel, clés virtuelles.",
     price: "199,99€", priceOld: "249,99€",
     rating: 4.1, asin: "B08FMY6JTN",
-    img: ""
+    img: "https://yalehome.fr/media/catalog/product/l/i/linus_web_banners_desktop-2_1000.png?optimize=low&fit=bounds&height=580&width=580&format=jpeg"
   },
   {
     id: "m15", subcat: "tondeuse",
