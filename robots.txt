@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mika12200.github.io/affiliation-amazon/sitemap.xml
+Sitemap: https://xn--maison-connecte-onb.fr/sitemap.xml
