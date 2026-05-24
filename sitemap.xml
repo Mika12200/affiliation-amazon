@@ -129,6 +129,37 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <!-- Nouveaux articles mai 2026 -->
+  <url>
+    <loc>https://xn--maison-connecte-onb.fr/cookeo-vs-thermomix.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xn--maison-connecte-onb.fr/meilleure-montre-connectee.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xn--maison-connecte-onb.fr/erreurs-air-fryer.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xn--maison-connecte-onb.fr/meilleur-appareil-raclette.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xn--maison-connecte-onb.fr/meilleurs-ecouteurs-bluetooth.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Legal pages -->
   <url>
     <loc>https://xn--maison-connecte-onb.fr/mentions-legales.html</loc>
