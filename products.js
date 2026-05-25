@@ -17,7 +17,7 @@ const topPicks = [
     pros: ["Grande capacité 6,2L", "Cuisson ultra rapide", "Facile à nettoyer"],
     cons: ["Encombrant sur le plan de travail"],
     asin: "B0C1GF88DS",
-    img: "https://m.media-amazon.com/images/I/51ctVYliSOL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0C1GF88DS.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     rank: 2,
@@ -30,7 +30,7 @@ const topPicks = [
     pros: ["Grain à tasse automatique", "Moulin intégré silencieux", "Interface intuitive"],
     cons: ["Investissement initial élevé"],
     asin: "B0BF5YXTMX",
-    img: "https://m.media-amazon.com/images/I/51+rwYUs2QL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0BF5YXTMX.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     rank: 3,
@@ -44,7 +44,7 @@ const topPicks = [
     cons: ["Prix premium"],
     asin: "B0BSL98D73",
     aliLink: "https://s.click.aliexpress.com/e/_c4djF7HL",
-    img: "https://m.media-amazon.com/images/I/61K9Ci2sU6L._AC_SY300_SX300_QL70_ML2_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0BSL98D73.01._SCLZZZZZZZ_SX679_.jpg"
   }
 ];
 
@@ -57,7 +57,7 @@ const cuisineProducts = [
     desc: "Friture sans huile avec 6 modes de cuisson. Parfait pour les familles.",
     price: "129,99€", priceOld: "179,99€",
     rating: 4.7, asin: "B0C1GF88DS",
-    img: "https://m.media-amazon.com/images/I/51ctVYliSOL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0C1GF88DS.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c2", subcat: "airfryer",
@@ -66,7 +66,7 @@ const cuisineProducts = [
     desc: "1,4 kg de capacité. Technologie RapidAir pour une cuisson homogène.",
     price: "149,99€", priceOld: "189,99€",
     rating: 4.5, asin: "B0BKGJWJDT",
-    img: "https://m.media-amazon.com/images/I/51AHfXBhknL._AC_SY300_SX300_QL70_ML2_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0BKGJWJDT.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c3", subcat: "airfryer",
@@ -75,7 +75,7 @@ const cuisineProducts = [
     desc: "130 recettes dans l'app. Écran tactile et 12 fonctions de cuisson.",
     price: "89,99€", priceOld: "109,99€",
     rating: 4.6, asin: "B09T73PJXB",
-    img: "https://m.media-amazon.com/images/I/41sYBQPNBoL._AC_.jpg"
+    img: "https://m.media-amazon.com/images/P/B09T73PJXB.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c4", subcat: "cafe",
@@ -84,7 +84,7 @@ const cuisineProducts = [
     desc: "Machine grain à tasse entièrement automatique. Moulin céramique intégré.",
     price: "449,99€", priceOld: "599,99€",
     rating: 4.6, asin: "B0BF5YXTMX",
-    img: "https://m.media-amazon.com/images/I/51+rwYUs2QL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0BF5YXTMX.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c5", subcat: "cafe",
@@ -93,7 +93,7 @@ const cuisineProducts = [
     desc: "Espresso grain automatique compact. Mousseur à lait intégré.",
     price: "299,99€", priceOld: "389,99€",
     rating: 4.4, asin: "B00INSX904",
-    img: "https://m.media-amazon.com/images/I/61Ai9Gk8aYL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B00INSX904.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c6", subcat: "cafe",
@@ -102,7 +102,7 @@ const cuisineProducts = [
     desc: "Design compact, 5 tailles de tasses. Technologie Centrifusion.",
     price: "79,99€", priceOld: "99,99€",
     rating: 4.7, asin: "B0C3P9P7B3",
-    img: "https://m.media-amazon.com/images/I/610oGrfG35L._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0C3P9P7B3.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c7", subcat: "robot",
@@ -111,7 +111,7 @@ const cuisineProducts = [
     desc: "Robot cuiseur 5,5L avec balance intégrée. 6 programmes automatiques.",
     price: "599,99€", priceOld: "799,99€",
     rating: 4.5, asin: "B084ZP1H7Z",
-    img: "https://m.media-amazon.com/images/I/61VjyRHbreL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B084ZP1H7Z.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c8", subcat: "robot",
@@ -120,7 +120,7 @@ const cuisineProducts = [
     desc: "Robot cuiseur multifonctions connecté. Balance intégrée et écran tactile.",
     price: "399,99€", priceOld: "499,99€",
     rating: 4.3, asin: "B0BHXKF81H",
-    img: "https://m.media-amazon.com/images/I/81BpjYrT2ML._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0BHXKF81H.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c9", subcat: "blender",
@@ -129,7 +129,7 @@ const cuisineProducts = [
     desc: "Blender professionnel 2 en 1. Détection automatique des aliments.",
     price: "149,99€", priceOld: "199,99€",
     rating: 4.7, asin: "B08CRTKLX4",
-    img: "https://m.media-amazon.com/images/I/71m0uVGpbNL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B08CRTKLX4.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c10", subcat: "blender",
@@ -147,7 +147,7 @@ const cuisineProducts = [
     desc: "Plancha XXL inox pour intérieur et extérieur. Chauffe rapide et homogène.",
     price: "109,99€", priceOld: "149,99€",
     rating: 4.4, asin: "B0DFH999LH",
-    img: "https://m.media-amazon.com/images/I/81-mJfRjaeL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0DFH999LH.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c12", subcat: "pain",
@@ -156,7 +156,7 @@ const cuisineProducts = [
     desc: "Machine à pain automatique avec distributeur. 31 programmes dont sans gluten.",
     price: "167,99€", priceOld: "219,99€",
     rating: 4.6, asin: "B0921SL9SV",
-    img: "https://m.media-amazon.com/images/I/71wv4EjIo-L._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0921SL9SV.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c13", subcat: "multicuiseur",
@@ -165,7 +165,7 @@ const cuisineProducts = [
     desc: "Autocuiseur, friteuse à air, cuisson lente, vapeur... 5,7L polyvalent.",
     price: "187,99€", priceOld: "249,99€",
     rating: 4.5, asin: "B0979HKNRH",
-    img: "https://m.media-amazon.com/images/I/617xNqXzjSL._AC_SY300_SX300_QL70_ML2_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0979HKNRH.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c15", subcat: "extracteur",
@@ -174,7 +174,7 @@ const cuisineProducts = [
     desc: "Pression à froid 220ml. Préserve les vitamines et nutriments. Sans BPA, 100W silencieux.",
     price: "399,99€", priceOld: "499,99€",
     rating: 4.6, asin: "B09ZBL4PTZ",
-    img: "https://m.media-amazon.com/images/I/61YiecFIw7L._AC_SY879_.jpg"
+    img: "https://m.media-amazon.com/images/P/B09ZBL4PTZ.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c16", subcat: "extracteur",
@@ -183,7 +183,7 @@ const cuisineProducts = [
     desc: "Fruits et légumes entiers. Pression à froid, 1L de capacité. Facile à nettoyer, 200W.",
     price: "89,99€", priceOld: "129,99€",
     rating: 4.4, asin: "B0G3WP3KZ2",
-    img: "https://m.media-amazon.com/images/I/71f29NUkuIL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0G3WP3KZ2.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c17", subcat: "extracteur",
@@ -192,7 +192,7 @@ const cuisineProducts = [
     desc: "Centrifugeuse 950ml, 2 vitesses. Goulot 6cm, filtre inox. Compacte et efficace.",
     price: "54,99€", priceOld: "79,99€",
     rating: 4.3, asin: "B07NW8995F",
-    img: "https://m.media-amazon.com/images/I/61i4sDp9SZL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B07NW8995F.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c18", subcat: "extracteur",
@@ -201,7 +201,7 @@ const cuisineProducts = [
     desc: "Découpe automatique des fruits entiers. Panier 1,7L, nettoyage facile.",
     price: "599,99€", priceOld: "699,99€",
     rating: 4.5, asin: "B0F32DQB9W",
-    img: "https://m.media-amazon.com/images/I/51ByHYFfryL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0F32DQB9W.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c14", subcat: "raclette",
@@ -210,7 +210,7 @@ const cuisineProducts = [
     desc: "Appareil raclette, fondue et pierre granit. Socle pivotant 180°. 1400W.",
     price: "59,99€", priceOld: "79,99€",
     rating: 4.5, asin: "B0BXM45KK4",
-    img: "https://m.media-amazon.com/images/I/71YWTfMSvpL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0BXM45KK4.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c19", subcat: "cafe",
@@ -219,7 +219,7 @@ const cuisineProducts = [
     desc: "Machine à capsules compacte et design. Pression 15 bars, 30+ boissons chaudes et froides.",
     price: "49,99€", priceOld: "79,99€",
     rating: 4.5, asin: "B0CF57ZPC9",
-    img: "https://m.media-amazon.com/images/I/61JcWhQi1tL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0CF57ZPC9.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c20", subcat: "cafe",
@@ -228,7 +228,7 @@ const cuisineProducts = [
     desc: "Machine à dosettes T-Disc ultra simple. Plus de 40 boissons disponibles. Compacte.",
     price: "34,99€", priceOld: "49,99€",
     rating: 4.3, asin: "B0DB1SCPHN",
-    img: "https://m.media-amazon.com/images/I/41qDK0ShkyL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0DB1SCPHN.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c21", subcat: "cafe",
@@ -237,7 +237,7 @@ const cuisineProducts = [
     desc: "Personnalisation via bouton My Way : intensité, température et volume. Écran tactile.",
     price: "89,99€", priceOld: "129,99€",
     rating: 4.4, asin: "B0857Z91PY",
-    img: "https://m.media-amazon.com/images/I/719E9xgZMaL._AC_SY879_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0857Z91PY.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c22", subcat: "cafe",
@@ -246,7 +246,7 @@ const cuisineProducts = [
     desc: "Technologie Crema Plus. Réservoir 0,9L, 2 tasses simultanées. Simple et rapide.",
     price: "64,99€", priceOld: "89,99€",
     rating: 4.4, asin: "B08T9XRF91",
-    img: "https://m.media-amazon.com/images/I/51zQXE4AsSL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B08T9XRF91.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c23", subcat: "cafe",
@@ -255,7 +255,7 @@ const cuisineProducts = [
     desc: "Capsules Nespresso & L'OR. Double capsule pour 2 cafés simultanés. 19 bars.",
     price: "59,99€", priceOld: "89,99€",
     rating: 4.5, asin: "B09B166BMD",
-    img: "https://m.media-amazon.com/images/I/61UX+C7ymZL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B09B166BMD.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c24", subcat: "cafe",
@@ -264,7 +264,7 @@ const cuisineProducts = [
     desc: "Compatible Nespresso, Dolce Gusto, ESE, café moulu et A Modo Mio. 19 bars, chaud & froid.",
     price: "54,99€", priceOld: "79,99€",
     rating: 4.3, asin: "B0CLZRPSHT",
-    img: "https://m.media-amazon.com/images/I/71IqN8S6TxL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0CLZRPSHT.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "c25", subcat: "cafe",
@@ -273,7 +273,7 @@ const cuisineProducts = [
     desc: "Broyeur céramique intégré, 15 bars. Mousseur à lait classique. Entrée de gamme grain automatique.",
     price: "249,99€", priceOld: "329,99€",
     rating: 4.4, asin: "B0CHQP4DZF",
-    img: "https://m.media-amazon.com/images/I/61cKTt9tWKL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0CHQP4DZF.01._SCLZZZZZZZ_SX679_.jpg"
   },
   // --- Air Fryer (ajouts) ---
   {
@@ -438,7 +438,7 @@ const maisonProducts = [
     price: "699,99€", priceOld: "899,99€",
     rating: 4.8, asin: "B0BSL98D73",
     aliLink: "https://s.click.aliexpress.com/e/_c4djF7HL",
-    img: "https://m.media-amazon.com/images/I/61K9Ci2sU6L._AC_SY300_SX300_QL70_ML2_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0BSL98D73.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m2", subcat: "aspirateur",
@@ -447,7 +447,7 @@ const maisonProducts = [
     desc: "Évitement d'obstacles intelligent. Vidage automatique de la corbeille.",
     price: "499,99€", priceOld: "699,99€",
     rating: 4.5, asin: "B09CCNQDJS",
-    img: "https://m.media-amazon.com/images/I/71EizGxyh5L._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B09CCNQDJS.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m3", subcat: "aspirateur",
@@ -456,7 +456,7 @@ const maisonProducts = [
     desc: "Aspiration + serpillière. Station tout-en-un avec séchage à l'air chaud.",
     price: "549,99€", priceOld: "799,99€",
     rating: 4.4, asin: "B0C2VH6X31",
-    img: "https://m.media-amazon.com/images/I/51BsLJ96R2L._AC_SY300_SX300_QL70_ML2_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0C2VH6X31.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m4", subcat: "enceinte",
@@ -465,7 +465,7 @@ const maisonProducts = [
     desc: "Enceinte connectée Alexa compacte. Son amélioré et détection de présence.",
     price: "44,99€", priceOld: "59,99€",
     rating: 4.7, asin: "B09B8X9RGM",
-    img: "https://m.media-amazon.com/images/I/71wQobPqbyL._AC_SY741_.jpg"
+    img: "https://m.media-amazon.com/images/P/B09B8X9RGM.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m5", subcat: "enceinte",
@@ -474,7 +474,7 @@ const maisonProducts = [
     desc: "Réveil connecté avec Alexa et écran. Son de qualité premium.",
     price: "59,99€", priceOld: "79,99€",
     rating: 4.6, asin: "B0C2S2J7JP",
-    img: "https://m.media-amazon.com/images/I/61oDE1Wg+oL._AC_SX300_SY300_QL70_ML2_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0C2S2J7JP.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m28", subcat: "enceinte",
@@ -483,7 +483,7 @@ const maisonProducts = [
     desc: "Son puissant dans un format ultra-compact. Contrôle vocal Alexa, Bluetooth et WiFi. Idéale petite pièce.",
     price: "29,99€", priceOld: "49,99€",
     rating: 4.6, asin: "B09ZX7MS5B",
-    img: "https://m.media-amazon.com/images/I/41mjJlfUTSL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B09ZX7MS5B.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m29", subcat: "enceinte",
@@ -492,7 +492,7 @@ const maisonProducts = [
     desc: "Son immersif Dolby Atmos et audio spatial. Hub connecté intégré, WiFi et Bluetooth. Notre meilleur son.",
     price: "199,99€", priceOld: "249,99€",
     rating: 4.7, asin: "B09M5QKDH4",
-    img: "https://m.media-amazon.com/images/I/51Rb6l3VFVL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B09M5QKDH4.01._SCLZZZZZZZ_SX679_.jpg"
 
   },
   {
@@ -502,7 +502,7 @@ const maisonProducts = [
     desc: "Enceinte connectée Google Assistant. Son riche, commande vocale, contrôle domotique. Compacte.",
     price: "29,99€", priceOld: "49,99€",
     rating: 4.5, asin: "B0CGYFYY34",
-    img: "https://m.media-amazon.com/images/I/71TeLBggnwL._AC_SX425_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0CGYFYY34.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m6", subcat: "camera",
@@ -512,7 +512,7 @@ const maisonProducts = [
     price: "149,99€", priceOld: "179,99€",
     rating: 4.4, asin: "B08NY19G4C",
     aliLink: "https://s.click.aliexpress.com/e/_c4FHbRWV",
-    img: "https://m.media-amazon.com/images/I/51kQwdEkmaL._SY450_.jpg"
+    img: "https://m.media-amazon.com/images/P/B08NY19G4C.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m7", subcat: "camera",
@@ -521,7 +521,7 @@ const maisonProducts = [
     desc: "Caméra Wi-Fi 360°. Rotation motorisée et vision nocturne. Compatible Alexa.",
     price: "24,99€", priceOld: "34,99€",
     rating: 4.5, asin: "B07XLML2YS",
-    img: "https://m.media-amazon.com/images/I/418Hc+TDWjL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B07XLML2YS.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m8", subcat: "camera",
@@ -531,7 +531,7 @@ const maisonProducts = [
     price: "199,99€", priceOld: "249,99€",
     rating: 4.4, asin: "B0D6GYK1LX",
     aliLink: "https://s.click.aliexpress.com/e/_c3PxMHvL",
-    img: "https://m.media-amazon.com/images/I/61Gmp5rUhwL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0D6GYK1LX.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m9", subcat: "lumiere",
@@ -542,7 +542,7 @@ const maisonProducts = [
     rating: 4.7, asin: "B099NRLRG3",
     aliLink: "https://s.click.aliexpress.com/e/_c2yLyHGh",
     aliLink: "https://s.click.aliexpress.com/e/_c2yLyHGh",
-    img: "https://m.media-amazon.com/images/I/61DQTO5VJbL._AC_SX342_SY445_QL70_ML2_.jpg"
+    img: "https://m.media-amazon.com/images/P/B099NRLRG3.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m10", subcat: "lumiere",
@@ -553,7 +553,7 @@ const maisonProducts = [
     rating: 4.4, asin: "B0C3VLCFJR",
     aliLink: "https://s.click.aliexpress.com/e/_c4N4YmF7",
     aliLink: "https://s.click.aliexpress.com/e/_c4N4YmF7",
-    img: "https://m.media-amazon.com/images/I/61FQ3FVoTeL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0C3VLCFJR.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m35", subcat: "lumiere",
@@ -564,7 +564,7 @@ const maisonProducts = [
     rating: 4.5, asin: "B08GDC99PX",
     aliLink: "https://s.click.aliexpress.com/e/_c3pwsjCh",
     aliLink: "https://s.click.aliexpress.com/e/_c3pwsjCh",
-    img: "https://m.media-amazon.com/images/I/619EduJE1kL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B08GDC99PX.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m36", subcat: "lumiere",
@@ -575,7 +575,7 @@ const maisonProducts = [
     rating: 4.4, asin: "B07S7B7KCR",
     aliLink: "https://s.click.aliexpress.com/e/_c3CXBiNX",
     aliLink: "https://s.click.aliexpress.com/e/_c3CXBiNX",
-    img: "https://m.media-amazon.com/images/I/61IPEBQ0A-L._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B07S7B7KCR.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m37", subcat: "lumiere",
@@ -586,7 +586,7 @@ const maisonProducts = [
     rating: 4.6, asin: "B099NS75JX",
     aliLink: "https://s.click.aliexpress.com/e/_c35HjJE9",
     aliLink: "https://s.click.aliexpress.com/e/_c35HjJE9",
-    img: "https://m.media-amazon.com/images/I/61ygXLfC-vL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B099NS75JX.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m38", subcat: "lumiere",
@@ -596,7 +596,7 @@ const maisonProducts = [
     price: "29,99€", priceOld: "49,99€",
     rating: 4.3, asin: "B09M3677F7",
     aliLink: "https://s.click.aliexpress.com/e/_c3dvyqYH",
-    img: "https://m.media-amazon.com/images/I/61qQFgHkkaL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B09M3677F7.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m39", subcat: "lumiere",
@@ -606,7 +606,7 @@ const maisonProducts = [
     price: "8,99€", priceOld: "14,99€",
     rating: 4.3, asin: "B0C66HQRGF",
     aliLink: "https://s.click.aliexpress.com/e/_c3tdRgBb",
-    img: "https://m.media-amazon.com/images/I/51ik0clOLuL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0C66HQRGF.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m40", subcat: "lumiere",
@@ -617,7 +617,7 @@ const maisonProducts = [
     rating: 4.4, asin: "B075411FZ2",
     aliLink: "https://s.click.aliexpress.com/e/_c34alsUN",
     aliLink: "https://s.click.aliexpress.com/e/_c34alsUN",
-    img: "https://m.media-amazon.com/images/I/41ryn1wlthL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B075411FZ2.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m41", subcat: "lumiere",
@@ -628,7 +628,7 @@ const maisonProducts = [
     rating: 4.4, asin: "B09Y1TVBWN",
     aliLink: "https://s.click.aliexpress.com/e/_c4sR1HlF",
     aliLink: "https://s.click.aliexpress.com/e/_c4sR1HlF",
-    img: "https://m.media-amazon.com/images/I/51UWVVBV+KL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B09Y1TVBWN.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m42", subcat: "lumiere",
@@ -639,7 +639,7 @@ const maisonProducts = [
     rating: 4.3, asin: "B07KWPQMHH",
     aliLink: "https://s.click.aliexpress.com/e/_c3XGw1Vb",
     aliLink: "https://s.click.aliexpress.com/e/_c3XGw1Vb",
-    img: "https://m.media-amazon.com/images/I/61DwrfxOIlL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B07KWPQMHH.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m11", subcat: "thermostat",
@@ -648,7 +648,7 @@ const maisonProducts = [
     desc: "Thermostat WiFi compatible HomeKit, Alexa et Google Home. Programmable.",
     price: "59,99€", priceOld: "79,99€",
     rating: 4.5, asin: "B0F3CSW5BJ",
-    img: "https://m.media-amazon.com/images/I/61xJzmlVAZL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0F3CSW5BJ.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m43", subcat: "thermostat",
@@ -657,7 +657,7 @@ const maisonProducts = [
     desc: "Compatible Apple HomeKit, Alexa et Google Home. Pour chaudière gaz et chauffage au sol. Écran tactile.",
     price: "49,99€", priceOld: "69,99€",
     rating: 4.5, asin: "B0B8SDLTKC",
-    img: "https://m.media-amazon.com/images/I/61OxlQ1YAtL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0B8SDLTKC.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m44", subcat: "thermostat",
@@ -666,7 +666,7 @@ const maisonProducts = [
     desc: "Protocole Matter. Compatible Alexa, Google Home, SmartThings et Tuya. Programmable, chauffage eau.",
     price: "39,99€", priceOld: "59,99€",
     rating: 4.3, asin: "B0DK3FK4XC",
-    img: "https://m.media-amazon.com/images/I/5133UDzLkpL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0DK3FK4XC.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m45", subcat: "thermostat",
@@ -675,7 +675,7 @@ const maisonProducts = [
     desc: "Chaudière gaz et chauffage sol. Affiche humidité, programmation hebdo. Compatible Alexa et Google.",
     price: "29,99€", priceOld: "44,99€",
     rating: 4.3, asin: "B0DBKYL8GX",
-    img: "https://m.media-amazon.com/images/I/61sm7-bLmPL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0DBKYL8GX.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m46", subcat: "thermometre",
@@ -684,7 +684,7 @@ const maisonProducts = [
     desc: "Haute précision, alertes sur app. Historique 2 ans exportable CSV. Cave, serre, chambre bébé.",
     price: "12,99€", priceOld: "19,99€",
     rating: 4.5, asin: "B08Y8PQ7XZ",
-    img: "https://m.media-amazon.com/images/I/61jlJmDShhL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B08Y8PQ7XZ.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m47", subcat: "thermometre",
@@ -693,7 +693,7 @@ const maisonProducts = [
     desc: "Lecture à distance, déclenche d'autres appareils Konyks. Compatible Alexa et Google Home.",
     price: "24,99€", priceOld: "34,99€",
     rating: 4.4, asin: "B09GS2MQ1D",
-    img: "https://m.media-amazon.com/images/I/71-Izq9m6-L._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B09GS2MQ1D.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m48", subcat: "thermometre",
@@ -702,7 +702,7 @@ const maisonProducts = [
     desc: "Capteur température et humidité en temps réel. Alertes app, compatible Alexa. Cave à vin, intérieur.",
     price: "9,99€", priceOld: "16,99€",
     rating: 4.3, asin: "B0CRB2R5PJ",
-    img: "https://m.media-amazon.com/images/I/61A-gn0KoIL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0CRB2R5PJ.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m49", subcat: "thermometre",
@@ -711,7 +711,7 @@ const maisonProducts = [
     desc: "Écran LCD, sonde externe incluse. Alertes app, idéal serre, cave à vin et garage.",
     price: "15,99€", priceOld: "24,99€",
     rating: 4.3, asin: "B0BGSQ7DL3",
-    img: "https://m.media-amazon.com/images/I/613zrmeq2mL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0BGSQ7DL3.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m50", subcat: "thermometre",
@@ -720,7 +720,7 @@ const maisonProducts = [
     desc: "Compatible Alexa et Google Home. Monitoring température et humidité. App OtioHome.",
     price: "19,99€", priceOld: "29,99€",
     rating: 4.2, asin: "B08427M1S6",
-    img: "https://m.media-amazon.com/images/I/51E-DbzpubL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B08427M1S6.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m12", subcat: "prise",
@@ -730,7 +730,7 @@ const maisonProducts = [
     price: "18,99€", priceOld: "24,99€",
     rating: 4.6, asin: "B08HKV28ZR",
     aliLink: "https://s.click.aliexpress.com/e/_c3yQBvPn",
-    img: "https://m.media-amazon.com/images/I/51BMTMSlG0L._AC_SY300_SX300_QL70_ML2_.jpg"
+    img: "https://m.media-amazon.com/images/P/B08HKV28ZR.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m31", subcat: "prise",
@@ -740,7 +740,7 @@ const maisonProducts = [
     price: "12,99€", priceOld: "19,99€",
     rating: 4.4, asin: "B0BTDTLJGC",
     aliLink: "https://s.click.aliexpress.com/e/_c3m3Dz65",
-    img: "https://m.media-amazon.com/images/I/612PajKC7FL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0BTDTLJGC.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m32", subcat: "prise",
@@ -750,7 +750,7 @@ const maisonProducts = [
     price: "24,99€", priceOld: "34,99€",
     rating: 4.5, asin: "B082YTPXR6",
     aliLink: "https://s.click.aliexpress.com/e/_c4FunRJX",
-    img: "https://m.media-amazon.com/images/I/710m4DwTK2L._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B082YTPXR6.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m33", subcat: "prise",
@@ -760,7 +760,7 @@ const maisonProducts = [
     price: "17,99€", priceOld: "25,99€",
     rating: 4.3, asin: "B0D4Z3DNGJ",
     aliLink: "https://s.click.aliexpress.com/e/_c32NcRON",
-    img: "https://m.media-amazon.com/images/I/51avh1-8nzL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0D4Z3DNGJ.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m34", subcat: "prise",
@@ -770,7 +770,7 @@ const maisonProducts = [
     price: "35,99€", priceOld: "49,99€",
     rating: 4.4, asin: "B0B874LX24",
     aliLink: "https://s.click.aliexpress.com/e/_c3R8ntQN",
-    img: "https://m.media-amazon.com/images/I/61UkniNlPbL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0B874LX24.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m51", subcat: "solaire",
@@ -779,7 +779,7 @@ const maisonProducts = [
     desc: "Lumière chaude + 7 couleurs RGB. IP65 étanche. Éclairage chemins et décoration jardin.",
     price: "19,99€", priceOld: "29,99€",
     rating: 4.4, asin: "B0CS3276FR",
-    img: "https://m.media-amazon.com/images/I/71B4ol8pU9L._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0CS3276FR.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m52", subcat: "solaire",
@@ -788,7 +788,7 @@ const maisonProducts = [
     desc: "Détecteur mouvement, 270° éclairage sécurité. IP65 étanche, sans fil. Lot de 4.",
     price: "25,99€", priceOld: "39,99€",
     rating: 4.4, asin: "B0D6724RJM",
-    img: "https://m.media-amazon.com/images/I/81kfDrn5gjL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0D6724RJM.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m53", subcat: "solaire",
@@ -797,7 +797,7 @@ const maisonProducts = [
     desc: "3 modes, détecteur mouvement. Câble 5m panneau séparé. IP65, idéal garage et jardin.",
     price: "15,99€", priceOld: "24,99€",
     rating: 4.3, asin: "B0CGCKQ9P6",
-    img: "https://m.media-amazon.com/images/I/7121-L6rpDL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0CGCKQ9P6.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m54", subcat: "solaire",
@@ -806,7 +806,7 @@ const maisonProducts = [
     desc: "3 modes, détecteur mouvement. IP65 étanche, projecteur pour jardin, garage et patio.",
     price: "16,99€", priceOld: "25,99€",
     rating: 4.4, asin: "B09TP1GD93",
-    img: "https://m.media-amazon.com/images/I/71Dw5r6gcUL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B09TP1GD93.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m55", subcat: "solaire",
@@ -815,7 +815,7 @@ const maisonProducts = [
     desc: "342 LED ultra puissant, télécommande incluse. 3 modes, IP65. Idéal garage et cour.",
     price: "14,99€", priceOld: "22,99€",
     rating: 4.3, asin: "B0D179RV6Z",
-    img: "https://m.media-amazon.com/images/I/715lCuVvpnL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0D179RV6Z.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m56", subcat: "solaire",
@@ -824,7 +824,7 @@ const maisonProducts = [
     desc: "Ultra puissant, réglable 360°. Détecteur mouvement, IP65. Sans fil, pour chemin et allée.",
     price: "18,99€", priceOld: "29,99€",
     rating: 4.4, asin: "B09LTXL3YL",
-    img: "https://m.media-amazon.com/images/I/91TdzCMXOAL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B09LTXL3YL.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m57", subcat: "solaire",
@@ -833,7 +833,7 @@ const maisonProducts = [
     desc: "3 modes, 2000 lumens. Câble 5m panneau séparé. IP65, pour jardin et garage.",
     price: "13,99€", priceOld: "21,99€",
     rating: 4.3, asin: "B0C6FGWWL8",
-    img: "https://m.media-amazon.com/images/I/71i6iruj4bL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0C6FGWWL8.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m58", subcat: "solaire",
@@ -842,7 +842,7 @@ const maisonProducts = [
     desc: "3 modes avec détecteur. IP65 étanche. Lot de 4 pour couvrir tout le jardin.",
     price: "24,99€", priceOld: "35,99€",
     rating: 4.5, asin: "B09F6PLJT6",
-    img: "https://m.media-amazon.com/images/I/812dLxnDAYL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B09F6PLJT6.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m59", subcat: "solaire",
@@ -851,7 +851,7 @@ const maisonProducts = [
     desc: "238 LED, 2000 lumens. 3 modes, télécommande, batterie 2200mAh. IP65 pour extérieur.",
     price: "12,99€", priceOld: "19,99€",
     rating: 4.3, asin: "B0CN6GH98G",
-    img: "https://m.media-amazon.com/images/I/71zQUZp19OL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0CN6GH98G.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m60", subcat: "solaire",
@@ -860,7 +860,7 @@ const maisonProducts = [
     desc: "3 modes, capteur mouvement. IP65, lumière blanc chaud pour jardin, garage et mur.",
     price: "11,99€", priceOld: "18,99€",
     rating: 4.3, asin: "B0FVFKHVPZ",
-    img: "https://m.media-amazon.com/images/I/71eIDE6dzeL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0FVFKHVPZ.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m61", subcat: "fontaine",
@@ -869,7 +869,7 @@ const maisonProducts = [
     desc: "Flottante, 8 buses, LED intégrée. Batterie rechargeable, câble 5m. Bain d'oiseaux, étang, jardin.",
     price: "19,99€", priceOld: "29,99€",
     rating: 4.4, asin: "B0BRC2KFDX",
-    img: "https://m.media-amazon.com/images/I/81yl0UEKysL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0BRC2KFDX.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m62", subcat: "fontaine",
@@ -878,7 +878,7 @@ const maisonProducts = [
     desc: "Pompe solaire avec 7 buses interchangeables. Pour bain d'oiseaux, étang et patio.",
     price: "9,99€", priceOld: "15,99€",
     rating: 4.3, asin: "B08XQC2R23",
-    img: "https://m.media-amazon.com/images/I/71KrPATAtnS._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B08XQC2R23.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m63", subcat: "fontaine",
@@ -887,7 +887,7 @@ const maisonProducts = [
     desc: "Panneau solaire haute efficacité. Fonctionne même par faible ensoleillement. Bain d'oiseaux.",
     price: "15,99€", priceOld: "22,99€",
     rating: 4.4, asin: "B08S348HQ2",
-    img: "https://m.media-amazon.com/images/I/81Q1RBznmQL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B08S348HQ2.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m64", subcat: "fontaine",
@@ -896,7 +896,7 @@ const maisonProducts = [
     desc: "Version améliorée, 4 buses. Idéale petit bassin, abreuvoir oiseaux, piscine.",
     price: "8,99€", priceOld: "14,99€",
     rating: 4.3, asin: "B085C5LQN3",
-    img: "https://m.media-amazon.com/images/I/81tHGlkRpML._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B085C5LQN3.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m65", subcat: "fontaine",
@@ -905,7 +905,7 @@ const maisonProducts = [
     desc: "Fontaine décorative zen avec cascade et LED. Batterie Li-Ion intégrée. Terrasse, balcon, jardin.",
     price: "39,99€", priceOld: "59,99€",
     rating: 4.4, asin: "B08WH9PYV3",
-    img: "https://m.media-amazon.com/images/I/81HB2WIJbfL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B08WH9PYV3.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m66", subcat: "fontaine",
@@ -914,7 +914,7 @@ const maisonProducts = [
     desc: "Batterie intégrée, fonctionne même à l'ombre. 6 buses, pour étang et bain d'oiseaux.",
     price: "16,99€", priceOld: "24,99€",
     rating: 4.5, asin: "B083FN31P6",
-    img: "https://m.media-amazon.com/images/I/81z2VpIjqfL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B083FN31P6.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m67", subcat: "fontaine",
@@ -923,7 +923,7 @@ const maisonProducts = [
     desc: "Panneau intégré avec batterie. 6 buses, flottante compacte 18cm. Petit étang et décoration.",
     price: "14,99€", priceOld: "21,99€",
     rating: 4.3, asin: "B07SGCKS8J",
-    img: "https://m.media-amazon.com/images/I/815iRkP6S+L._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B07SGCKS8J.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m68", subcat: "fontaine",
@@ -932,7 +932,7 @@ const maisonProducts = [
     desc: "Pompe solaire flottante avec batterie rechargeable. 6 styles de jets. Bain d'oiseaux, jardin.",
     price: "13,99€", priceOld: "19,99€",
     rating: 4.4, asin: "B083BPVBH2",
-    img: "https://m.media-amazon.com/images/I/81hqJnwETTL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B083BPVBH2.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m69", subcat: "fontaine",
@@ -941,7 +941,7 @@ const maisonProducts = [
     desc: "Plus puissante 6.5W, batterie 1500mAh. 6 styles de fontaines. Jet jusqu'à 70cm.",
     price: "21,99€", priceOld: "32,99€",
     rating: 4.5, asin: "B083BPQ717",
-    img: "https://m.media-amazon.com/images/I/816e0KeKTxL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B083BPQ717.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m70", subcat: "fontaine",
@@ -950,7 +950,7 @@ const maisonProducts = [
     desc: "Fontaine décorative H80cm avec éclairage LED solaire. Bain d'oiseaux intégré. Pierre effet bronze.",
     price: "89,99€", priceOld: "119,99€",
     rating: 4.3, asin: "B003MQ6AQM",
-    img: "https://m.media-amazon.com/images/I/41wXVvmKoFL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B003MQ6AQM.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m71", subcat: "panneau",
@@ -959,7 +959,7 @@ const maisonProducts = [
     desc: "USB-A QC3.0 + USB-C, pliable étanche. Idéal randonnée, camping, recharge téléphone.",
     price: "21,99€", priceOld: "29,99€",
     rating: 4.3, asin: "B0C55CNCJW",
-    img: "https://m.media-amazon.com/images/I/61Iha4YgBsL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0C55CNCJW.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m72", subcat: "panneau",
@@ -968,7 +968,7 @@ const maisonProducts = [
     desc: "Kit complet : panneau 25W + contrôleur 10A + câble SAE. Pour voiture, camping-car, bateau.",
     price: "39,99€", priceOld: "54,99€",
     rating: 4.4, asin: "B0C9Q3MSP4",
-    img: "https://m.media-amazon.com/images/I/71RtRTFAQRL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0C9Q3MSP4.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m73", subcat: "panneau",
@@ -977,7 +977,7 @@ const maisonProducts = [
     desc: "Monocristallin pliable, 2 ports USB. Léger et portable, idéal camping et plein air.",
     price: "79,99€", priceOld: "109,99€",
     rating: 4.4, asin: "B0CSXP44GV",
-    img: "https://m.media-amazon.com/images/I/81LaBu3F21L._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0CSXP44GV.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m74", subcat: "panneau",
@@ -986,7 +986,7 @@ const maisonProducts = [
     desc: "24V/4.16A avec supports. IP68 étanche, compatible la plupart des générateurs. Camping.",
     price: "119,99€", priceOld: "159,99€",
     rating: 4.5, asin: "B0C534PK15",
-    img: "https://m.media-amazon.com/images/I/81m8cW-O5PL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0C534PK15.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m75", subcat: "panneau",
@@ -995,7 +995,7 @@ const maisonProducts = [
     desc: "Monocristallin portable, 2 ports USB. Pour station électrique, camping-car et plein air.",
     price: "169,99€", priceOld: "219,99€",
     rating: 4.4, asin: "B0BNN62CM6",
-    img: "https://m.media-amazon.com/images/I/71+-zB9GGfL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0BNN62CM6.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m76", subcat: "panneau",
@@ -1004,7 +1004,7 @@ const maisonProducts = [
     desc: "Kit complet : panneau 240W + régulateur 30A + câbles + fixations. Camping-car, maison.",
     price: "219,99€", priceOld: "279,99€",
     rating: 4.5, asin: "B0C9PZ211H",
-    img: "https://m.media-amazon.com/images/I/71L100gokzL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0C9PZ211H.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m77", subcat: "panneau",
@@ -1013,7 +1013,7 @@ const maisonProducts = [
     desc: "Pliable portable 240W avec contrôleur 20A. USB 12V/24V, pour station et camping-car.",
     price: "259,99€", priceOld: "349,99€",
     rating: 4.3, asin: "B09D7943QZ",
-    img: "https://m.media-amazon.com/images/I/71NiNNw7hpL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B09D7943QZ.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m78", subcat: "panneau",
@@ -1022,7 +1022,7 @@ const maisonProducts = [
     desc: "Pliable avec mallette, IP68. Haute efficacité, compatible stations EcoFlow et autres.",
     price: "549,99€", priceOld: "699,99€",
     rating: 4.5, asin: "B0B129KSKL",
-    img: "https://m.media-amazon.com/images/I/71R13HlYowL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0B129KSKL.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m79", subcat: "panneau",
@@ -1031,7 +1031,7 @@ const maisonProducts = [
     desc: "Micro-onduleur 800W + 2 panneaux 400W. Autoconsommation plug & play, app WiFi. Balcon, jardin, toit.",
     price: "999,99€", priceOld: "1299,99€",
     rating: 4.5, asin: "B0F1CVD47Z",
-    img: "https://m.media-amazon.com/images/I/61cRp9EtwmL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0F1CVD47Z.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m80", subcat: "panneau",
@@ -1040,7 +1040,7 @@ const maisonProducts = [
     desc: "Station 2048Wh LFP + panneau 400W. 3100W AC, charge 0-80% en 53min. Camping, maison, secours.",
     price: "1899,99€", priceOld: "2299,99€",
     rating: 4.6, asin: "B0C4KXT2HM",
-    img: "https://m.media-amazon.com/images/I/61QOl650cJL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0C4KXT2HM.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m13", subcat: "serrure",
@@ -1049,7 +1049,7 @@ const maisonProducts = [
     desc: "Serrure connectée Bluetooth & Matter. Ouverture via smartphone ou code.",
     price: "146,99€", priceOld: "179,99€",
     rating: 4.4, asin: "B0DVLYQWXX",
-    img: "https://m.media-amazon.com/images/I/61VfnvIPpmL._AC_SY300_SX300_QL70_ML2_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0DVLYQWXX.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m101", subcat: "serrure",
@@ -1076,7 +1076,7 @@ const maisonProducts = [
     desc: "Sans fil périphérique. IA 3 caméras, cartographie automatique multi-zones. Jusqu'à 500m².",
     price: "499,99€", priceOld: "599,99€",
     rating: 4.5, asin: "B0GCCLW2PL",
-    img: "https://m.media-amazon.com/images/I/714OOSg6fFL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0GCCLW2PL.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m16", subcat: "tondeuse",
@@ -1085,7 +1085,7 @@ const maisonProducts = [
     desc: "Sans fil périphérique. Navigation GPS précise, contrôle via app. Silencieux.",
     price: "599,99€", priceOld: "749,99€",
     rating: 4.4, asin: "B0CXDNFZLL",
-    img: "https://m.media-amazon.com/images/I/61ZG5yYGOML._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0CXDNFZLL.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m17", subcat: "tondeuse",
@@ -1094,7 +1094,7 @@ const maisonProducts = [
     desc: "LiDAR + RTK + IA Vision. Pentes 80%, 30 zones, jusqu'à 3000m². Tout-terrain.",
     price: "1499,99€", priceOld: "1799,99€",
     rating: 4.6, asin: "B0GCZSSZRZ",
-    img: "https://m.media-amazon.com/images/I/61LlViRj0RL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0GCZSSZRZ.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m18", subcat: "tondeuse",
@@ -1103,7 +1103,7 @@ const maisonProducts = [
     desc: "Prêt à l'emploi, tonte parallèle. Batterie 5Ah, 150 min d'autonomie. Sans RTK.",
     price: "349,99€", priceOld: "449,99€",
     rating: 4.3, asin: "B0G7XC4QLH",
-    img: "https://m.media-amazon.com/images/I/6157-xaxiqL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0G7XC4QLH.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m19", subcat: "purificateur",
@@ -1112,7 +1112,7 @@ const maisonProducts = [
     desc: "CADR 390m³/h, filtre HEPA + charbon actif + PlasmaWave. Capteur intelligent, mode auto.",
     price: "249,99€", priceOld: "349,99€",
     rating: 4.6, asin: "B01D8DAYII",
-    img: "https://m.media-amazon.com/images/I/61UqpOlddiL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B01D8DAYII.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m20", subcat: "purificateur",
@@ -1121,7 +1121,7 @@ const maisonProducts = [
     desc: "Filtration efficace allergies et odeurs. Silencieux, idéal chambre et bureau.",
     price: "89,99€", priceOld: "119,99€",
     rating: 4.5, asin: "B0CGDJHJP6",
-    img: "https://m.media-amazon.com/images/I/61jSLBgfvXL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0CGDJHJP6.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m21", subcat: "purificateur",
@@ -1130,7 +1130,7 @@ const maisonProducts = [
     desc: "CADR 250m³/h, contrôle via app et Alexa. HEPA + charbon actif. Compact.",
     price: "179,99€", priceOld: "229,99€",
     rating: 4.4, asin: "B0FQBSFWRJ",
-    img: "https://m.media-amazon.com/images/I/71ZlgezVxoL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0FQBSFWRJ.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m22", subcat: "purificateur",
@@ -1139,7 +1139,7 @@ const maisonProducts = [
     desc: "Certifié ECARF anti-allergies. Mode sommeil ultra silencieux. Design compact.",
     price: "139,99€", priceOld: "179,99€",
     rating: 4.5, asin: "B08YZF8LJS",
-    img: "https://m.media-amazon.com/images/I/81W0igDvSpL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B08YZF8LJS.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m23", subcat: "camera",
@@ -1149,7 +1149,7 @@ const maisonProducts = [
     price: "39,99€", priceOld: "59,99€",
     rating: 4.4, asin: "B0BX2L7JGJ",
     aliLink: "https://s.click.aliexpress.com/e/_c3GTrUiZ",
-    img: "https://m.media-amazon.com/images/I/61N7fCbfQgL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0BX2L7JGJ.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m24", subcat: "camera",
@@ -1159,7 +1159,7 @@ const maisonProducts = [
     price: "49,99€", priceOld: "69,99€",
     rating: 4.3, asin: "B0C1C5WS81",
     aliLink: "https://s.click.aliexpress.com/e/_c4Nesz0t",
-    img: "https://m.media-amazon.com/images/I/61FLcj1JA1L._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0C1C5WS81.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m25", subcat: "camera",
@@ -1168,7 +1168,7 @@ const maisonProducts = [
     desc: "Batterie longue durée 15000mAh + panneau solaire. PTZ 360°, détection IA, audio bidirectionnel. IP66.",
     price: "59,99€", priceOld: "89,99€",
     rating: 4.4, asin: "B0CGZWCK5T",
-    img: "https://m.media-amazon.com/images/I/61+g2ltpAvL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0CGZWCK5T.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m26", subcat: "camera",
@@ -1178,7 +1178,7 @@ const maisonProducts = [
     price: "27,99€", priceOld: "39,99€",
     rating: 4.5, asin: "B095CLQ1PT",
     aliLink: "https://s.click.aliexpress.com/e/_c31Azpz7",
-    img: "https://m.media-amazon.com/images/I/61z9kf65e6L._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B095CLQ1PT.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m27", subcat: "camera",
@@ -1187,7 +1187,7 @@ const maisonProducts = [
     desc: "Rotation 360°, suivi intelligent IA. Audio bidirectionnel, sirène intégrée. Idéale bébé et animaux.",
     price: "24,99€", priceOld: "39,99€",
     rating: 4.4, asin: "B08X6DCJT2",
-    img: "https://m.media-amazon.com/images/I/51WuJ7EZ1uL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B08X6DCJT2.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m14", subcat: "securite",
@@ -1197,7 +1197,7 @@ const maisonProducts = [
     price: "49,99€", priceOld: "69,99€",
     rating: 4.5, asin: "B0DDL1V686",
     aliLink: "https://s.click.aliexpress.com/e/_c2RD0YPx",
-    img: "https://m.media-amazon.com/images/I/71poEV2HnjL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0DDL1V686.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m81", subcat: "alarme",
@@ -1207,7 +1207,7 @@ const maisonProducts = [
     price: "49,99€", priceOld: "79,99€",
     rating: 4.4, asin: "B09GVQLPTY",
     aliLink: "https://s.click.aliexpress.com/e/_c3hH5RBr",
-    img: "https://m.media-amazon.com/images/I/61l8-ogy66L._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B09GVQLPTY.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m82", subcat: "alarme",
@@ -1217,7 +1217,7 @@ const maisonProducts = [
     price: "89,99€", priceOld: "129,99€",
     rating: 4.3, asin: "B08DCJZJPN",
     aliLink: "https://s.click.aliexpress.com/e/_c3874ak9",
-    img: "https://m.media-amazon.com/images/I/610jWLHmr6L._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B08DCJZJPN.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m83", subcat: "alarme",
@@ -1226,7 +1226,7 @@ const maisonProducts = [
     desc: "Système à piles, 120dB. Capteurs portes/fenêtres + télécommandes. Simple, sans WiFi requis.",
     price: "29,99€", priceOld: "44,99€",
     rating: 4.3, asin: "B08MQR67SM",
-    img: "https://m.media-amazon.com/images/I/71EvFmGTxeL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B08MQR67SM.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m84", subcat: "alarme",
@@ -1236,7 +1236,7 @@ const maisonProducts = [
     price: "34,99€", priceOld: "49,99€",
     rating: 4.3, asin: "B0BXCN287S",
     aliLink: "https://s.click.aliexpress.com/e/_c3418QtJ",
-    img: "https://m.media-amazon.com/images/I/712xuwxEH2L._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0BXCN287S.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m85", subcat: "alarme",
@@ -1246,7 +1246,7 @@ const maisonProducts = [
     price: "349,99€", priceOld: "449,99€",
     rating: 4.5, asin: "B0718W696D",
     aliLink: "https://s.click.aliexpress.com/e/_c4azch7n",
-    img: "https://m.media-amazon.com/images/I/41t1EJFyOTL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0718W696D.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m86", subcat: "alarme",
@@ -1256,7 +1256,7 @@ const maisonProducts = [
     price: "449,99€", priceOld: "549,99€",
     rating: 4.5, asin: "B0C6V5D5T5",
     aliLink: "https://s.click.aliexpress.com/e/_c4azch7n",
-    img: "https://m.media-amazon.com/images/I/61ikpB1keDL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0C6V5D5T5.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m87", subcat: "alarme",
@@ -1266,7 +1266,7 @@ const maisonProducts = [
     price: "279,99€", priceOld: "349,99€",
     rating: 4.4, asin: "B0C6V6T9SS",
     aliLink: "https://s.click.aliexpress.com/e/_c4azch7n",
-    img: "https://m.media-amazon.com/images/I/61F4BmTb3uL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0C6V6T9SS.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m88", subcat: "alarme",
@@ -1276,7 +1276,7 @@ const maisonProducts = [
     price: "599,99€", priceOld: "749,99€",
     rating: 4.6, asin: "B08B3DZ89L",
     aliLink: "https://s.click.aliexpress.com/e/_c3XANj6N",
-    img: "https://m.media-amazon.com/images/I/61myLj9nt+L._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B08B3DZ89L.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m89", subcat: "alarme",
@@ -1285,7 +1285,7 @@ const maisonProducts = [
     desc: "WiFi + ligne mobile GSM. Contrôle total via app. Sans abonnement, pour maison et entreprise.",
     price: "129,99€", priceOld: "179,99€",
     rating: 4.3, asin: "B08LK1K13V",
-    img: "https://m.media-amazon.com/images/I/41xTMojSA+L._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B08LK1K13V.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m90", subcat: "alarme",
@@ -1294,7 +1294,7 @@ const maisonProducts = [
     desc: "Caméra Full HD + détecteur mouvement + sirène 90dB. Vision 130°, volet vie privée. Badge inclus.",
     price: "249,99€", priceOld: "329,99€",
     rating: 4.4, asin: "B071V7LF94",
-    img: "https://m.media-amazon.com/images/I/61tLRel7DLL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B071V7LF94.01._SCLZZZZZZZ_SX679_.jpg"
   },
   // ── Sécurité enfant ──
   {
@@ -1304,7 +1304,7 @@ const maisonProducts = [
     desc: "Barrière 73-80cm extensible 108cm. Fermeture 1 main, double verrouillage, sans perçage.",
     price: "34,99€", priceOld: "",
     rating: 4.4, asin: "B0177W8HBW",
-    img: "https://m.media-amazon.com/images/I/61Fz+dBX4EL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0177W8HBW.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m92", subcat: "enfant",
@@ -1313,7 +1313,7 @@ const maisonProducts = [
     desc: "20 caches-prises sans clé ni adhésif. 100% fabriqué en France, amovible facilement.",
     price: "9,99€", priceOld: "",
     rating: 4.5, asin: "B08L3YVM7S",
-    img: "https://m.media-amazon.com/images/I/81vHyBnH2ZL._AC_SX425_.jpg"
+    img: "https://m.media-amazon.com/images/P/B08L3YVM7S.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m93", subcat: "enfant",
@@ -1322,7 +1322,7 @@ const maisonProducts = [
     desc: "Version améliorée, 100% Made in France. Sans clé ni colle, retrait avec prise électrique.",
     price: "10,99€", priceOld: "",
     rating: 4.5, asin: "B09TL1HX9Q",
-    img: "https://m.media-amazon.com/images/I/81mlPlk0N1L._AC_SX425_.jpg"
+    img: "https://m.media-amazon.com/images/P/B09TL1HX9Q.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m94", subcat: "enfant",
@@ -1331,7 +1331,7 @@ const maisonProducts = [
     desc: "12 caches-prises + 3 clés, 16 protège-coins de table, 12 loquets de sécurité.",
     price: "15,99€", priceOld: "",
     rating: 3.9, asin: "B09Q17FJ71",
-    img: "https://m.media-amazon.com/images/I/71UJE9I55mL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B09Q17FJ71.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m95", subcat: "enfant",
@@ -1340,7 +1340,7 @@ const maisonProducts = [
     desc: "20 protège-coins PVC transparent avec colle renforcée. Sans BPA, pour tables et meubles.",
     price: "8,99€", priceOld: "",
     rating: 4.3, asin: "B0BD23M1CN",
-    img: "https://m.media-amazon.com/images/I/71PUH4I-CAL._AC_SX425_PIbundle-20,TopRight,0,0_SH20_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0BD23M1CN.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m96", subcat: "enfant",
@@ -1349,7 +1349,7 @@ const maisonProducts = [
     desc: "6 bloque-tiroirs/placards transparents. Double verrouillage, adhésif 3M, sans perçage.",
     price: "11,99€", priceOld: "",
     rating: 4.1, asin: "B0968L57QB",
-    img: "https://m.media-amazon.com/images/I/61+9kMQvQBL._AC_SX425_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0968L57QB.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m97", subcat: "enfant",
@@ -1358,7 +1358,7 @@ const maisonProducts = [
     desc: "24 hauteurs réglables, filet respirant lavable, double verrouillage. Acier carbone.",
     price: "35,99€", priceOld: "",
     rating: 4.2, asin: "B0CM1XJVTT",
-    img: "https://m.media-amazon.com/images/I/71AoVEUzvPL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0CM1XJVTT.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m98", subcat: "enfant",
@@ -1367,7 +1367,7 @@ const maisonProducts = [
     desc: "12 bloque-tiroirs magnétiques invisibles + 3 clés. Sans perçage, design caché.",
     price: "29,99€", priceOld: "",
     rating: 4.4, asin: "B07YTWLFYX",
-    img: "https://m.media-amazon.com/images/I/71yyzPxNIML._AC_SX425_.jpg"
+    img: "https://m.media-amazon.com/images/P/B07YTWLFYX.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m99", subcat: "enfant",
@@ -1376,7 +1376,7 @@ const maisonProducts = [
     desc: "Écran IPS 3.2\", vision nocturne, audio bidirectionnel, 305m portée, 8 berceuses.",
     price: "49,99€", priceOld: "",
     rating: 4.4, asin: "B0CB8MNFXF",
-    img: "https://m.media-amazon.com/images/I/6154F4imrgL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0CB8MNFXF.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "m100", subcat: "enfant",
@@ -1385,7 +1385,7 @@ const maisonProducts = [
     desc: "12 caches-prises blancs avec clé rotative incluse. Adapté aux prises françaises.",
     price: "7,99€", priceOld: "",
     rating: 4.3, asin: "B01LRS24E8",
-    img: "https://m.media-amazon.com/images/I/412QMxhB5wL._AC_SX425_.jpg"
+    img: "https://m.media-amazon.com/images/P/B01LRS24E8.01._SCLZZZZZZZ_SX679_.jpg"
   },
 ];
 
@@ -1584,7 +1584,7 @@ const techProducts = [
     desc: "Meilleur drone global : 4K/60fps HDR, détection obstacles 360°, ActiveTrack, 34 min autonomie.",
     price: "799,00€", priceOld: "959,00€",
     rating: 4.8, asin: "B0CFF1SJ3P",
-    img: "https://m.media-amazon.com/images/I/617rfzwf0fL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0CFF1SJ3P.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "t31", subcat: "drone",
@@ -1593,7 +1593,7 @@ const techProducts = [
     desc: "Double capteur grand angle + téléobjectif 3x, 46 min d'autonomie record, O4 transmission.",
     price: "1 099,00€", priceOld: "1 299,00€",
     rating: 4.7, asin: "B0C7GT17L3",
-    img: "https://m.media-amazon.com/images/I/31+bKb9N0SL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0C7GT17L3.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "t32", subcat: "drone",
@@ -1602,7 +1602,7 @@ const techProducts = [
     desc: "Idéal pour débuter : 4K HDR, 248g, GPS stable, 38 min autonomie, simple à piloter.",
     price: "409,00€", priceOld: "489,00€",
     rating: 4.6, asin: "B0CQ84W4XV",
-    img: "https://m.media-amazon.com/images/I/41q9KfGpPiL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0CQ84W4XV.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "t33", subcat: "drone",
@@ -1611,7 +1611,7 @@ const techProducts = [
     desc: "Vol immersif FPV avec lunettes DJI Goggles 3. Capteur 1/1.3\", 4K/60fps, pilotage intuitif.",
     price: "579,00€", priceOld: "699,00€",
     rating: 4.5, asin: "B0CS6GJJJG",
-    img: "https://m.media-amazon.com/images/I/61B5wkAZ6CL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0CS6GJJJG.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "t34", subcat: "drone",
@@ -1620,7 +1620,7 @@ const techProducts = [
     desc: "Le plus léger DJI : décollage à la main, suivi IA, commande vocale. Idéal voyages et sport.",
     price: "199,00€", priceOld: "",
     rating: 4.4, asin: "B07FTPX71F",
-    img: "https://m.media-amazon.com/images/I/61lOWnBbCRL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B07FTPX71F.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "t35", subcat: "drone",
@@ -1629,7 +1629,7 @@ const techProducts = [
     desc: "Capteur Hasselblad 4/3, vidéo 5.1K, 46 min autonomie. Pour pros et semi-pros.",
     price: "1 199,00€", priceOld: "1 479,00€",
     rating: 4.7, asin: "B0BGNFZVPN",
-    img: "https://m.media-amazon.com/images/I/61AB82Nk5ML._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0BGNFZVPN.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "t36", subcat: "drone",
@@ -1638,7 +1638,7 @@ const techProducts = [
     desc: "4K EIS, GPS, suivi ActiveTrack, 31 min d'autonomie. Excellent rapport qualité-prix sous 200€.",
     price: "189,00€", priceOld: "279,99€",
     rating: 4.3, asin: "B0BKL638FZ",
-    img: "https://m.media-amazon.com/images/I/61fbYPFOoSL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B0BKL638FZ.01._SCLZZZZZZZ_SX679_.jpg"
   },
   {
     id: "t37", subcat: "drone",
@@ -1647,7 +1647,7 @@ const techProducts = [
     desc: "Drone d'initiation parfait : caméra 2K, GPS, retour automatique, 2 batteries incluses.",
     price: "89,00€", priceOld: "119,99€",
     rating: 4.1, asin: "B092VWQLSG",
-    img: "https://m.media-amazon.com/images/I/710IEnnqazL._AC_SX679_.jpg"
+    img: "https://m.media-amazon.com/images/P/B092VWQLSG.01._SCLZZZZZZZ_SX679_.jpg"
   },
 ];
 
