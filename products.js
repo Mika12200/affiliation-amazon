@@ -1576,6 +1576,79 @@ const techProducts = [
     rating: 4.3, asin: "B0CHN2F11G",
     img: "https://fdn.gsmarena.com/imgroot/news/23/09/fitbit-charge-6-ofic/inline/-1200/gsmarena_001.jpg"
   },
+  // --- Drones ---
+  {
+    id: "t30", subcat: "drone",
+    emoji: "🚁", brand: "DJI", badge: "Top",
+    name: "DJI Mini 4 Pro — Drone 4K/60fps < 249g",
+    desc: "Meilleur drone global : 4K/60fps HDR, détection obstacles 360°, ActiveTrack, 34 min autonomie.",
+    price: "799,00€", priceOld: "959,00€",
+    rating: 4.8, asin: "B0CG1C4GR1",
+    img: "https://m.media-amazon.com/images/I/617rfzwf0fL._AC_SX679_.jpg"
+  },
+  {
+    id: "t31", subcat: "drone",
+    emoji: "🚁", brand: "DJI", badge: "Pro",
+    name: "DJI Air 3 — Double caméra 4K/100fps",
+    desc: "Double capteur grand angle + téléobjectif 3x, 46 min d'autonomie record, O4 transmission.",
+    price: "1 099,00€", priceOld: "1 299,00€",
+    rating: 4.7, asin: "B0C7GT37YJ",
+    img: "https://m.media-amazon.com/images/I/31+bKb9N0SL._AC_SX679_.jpg"
+  },
+  {
+    id: "t32", subcat: "drone",
+    emoji: "🚁", brand: "DJI", badge: "Best-seller",
+    name: "DJI Mini 3 — Drone 4K HDR débutant",
+    desc: "Idéal pour débuter : 4K HDR, 248g, GPS stable, 38 min autonomie, simple à piloter.",
+    price: "409,00€", priceOld: "489,00€",
+    rating: 4.6, asin: "B0BV2L7RK8",
+    img: "https://m.media-amazon.com/images/I/41q9KfGpPiL._AC_SX679_.jpg"
+  },
+  {
+    id: "t33", subcat: "drone",
+    emoji: "🚁", brand: "DJI", badge: "FPV",
+    name: "DJI Avata 2 — Drone FPV immersif",
+    desc: "Vol immersif FPV avec lunettes DJI Goggles 3. Capteur 1/1.3\", 4K/60fps, pilotage intuitif.",
+    price: "579,00€", priceOld: "699,00€",
+    rating: 4.5, asin: "B0D15VQDQJ",
+    img: "https://m.media-amazon.com/images/I/61B5wkAZ6CL._AC_SX679_.jpg"
+  },
+  {
+    id: "t34", subcat: "drone",
+    emoji: "🚁", brand: "DJI", badge: "Compact",
+    name: "DJI Neo — Mini drone selfie 135g",
+    desc: "Le plus léger DJI : décollage à la main, suivi IA, commande vocale. Idéal voyages et sport.",
+    price: "199,00€", priceOld: "",
+    rating: 4.4, asin: "B0DCSXDJ2Z",
+    img: "https://m.media-amazon.com/images/I/61lOWnBbCRL._AC_SX679_.jpg"
+  },
+  {
+    id: "t35", subcat: "drone",
+    emoji: "🚁", brand: "DJI", badge: "Pro",
+    name: "DJI Mavic 3 Classic — Capteur Hasselblad 5.1K",
+    desc: "Capteur Hasselblad 4/3, vidéo 5.1K, 46 min autonomie. Pour pros et semi-pros.",
+    price: "1 199,00€", priceOld: "1 479,00€",
+    rating: 4.7, asin: "B0BLHL5FKQ",
+    img: "https://m.media-amazon.com/images/I/61AB82Nk5ML._AC_SX679_.jpg"
+  },
+  {
+    id: "t36", subcat: "drone",
+    emoji: "🚁", brand: "Potensic", badge: "Rapport qualité-prix",
+    name: "Potensic Atom SE — Drone 4K GPS < 249g",
+    desc: "4K EIS, GPS, suivi ActiveTrack, 31 min d'autonomie. Excellent rapport qualité-prix sous 200€.",
+    price: "189,00€", priceOld: "279,99€",
+    rating: 4.3, asin: "B0B6SYWVMS",
+    img: "https://m.media-amazon.com/images/I/61fbYPFOoSL._AC_SX679_.jpg"
+  },
+  {
+    id: "t37", subcat: "drone",
+    emoji: "🚁", brand: "Holy Stone", badge: "Budget",
+    name: "Holy Stone HS175D — Drone GPS débutant",
+    desc: "Drone d'initiation parfait : caméra 2K, GPS, retour automatique, 2 batteries incluses.",
+    price: "89,00€", priceOld: "119,99€",
+    rating: 4.1, asin: "B0BSHX3YC2",
+    img: "https://m.media-amazon.com/images/I/710IEnnqazL._AC_SX679_.jpg"
+  },
 ];
 
 // ===== GUIDES =====
